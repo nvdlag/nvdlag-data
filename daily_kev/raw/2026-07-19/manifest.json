@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-19",
+  "generated_at_utc": "2026-07-19T21:48:14.983869Z",
+  "generator": "nvdlag_app/scripts/fetch_raw_kev.py",
+  "git_commit": null,
+  "sources": {
+    "cisa_kev": {
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "http_status": 200,
+      "fetched_at_utc": "2026-07-19T21:48:13.610108Z",
+      "raw_file": "cisa_kev_catalog_raw.json",
+      "raw_sha256": "41d27023a5912a49ca2b06370550fa6da50e35794c269766a6332618d82f243e",
+      "today_file": "cisa_kev_today.json",
+      "today_sha256": "0fe85ec1981e263e60d0018e330d2eb15d734eeaf0fdcc569ba593047eace94b",
+      "today_count": 0
+    },
+    "vulncheck_kev": {
+      "url": "https://api.vulncheck.com/v3/index/vulncheck-kev",
+      "http_status": 200,
+      "fetched_at_utc": "2026-07-19T21:48:13.641625Z",
+      "pages_fetched": 1,
+      "raw_file": "vulncheck_kev_raw_pages.json",
+      "raw_sha256": "13a2188720a892d8bbd1fccfaa76539d6a931a6ada7adc13f9403c1cbead1156",
+      "today_file": "vulncheck_kev_today.json",
+      "today_sha256": "a8c1fbb7da00c59990275d0373793dc543f8b9282f66a2a7a27c4b1c908bd2c2",
+      "today_count": 0
+    }
+  }
+}

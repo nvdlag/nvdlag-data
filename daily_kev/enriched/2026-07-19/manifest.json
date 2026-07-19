@@ -1,0 +1,21 @@
+{
+  "date": "2026-07-19",
+  "generated_at_utc": "2026-07-19T21:48:15.120882Z",
+  "generator": "nvdlag_app/scripts/enrich_kev.py",
+  "git_commit": null,
+  "derived_from": {
+    "raw_manifest_generated_at_utc": "2026-07-19T21:48:14.983869Z",
+    "cisa_kev_today_sha256": "0fe85ec1981e263e60d0018e330d2eb15d734eeaf0fdcc569ba593047eace94b",
+    "vulncheck_kev_today_sha256": "a8c1fbb7da00c59990275d0373793dc543f8b9282f66a2a7a27c4b1c908bd2c2"
+  },
+  "enrichment_sources": {
+    "epss": "https://api.first.org/data/v1/epss",
+    "nvd_cve": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+    "nvd_cve_history": "https://services.nvd.nist.gov/rest/json/cvehistory/2.0"
+  },
+  "cve_count": 0,
+  "enriched_json_file": "kev_enriched.json",
+  "enriched_json_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "enriched_csv_file": "kev_enriched.csv",
+  "enriched_csv_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-19T18:14:15.074174Z",
+  "generated_at_utc": "2026-07-19T21:48:15.256494Z",
   "as_of_date": "2026-07-19",
   "total_kev_count": 20,
   "kev_low_cvss": 2,
@@ -13,7 +13,13 @@
   "avg_cvss_base_score": 8.8,
   "avg_epss_score": 0.1237,
   "ransomware_flagged_count": 0,
+  "nvd_stats_generated_at_utc": null,
   "total_vulnerabilities_all_nvd": null,
+  "total_vulnerabilities_this_year_all_nvd": null,
+  "cvss_v3_distribution_all_time": null,
+  "cvss_v2_distribution_all_time": null,
+  "cvss_v3_distribution_this_year": null,
+  "cvss_v2_distribution_this_year": null,
   "with_public_exploit_all_nvd": null,
   "exploit_ratio_all_nvd": null
 }
