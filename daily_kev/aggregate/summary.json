@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-19T21:48:15.256494Z",
+  "generated_at_utc": "2026-07-19T22:19:00.881534Z",
   "as_of_date": "2026-07-19",
   "total_kev_count": 20,
   "kev_low_cvss": 2,
@@ -13,13 +13,31 @@
   "avg_cvss_base_score": 8.8,
   "avg_epss_score": 0.1237,
   "ransomware_flagged_count": 0,
-  "nvd_stats_generated_at_utc": null,
-  "total_vulnerabilities_all_nvd": null,
-  "total_vulnerabilities_this_year_all_nvd": null,
-  "cvss_v3_distribution_all_time": null,
-  "cvss_v2_distribution_all_time": null,
-  "cvss_v3_distribution_this_year": null,
-  "cvss_v2_distribution_this_year": null,
+  "nvd_stats_generated_at_utc": "2026-07-19T22:17:43.707202Z",
+  "total_vulnerabilities_all_nvd": 349475,
+  "total_vulnerabilities_this_year_all_nvd": 40579,
+  "cvss_v3_distribution_all_time": {
+    "critical": 32603,
+    "high": 105890,
+    "medium": 123059,
+    "low": 9717
+  },
+  "cvss_v2_distribution_all_time": {
+    "high": 29224,
+    "medium": 37903,
+    "low": 5286
+  },
+  "cvss_v3_distribution_this_year": {
+    "critical": 4187,
+    "high": 15915,
+    "medium": 16674,
+    "low": 1569
+  },
+  "cvss_v2_distribution_this_year": {
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
   "with_public_exploit_all_nvd": null,
   "exploit_ratio_all_nvd": null
 }
