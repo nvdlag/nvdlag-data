@@ -1,0 +1,4 @@
+# One-time full-catalog dumps from backfill_kev.py - large audit artifacts,
+# not meant for routine commits. The daily raw/<date>/ snapshots (from
+# fetch_raw_kev.py) are small and ARE committed for provenance.
+daily_kev/raw/_backfill/
