@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-19T22:45:37.455158Z",
+  "generated_at_utc": "2026-07-19T23:12:39.774147Z",
   "source_files": [
     "nvdcve-2.0-2002.json",
     "nvdcve-2.0-2003.json",
@@ -30,5 +30,5 @@
   "total_cves": 349475,
   "rejected_cves_excluded": 17693,
   "baseline_file": "cve_baseline.ndjson.gz",
-  "baseline_sha256": "b9e71c9587319396ef7d5333e94e25d80789cc8f3b9b48486acb9d037e7f2600"
+  "baseline_sha256": "4966beaa0f3ef9668e2daf239531f5361712c4b95d8c098bb40e5d738bc747c6"
 }

@@ -1,10 +1,12 @@
 {
-  "nvd_stats_generated_at_utc": "2026-07-19T22:45:37.454946Z",
+  "nvd_stats_generated_at_utc": "2026-07-19T23:12:39.773668Z",
   "nvd_stats_source": "local bulk feed (build_nvd_baseline.py)",
   "total_vulnerabilities_all_nvd": 349475,
   "total_vulnerabilities_this_year_all_nvd": 40579,
   "total_without_cpe_all_nvd": 42949,
   "total_without_cpe_this_year_all_nvd": 17061,
+  "total_without_cvss_all_nvd": 5793,
+  "total_without_cvss_this_year_all_nvd": 2234,
   "cvss_v3_distribution_all_time": {
     "critical": 32603,
     "high": 105890,
