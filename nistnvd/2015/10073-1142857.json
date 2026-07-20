@@ -1,0 +1,2412 @@
+{
+  "CVE-2015-10073": {
+    "cve": "CVE-2015-10073",
+    "description": "A vulnerability, which was classified as problematic, was found in tinymighty WikiSEO 1.2.1 on MediaWiki. This affects the function modifyHTML of the file WikiSEO.body.php of the component Meta Property Tag Handler. The manipulation of the argument content leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.2.2 is able to address this issue. The patch is named 089a5797be612b18a820f9f1e6593ad9a91b1dba. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220215.",
+    "published": "2023-02-06T20:15:10.667",
+    "last_modified": "2026-06-17T00:21:27.260",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:tinymighty:wikiseo:1.2.1:*:*:*:*:mediawiki:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "tinymighty",
+        "product": "WikiSEO"
+      }
+    ]
+  },
+  "CVE-2015-10074": {
+    "cve": "CVE-2015-10074",
+    "description": "A vulnerability was found in OpenSeaMap online_chart 1.2. It has been classified as problematic. Affected is the function init of the file index.php. The manipulation of the argument mtext leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version staging is able to address this issue. The patch is identified as 8649157158f921590d650e2d2f4bdf0df1017e9d. It is recommended to upgrade the affected component. VDB-220218 is the identifier assigned to this vulnerability.",
+    "published": "2023-02-07T10:15:52.147",
+    "last_modified": "2026-06-17T00:21:27.400",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:openseamap:online_chart:1.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "OpenSeaMap",
+        "product": "online_chart"
+      }
+    ]
+  },
+  "CVE-2015-10075": {
+    "cve": "CVE-2015-10075",
+    "description": "A vulnerability was found in Custom-Content-Width 1.0. It has been declared as problematic. Affected by this vulnerability is the function override_content_width/register_settings of the file custom-content-width.php. The manipulation leads to cross site scripting. The attack can be launched remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.1 is able to address this issue. The patch is named e05e0104fc42ad13b57e2b2cb2d1857432624d39. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220219. NOTE: This attack is not very likely.",
+    "published": "2023-02-07T12:15:08.653",
+    "last_modified": "2026-06-17T00:21:27.527",
+    "vuln_status": "Modified",
+    "cvss_base_score": 2.6,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:custom-content-width_project:custom-content-width:1.0:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Custom-Content-Width"
+      }
+    ]
+  },
+  "CVE-2015-10076": {
+    "cve": "CVE-2015-10076",
+    "description": "A vulnerability was found in dimtion Shaarlier up to 1.2.2. It has been declared as critical. Affected by this vulnerability is the function createTag of the file app/src/main/java/com/dimtion/shaarlier/TagsSource.java of the component Tag Handler. The manipulation leads to sql injection. Upgrading to version 1.2.3 is able to address this issue. The identifier of the patch is 3d1d9b239d9b3cd87e8bed45a0f02da583ad371e. It is recommended to upgrade the affected component. The identifier VDB-220453 was assigned to this vulnerability.",
+    "published": "2023-02-09T23:15:11.017",
+    "last_modified": "2026-06-17T00:21:27.650",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:shaarlier_project:shaarlier:*:*:*:*:*:android:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "dimtion",
+        "product": "Shaarlier"
+      }
+    ]
+  },
+  "CVE-2015-10077": {
+    "cve": "CVE-2015-10077",
+    "description": "A vulnerability was found in webbuilders-group silverstripe-kapost-bridge 0.3.3. It has been declared as critical. Affected by this vulnerability is the function index/getPreview of the file code/control/KapostService.php. The manipulation leads to sql injection. The attack can be launched remotely. Upgrading to version 0.4.0 is able to address this issue. The patch is named 2e14b0fd0ea35034f90890f364b130fb4645ff35. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220471.",
+    "published": "2023-02-10T15:15:11.490",
+    "last_modified": "2026-06-17T00:21:27.787",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:webbuildersgroup:silverstripe-kapost-bridge:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "webbuilders-group",
+        "product": "silverstripe-kapost-bridge"
+      }
+    ]
+  },
+  "CVE-2015-10078": {
+    "cve": "CVE-2015-10078",
+    "description": "A vulnerability, which was classified as problematic, has been found in atwellpub Resend Welcome Email Plugin 1.0.1 on WordPress. This issue affects the function send_welcome_email_url of the file resend-welcome-email.php. The manipulation leads to cross site scripting. The attack may be initiated remotely. Upgrading to version 1.0.2 is able to address this issue. The identifier of the patch is b14c1f66d307783f0ae74f88088a85999107695c. It is recommended to upgrade the affected component. The identifier VDB-220637 was assigned to this vulnerability.",
+    "published": "2023-02-12T14:15:10.427",
+    "last_modified": "2026-06-17T00:21:27.930",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:resend_welcome_email_project:resend_welcome_email:1.0.1:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "atwellpub",
+        "product": "Resend Welcome Email Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10079": {
+    "cve": "CVE-2015-10079",
+    "description": "A vulnerability was found in juju2143 WalrusIRC 0.0.2. It has been rated as problematic. This issue affects the function parseLinks of the file public/parser.js. The manipulation of the argument text leads to cross site scripting. The attack may be initiated remotely. Upgrading to version 0.0.3 is able to address this issue. The patch is named 45fd885895ae13e8d9b3a71e89d59768914f60af. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220751.",
+    "published": "2023-02-13T22:15:12.000",
+    "last_modified": "2026-06-17T00:21:28.063",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:walrusirc_project:walrusirc:0.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "juju2143",
+        "product": "WalrusIRC"
+      }
+    ]
+  },
+  "CVE-2015-10080": {
+    "cve": "CVE-2015-10080",
+    "description": "A vulnerability was found in NREL api-umbrella-web 0.7.1. It has been classified as problematic. This affects an unknown part of the component Admin Data Table Handler. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. Upgrading to version 0.8.0 is able to address this issue. The patch is named f53a9fb87e10c457f0f3dd4f2af24d3b2f21b3ca. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-221487.",
+    "published": "2023-02-20T10:15:12.217",
+    "last_modified": "2026-06-17T00:21:28.200",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nrel:api_umbrella:0.7.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "NREL",
+        "product": "api-umbrella-web"
+      }
+    ]
+  },
+  "CVE-2015-10081": {
+    "cve": "CVE-2015-10081",
+    "description": "A vulnerability was found in arnoldle submitByMailPlugin 1.0b2.9 and classified as problematic. This issue affects some unknown processing of the file edit_list.php. The manipulation leads to cross-site request forgery. The attack may be initiated remotely. Upgrading to version 1.0b2.9a is able to address this issue. The patch is named a739f680a1623d22f52ff1371e86ca472e63756f. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-221495.",
+    "published": "2023-02-20T17:15:11.173",
+    "last_modified": "2026-06-17T00:21:28.327",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:submitbymailplugin_project:submitbymailplugin:1.0b2.9:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "arnoldle",
+        "product": "submitByMailPlugin"
+      }
+    ]
+  },
+  "CVE-2015-10082": {
+    "cve": "CVE-2015-10082",
+    "description": "A vulnerability classified as problematic has been found in UIKit0 libplist 1.12. This affects the function plist_from_xml of the file src/xplist.c of the component XML Handler. The manipulation leads to xml external entity reference. The patch is named c086cb139af7c82845f6d565e636073ff4b37440. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-221499.",
+    "published": "2023-02-21T07:15:10.173",
+    "last_modified": "2026-06-17T00:21:28.460",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:libimobiledevice:libplist:1.12:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "UIKit0",
+        "product": "libplist"
+      }
+    ]
+  },
+  "CVE-2015-10083": {
+    "cve": "CVE-2015-10083",
+    "description": "A vulnerability has been found in harrystech Dynosaur-Rails and classified as critical. Affected by this vulnerability is the function basic_auth of the file app/controllers/application_controller.rb. The manipulation leads to improper authentication. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The patch is named 04b223813f0e336aab50bff140d0f5889c31dbec. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-221503.",
+    "published": "2023-02-21T15:15:10.527",
+    "last_modified": "2026-06-17T00:21:28.583",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:harrys:dynosaur-rails:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "harrystech",
+        "product": "Dynosaur-Rails"
+      }
+    ]
+  },
+  "CVE-2015-10084": {
+    "cve": "CVE-2015-10084",
+    "description": "A vulnerability was found in irontec klear-library chloe and classified as critical. Affected by this issue is the function _prepareWhere of the file Controller/Rest/BaseController.php. The manipulation leads to sql injection. Upgrading to version marla is able to address this issue. The name of the patch is b25262de52fdaffde2a4434fc2a84408b304fbc5. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-221504.",
+    "published": "2023-02-21T15:15:10.783",
+    "last_modified": "2026-06-17T00:21:28.703",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:irontec:klear-library:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "irontec",
+        "product": "klear-library"
+      }
+    ]
+  },
+  "CVE-2015-10085": {
+    "cve": "CVE-2015-10085",
+    "description": "A vulnerability was found in GoPistolet. It has been declared as problematic. This vulnerability affects unknown code of the component MTA. The manipulation leads to denial of service. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The patch is identified as b91aa4674d460993765884e8463c70e6d886bc90. It is recommended to apply a patch to fix this issue. VDB-221506 is the identifier assigned to this vulnerability.",
+    "published": "2023-02-21T18:15:11.480",
+    "last_modified": "2026-06-17T00:21:28.830",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:gopistolet_project:gopistolet:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "GoPistolet"
+      }
+    ]
+  },
+  "CVE-2015-10086": {
+    "cve": "CVE-2015-10086",
+    "description": "A vulnerability, which was classified as critical, was found in OpenCycleCompass server-php. Affected is an unknown function of the file api1/login.php. The manipulation of the argument user leads to sql injection. It is possible to launch the attack remotely. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The name of the patch is fa0d9bcf81c711a88172ad0d37a842f029ac3782. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-221808.",
+    "published": "2023-02-28T00:15:09.840",
+    "last_modified": "2026-06-17T00:21:28.960",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:server-php_project:server-php:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "OpenCycleCompass",
+        "product": "server-php"
+      }
+    ]
+  },
+  "CVE-2015-10087": {
+    "cve": "CVE-2015-10087",
+    "description": "** UNSUPPORTED WHEN ASSIGNED ** A vulnerability has been found in UpThemes Theme DesignFolio Plus 1.2 on WordPress and classified as problematic. Affected by this vulnerability is an unknown functionality. The manipulation leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of the patch is 53f6ae62878076f99718e5feb589928e83c879a9. It is recommended to apply a patch to fix this issue. The identifier VDB-221809 was assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
+    "published": "2023-03-07T15:15:10.423",
+    "last_modified": "2026-06-17T00:21:29.090",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:upthemes:designfolio-plus:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "UpThemes",
+        "product": "Theme DesignFolio Plus"
+      }
+    ]
+  },
+  "CVE-2015-10088": {
+    "cve": "CVE-2015-10088",
+    "description": "A vulnerability, which was classified as critical, was found in ayttm up to 0.5.0.89. This affects the function http_connect in the library libproxy/proxy.c. The manipulation leads to format string. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The patch is named 40e04680018614a7d2b68566b261b061a0597046. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-222267.",
+    "published": "2023-03-05T05:15:09.210",
+    "last_modified": "2026-06-17T00:21:29.223",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:ayttm_project:ayttm:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "ayttm"
+      }
+    ]
+  },
+  "CVE-2015-10089": {
+    "cve": "CVE-2015-10089",
+    "description": "A vulnerability classified as problematic has been found in flame.js. This affects an unknown part. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The patch is named e6c49b5f6179e31a534b7c3264e1d36aa99728ac. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-222291.",
+    "published": "2023-03-05T14:15:08.953",
+    "last_modified": "2026-06-17T00:21:29.390",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:flame.js_project:flame.js:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "flame.js"
+      }
+    ]
+  },
+  "CVE-2015-10090": {
+    "cve": "CVE-2015-10090",
+    "description": "A vulnerability, which was classified as problematic, has been found in Landing Pages Plugin up to 1.8.7 on WordPress. Affected by this issue is some unknown functionality. The manipulation leads to cross site scripting. The attack may be launched remotely. Upgrading to version 1.8.8 is able to address this issue. The name of the patch is c8e22c1340c11fedfb0a0a67ea690421bdb62b94. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-222320.",
+    "published": "2023-03-06T00:15:10.160",
+    "last_modified": "2026-06-17T00:21:29.517",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:inboundnow:landing-pages:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Landing Pages Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10091": {
+    "cve": "CVE-2015-10091",
+    "description": "A vulnerability has been found in ByWater Solutions bywater-koha-xslt and classified as critical. This vulnerability affects the function StringSearch of the file admin/systempreferences.pl. The manipulation of the argument name leads to sql injection. The attack can be initiated remotely. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The patch is identified as 9513b93c828dfbc4413f9e0df63647401aaf4e58. It is recommended to apply a patch to fix this issue. VDB-222322 is the identifier assigned to this vulnerability.",
+    "published": "2023-03-06T04:15:08.190",
+    "last_modified": "2026-06-17T00:21:29.650",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.7,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:bywatersolutions:bywater-koha-xslt:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "ByWater Solutions",
+        "product": "bywater-koha-xslt"
+      }
+    ]
+  },
+  "CVE-2015-10092": {
+    "cve": "CVE-2015-10092",
+    "description": "A vulnerability was found in Qtranslate Slug Plugin up to 1.1.16 on WordPress. It has been classified as problematic. Affected is the function add_slug_meta_box of the file includes/class-qtranslate-slug.php. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.1.17 is able to address this issue. The name of the patch is 74b3932696f9868e14563e51b7d0bb68c53bf5e4. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-222324.",
+    "published": "2023-03-06T06:15:09.733",
+    "last_modified": "2026-06-17T00:21:29.770",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:qtranslate_slug_project:qtranslate_slug:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Qtranslate Slug Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10093": {
+    "cve": "CVE-2015-10093",
+    "description": "A vulnerability was found in Mark User as Spammer Plugin 1.0.0/1.0.1 on WordPress. It has been declared as problematic. Affected by this vulnerability is the function user_row_actions of the file plugin/plugin.php. The manipulation of the argument url leads to cross site scripting. The attack can be launched remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. Upgrading to version 1.0.2 is able to address this issue. The identifier of the patch is e7059727274d2767c240c55c02c163eaa4ba6c62. It is recommended to upgrade the affected component. The identifier VDB-222325 was assigned to this vulnerability.",
+    "published": "2023-03-06T07:15:10.103",
+    "last_modified": "2026-06-17T00:21:29.897",
+    "vuln_status": "Modified",
+    "cvss_base_score": 2.6,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:mark_user_as_spammer_project:mark_user_as_spammer:1.0.0:*:*:*:*:wordpress:*:*",
+      "cpe:2.3:a:mark_user_as_spammer_project:mark_user_as_spammer:1.0.1:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Mark User as Spammer Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10094": {
+    "cve": "CVE-2015-10094",
+    "description": "A vulnerability was found in Fastly Plugin up to 0.97 on WordPress. It has been rated as problematic. Affected by this issue is the function post of the file lib/api.php. The manipulation of the argument url leads to cross site scripting. The attack may be launched remotely. Upgrading to version 0.98 is able to address this issue. The patch is identified as d7fe42538f4d4af500e3af9678b6b06fba731656. It is recommended to upgrade the affected component. VDB-222326 is the identifier assigned to this vulnerability.",
+    "published": "2023-03-06T15:15:09.863",
+    "last_modified": "2026-06-17T00:21:30.027",
+    "vuln_status": "Modified",
+    "cvss_base_score": 2.4,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:fastly:fastly:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Fastly Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10095": {
+    "cve": "CVE-2015-10095",
+    "description": "A vulnerability classified as problematic has been found in woo-popup Plugin up to 1.2.2 on WordPress. This affects an unknown part of the file admin/class-woo-popup-admin.php. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. Upgrading to version 1.3.0 is able to address this issue. The patch is named 7c76ac78f3e16015991b612ff4fa616af4ce9292. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-222327.",
+    "published": "2023-03-06T21:15:10.150",
+    "last_modified": "2026-06-17T00:21:30.180",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:woo-popup_project:woo-popup:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "woo-popup Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10096": {
+    "cve": "CVE-2015-10096",
+    "description": "A vulnerability, which was classified as critical, was found in Zarthus IRC Twitter Announcer Bot up to 1.1.0. This affects the function get_tweets of the file lib/twitterbot/plugins/twitter_announcer.rb. The manipulation of the argument tweet leads to command injection. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. Upgrading to version 1.1.1 is able to address this issue. The patch is named 6b1941b7fc2c70e1f40981b43c84a2c20cc12bd3. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-223383.",
+    "published": "2023-03-20T05:15:11.163",
+    "last_modified": "2026-06-17T00:21:30.310",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:irc_twitter_announcer_bot_project:irc_twitter_announcer_bot:1.0.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Zarthus",
+        "product": "IRC Twitter Announcer Bot"
+      }
+    ]
+  },
+  "CVE-2015-10097": {
+    "cve": "CVE-2015-10097",
+    "description": "A vulnerability was found in grinnellplans-php up to 3.0. It has been declared as critical. Affected by this vulnerability is the function interface_disp_page/interface_disp_page of the file read.php. The manipulation leads to sql injection. The attack can be launched remotely. The identifier of the patch is 57e4409e19203a94495140ff1b5a697734d17cfb. It is recommended to apply a patch to fix this issue. The identifier VDB-223801 was assigned to this vulnerability.",
+    "published": "2023-03-25T18:15:09.387",
+    "last_modified": "2026-06-17T00:21:30.443",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:grinnellplans:grinnellplans:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "grinnellplans-php"
+      }
+    ]
+  },
+  "CVE-2015-10098": {
+    "cve": "CVE-2015-10098",
+    "description": "A vulnerability was found in Broken Link Checker Plugin up to 1.10.5 on WordPress. It has been rated as problematic. Affected by this issue is the function print_module_list/show_warnings_section_notice/status_text/ui_get_action_links. The manipulation leads to cross site scripting. The attack may be launched remotely. Upgrading to version 1.10.6 is able to address this issue. The name of the patch is f30638869e281461b87548e40b517738b4350e47. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-225152.",
+    "published": "2023-04-08T09:15:07.470",
+    "last_modified": "2026-06-17T00:21:30.580",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:wpmudev:broken_link_checker:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Broken Link Checker Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10099": {
+    "cve": "CVE-2015-10099",
+    "description": "A vulnerability classified as critical has been found in CP Appointment Calendar Plugin up to 1.1.5 on WordPress. This affects the function dex_process_ready_to_go_appointment of the file dex_appointments.php. The manipulation of the argument itemnumber leads to sql injection. It is possible to initiate the attack remotely. The patch is named e29a9cdbcb0f37d887dd302a05b9e8bf213da01d. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-225351.",
+    "published": "2023-04-10T12:15:07.093",
+    "last_modified": "2026-06-17T00:21:30.707",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:codepeople:cp_appointment_calendar:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "CP Appointment Calendar Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10100": {
+    "cve": "CVE-2015-10100",
+    "description": "A vulnerability, which was classified as critical, has been found in Dynamic Widgets Plugin up to 1.5.10 on WordPress. This issue affects some unknown processing of the file classes/dynwid_class.php. The manipulation leads to sql injection. The attack may be initiated remotely. Upgrading to version 1.5.11 is able to address this issue. The identifier of the patch is d0a19c6efcdc86d7093b369bc9e29a0629e57795. It is recommended to upgrade the affected component. The identifier VDB-225353 was assigned to this vulnerability.",
+    "published": "2023-04-10T18:15:07.873",
+    "last_modified": "2026-06-17T00:21:30.833",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:vivwebsolutions:dynamic_widgets:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Dynamic Widgets Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10101": {
+    "cve": "CVE-2015-10101",
+    "description": "A vulnerability classified as problematic was found in Google Analytics Top Content Widget Plugin up to 1.5.6 on WordPress. Affected by this vulnerability is an unknown functionality of the file class-tgm-plugin-activation.php. The manipulation leads to cross site scripting. The attack can be launched remotely. Upgrading to version 1.5.7 is able to address this issue. The identifier of the patch is 25bb1dea113716200a6f0f3135801d84a7a65540. It is recommended to upgrade the affected component. The identifier VDB-226117 was assigned to this vulnerability.",
+    "published": "2023-04-15T21:15:06.800",
+    "last_modified": "2026-06-17T00:21:30.960",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:google_analytics_top_content_widget_project:google_analytics_top_content_widget:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Google Analytics Top Content Widget Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10102": {
+    "cve": "CVE-2015-10102",
+    "description": "A vulnerability, which was classified as critical, has been found in Freshdesk Plugin 1.7 on WordPress. Affected by this issue is some unknown functionality. The manipulation leads to open redirect. The attack may be launched remotely. Upgrading to version 1.8 is able to address this issue. The patch is identified as 2aaecd4e0c7c6c1dc4e6a593163d5f7aa0fa5d5b. It is recommended to upgrade the affected component. VDB-226118 is the identifier assigned to this vulnerability.",
+    "published": "2023-04-17T18:15:07.197",
+    "last_modified": "2026-06-17T00:21:31.100",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:freshworks:freshdesk:1.7:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Freshdesk Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10103": {
+    "cve": "CVE-2015-10103",
+    "description": "A vulnerability, which was classified as problematic, was found in InternalError503 Forget It up to 1.3. This affects an unknown part of the file js/settings.js. The manipulation of the argument setForgetTime with the input 0 leads to infinite loop. It is possible to launch the attack on the local host. Upgrading to version 1.4 is able to address this issue. The patch is named adf0c7fd59b9c935b4fd675c556265620124999c. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-226119.",
+    "published": "2023-04-17T19:15:07.227",
+    "last_modified": "2026-06-17T00:21:31.240",
+    "vuln_status": "Modified",
+    "cvss_base_score": 2.8,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:forget_it_project:forget_it:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "InternalError503",
+        "product": "Forget It"
+      }
+    ]
+  },
+  "CVE-2015-10104": {
+    "cve": "CVE-2015-10104",
+    "description": "A vulnerability, which was classified as problematic, has been found in Icons for Features Plugin 1.0.0 on WordPress. Affected by this issue is some unknown functionality of the file classes/class-icons-for-features-admin.php. The manipulation of the argument redirect_url leads to open redirect. The attack may be launched remotely. Upgrading to version 1.0.1 is able to address this issue. The name of the patch is 63124c021ae24b68e56872530df26eb4268ad633. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-227756.",
+    "published": "2023-04-30T21:15:30.740",
+    "last_modified": "2026-06-17T00:21:31.360",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:woocommerce:icons_for_features:1.0.0:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Icons for Features Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10105": {
+    "cve": "CVE-2015-10105",
+    "description": "A vulnerability, which was classified as critical, was found in IP Blacklist Cloud Plugin up to 3.42 on WordPress. This affects the function valid_js_identifier of the file ip_blacklist_cloud.php of the component CSV File Import. The manipulation of the argument filename leads to path traversal. It is possible to initiate the attack remotely. Upgrading to version 3.43 is able to address this issue. The identifier of the patch is 6e6fe8c6fda7cbc252eef083105e08d759c07312. It is recommended to upgrade the affected component. The identifier VDB-227757 was assigned to this vulnerability.",
+    "published": "2023-05-01T02:15:39.197",
+    "last_modified": "2026-06-17T00:21:31.493",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:ad33lx:ip_blacklist_cloud:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "IP Blacklist Cloud Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10106": {
+    "cve": "CVE-2015-10106",
+    "description": "** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as critical was found in mback2k mh_httpbl Extension up to 1.1.7 on TYPO3. This vulnerability affects the function moduleContent of the file mod1/index.php. The manipulation leads to sql injection. The attack can be initiated remotely. Upgrading to version 1.1.8 is able to address this issue. The patch is identified as 429f50f4e4795b20dae06735b41fb94f010722bf. It is recommended to upgrade the affected component. VDB-230086 is the identifier assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
+    "published": "2023-05-28T13:15:09.850",
+    "last_modified": "2026-06-17T00:21:31.657",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mh_httpbl_project:mh_httpbl:*:*:*:*:*:typo3:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "mback2k",
+        "product": "mh_httpbl Extension"
+      }
+    ]
+  },
+  "CVE-2015-10107": {
+    "cve": "CVE-2015-10107",
+    "description": "A vulnerability was found in Simplr Registration Form Plus+ Plugin up to 2.3.4 on WordPress and classified as problematic. This issue affects some unknown processing. The manipulation leads to cross site scripting. The attack may be initiated remotely. Upgrading to version 2.3.5 is able to address this issue. The identifier of the patch is d588446844dd49232ab400ef213ff5b92121c33e. It is recommended to upgrade the affected component. The identifier VDB-230153 was assigned to this vulnerability.",
+    "published": "2023-05-31T03:15:09.157",
+    "last_modified": "2026-06-17T00:21:31.803",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:simplr_registration_form_plus\\+_project:simplr_registration_form_plus\\+:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Simplr Registration Form Plus+ Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10108": {
+    "cve": "CVE-2015-10108",
+    "description": "A vulnerability was found in meitar Inline Google Spreadsheet Viewer Plugin up to 0.9.6 on WordPress and classified as problematic. Affected by this issue is the function displayShortcode of the file inline-gdocs-viewer.php. The manipulation leads to cross-site request forgery. The attack may be launched remotely. Upgrading to version 0.9.6.1 is able to address this issue. The patch is identified as 2a8057df8ca30adc859cecbe5cad21ac28c5b747. It is recommended to upgrade the affected component. VDB-230234 is the identifier assigned to this vulnerability.",
+    "published": "2023-05-31T19:15:11.720",
+    "last_modified": "2026-06-17T00:21:31.940",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:inline_google_spreadsheet_viewer_project:inline_google_spreadsheet_viewer:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "meitar",
+        "product": "Inline Google Spreadsheet Viewer Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10109": {
+    "cve": "CVE-2015-10109",
+    "description": "A vulnerability was found in Video Playlist and Gallery Plugin up to 1.136 on WordPress. It has been rated as problematic. Affected by this issue is some unknown functionality of the file wp-media-cincopa.php. The manipulation leads to cross-site request forgery. The attack may be launched remotely. Upgrading to version 1.137 is able to address this issue. The name of the patch is ee28e91f4d5404905204c43b7b84a8ffecad932e. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-230264.",
+    "published": "2023-06-01T13:15:10.180",
+    "last_modified": "2026-06-17T00:21:32.080",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:cincopa:video_and_media_plug-in:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Video Playlist and Gallery Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10110": {
+    "cve": "CVE-2015-10110",
+    "description": "A vulnerability classified as problematic was found in ruddernation TinyChat Room Spy Plugin up to 1.2.8 on WordPress. This vulnerability affects the function wp_show_room_spy of the file room-spy.php. The manipulation of the argument room leads to cross site scripting. The attack can be initiated remotely. Upgrading to version 1.2.9 is able to address this issue. The name of the patch is ab72627a963d61fb3bc31018e3855b08dc94a979. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-230392.",
+    "published": "2023-06-02T00:15:09.303",
+    "last_modified": "2026-06-17T00:21:32.227",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:tinychat:room_spy:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "ruddernation",
+        "product": "TinyChat Room Spy Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10111": {
+    "cve": "CVE-2015-10111",
+    "description": "A vulnerability was found in Watu Quiz Plugin up to 2.6.7 on WordPress. It has been rated as critical. This issue affects the function watu_exams of the file controllers/exam.php of the component Exam Handler. The manipulation of the argument quiz leads to sql injection. The attack may be initiated remotely. Upgrading to version 2.6.8 is able to address this issue. The patch is named bf42e7cfd819a3e76cf3e1465697e89f4830590c. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-230651.",
+    "published": "2023-06-04T12:15:09.237",
+    "last_modified": "2026-06-17T00:21:32.360",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:kibokolabs:watu_quiz:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Watu Quiz Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10112": {
+    "cve": "CVE-2015-10112",
+    "description": "A vulnerability classified as problematic has been found in WooFramework Branding Plugin up to 1.0.1 on WordPress. Affected is the function admin_screen_logic of the file wooframework-branding.php. The manipulation of the argument url leads to open redirect. It is possible to launch the attack remotely. Upgrading to version 1.0.2 is able to address this issue. The name of the patch is f12fccd7b5eaf66442346f748c901ef504742f78. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-230652.",
+    "published": "2023-06-05T08:15:09.380",
+    "last_modified": "2026-06-17T00:21:32.483",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:woocommerce:wooframework_branding:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "WooFramework Branding Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10113": {
+    "cve": "CVE-2015-10113",
+    "description": "A vulnerability classified as problematic was found in WooFramework Tweaks Plugin up to 1.0.1 on WordPress. Affected by this vulnerability is the function admin_screen_logic of the file wooframework-tweaks.php. The manipulation of the argument url leads to open redirect. The attack can be launched remotely. Upgrading to version 1.0.2 is able to address this issue. The identifier of the patch is 3b57d405149c1a59d1119da6e0bb8212732c9c88. It is recommended to upgrade the affected component. The identifier VDB-230653 was assigned to this vulnerability.",
+    "published": "2023-06-05T16:15:09.207",
+    "last_modified": "2026-06-17T00:21:32.590",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:woocommerce:wooframework_tweaks:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "WooFramework Tweaks Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10114": {
+    "cve": "CVE-2015-10114",
+    "description": "A vulnerability, which was classified as problematic, has been found in WooSidebars Plugin up to 1.4.1 on WordPress. Affected by this issue is the function enable_custom_post_sidebars of the file classes/class-woo-sidebars.php. The manipulation of the argument sendback leads to open redirect. The attack may be launched remotely. Upgrading to version 1.4.2 is able to address this issue. The patch is identified as 1ac6d6ac26e185673f95fc1ccc56a392169ba601. It is recommended to upgrade the affected component. VDB-230654 is the identifier assigned to this vulnerability.",
+    "published": "2023-06-05T16:15:09.280",
+    "last_modified": "2026-06-17T00:21:32.697",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:woocommerce:woosidebars:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "WooSidebars Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10115": {
+    "cve": "CVE-2015-10115",
+    "description": "A vulnerability, which was classified as problematic, was found in WooSidebars Sidebar Manager Converter Plugin up to 1.1.1 on WordPress. This affects the function process_request of the file classes/class-woosidebars-sbm-converter.php. The manipulation leads to open redirect. It is possible to initiate the attack remotely. Upgrading to version 1.1.2 is able to address this issue. The patch is named a0efb4ffb9dfe2925b889c1aa5ea40b4abbbda8a. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-230655.",
+    "published": "2023-06-05T18:15:09.417",
+    "last_modified": "2026-06-17T00:21:32.807",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:woocommerce:sidebar_manager_to_woosidebars_converter:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "WooSidebars Sidebar Manager Converter Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10116": {
+    "cve": "CVE-2015-10116",
+    "description": "A vulnerability classified as problematic has been found in RealFaviconGenerator Favicon Plugin up to 1.2.12 on WordPress. This affects the function install_new_favicon of the file admin/class-favicon-by-realfavicongenerator-admin.php. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. Upgrading to version 1.2.13 is able to address this issue. The identifier of the patch is 949a1ae7216216350458844f50a72f100b56d4e7. It is recommended to upgrade the affected component. The identifier VDB-230661 was assigned to this vulnerability.",
+    "published": "2023-06-06T01:15:40.430",
+    "last_modified": "2026-06-17T00:21:32.923",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:realfavicongenerator:favicon_by_realfavicongenerator:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "RealFaviconGenerator",
+        "product": "Favicon Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10117": {
+    "cve": "CVE-2015-10117",
+    "description": "A vulnerability, which was classified as problematic, was found in Gravity Forms DPS PxPay Plugin up to 1.4.2 on WordPress. Affected is an unknown function. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.4.3 is able to address this issue. The name of the patch is 5966a5e6343e3d5610bdfa126a5cfbae95e629b6. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-230664.",
+    "published": "2023-06-06T02:15:08.830",
+    "last_modified": "2026-06-17T00:21:33.050",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:webaware:gf_windcave_free:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Gravity Forms DPS PxPay Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10118": {
+    "cve": "CVE-2015-10118",
+    "description": "A vulnerability classified as problematic was found in cchetanonline WP-CopyProtect up to 3.0.0. This vulnerability affects the function CopyProtect_options_page of the file wp-copyprotect.php. The manipulation of the argument CopyProtect_nrc_text leads to cross site scripting. The attack can be initiated remotely. Upgrading to version 3.1.0 is able to address this issue. The patch is identified as 8b8fe4102886b326330dc1ff06b17313fb10aee5. It is recommended to upgrade the affected component. VDB-231202 is the identifier assigned to this vulnerability.",
+    "published": "2023-06-12T07:15:09.000",
+    "last_modified": "2026-06-17T00:21:33.173",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:wp-copyprotect_project:wp-copyprotect:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "cchetanonline",
+        "product": "WP-CopyProtect"
+      }
+    ]
+  },
+  "CVE-2015-10119": {
+    "cve": "CVE-2015-10119",
+    "description": "A vulnerability, which was classified as problematic, has been found in View All Posts Page Plugin up to 0.9.0 on WordPress. This issue affects the function action_admin_notices_activation of the file view-all-posts-pages.php. The manipulation leads to cross site scripting. The attack may be initiated remotely. Upgrading to version 0.9.1 is able to address this issue. The patch is named bf914f3a59063fa4df8fd4925ae18a5d852396d7. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-233363.",
+    "published": "2023-07-10T16:15:47.183",
+    "last_modified": "2026-06-17T00:21:33.310",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:oomphinc:view_all_post\\'s_pages:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "View All Posts Page Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10120": {
+    "cve": "CVE-2015-10120",
+    "description": "A vulnerability, which was classified as problematic, was found in WDS Multisite Aggregate Plugin up to 1.0.0 on WordPress. Affected is the function update_options of the file includes/WDS_Multisite_Aggregate_Options.php. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.0.1 is able to address this issue. The name of the patch is 49e0bbcb6ff70e561365d9e0d26426598f63ca12. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-233364.",
+    "published": "2023-07-10T16:15:47.297",
+    "last_modified": "2026-06-17T00:21:33.450",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:webdevstudios:wds_multisite_aggregate:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "WDS Multisite Aggregate Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10121": {
+    "cve": "CVE-2015-10121",
+    "description": "A vulnerability has been found in Beeliked Microsite Plugin up to 1.0.1 on WordPress and classified as problematic. Affected by this vulnerability is the function embed_handler of the file beelikedmicrosite.php. The manipulation leads to cross site scripting. The attack can be launched remotely. Upgrading to version 1.0.2 is able to address this issue. The identifier of the patch is d23bafb5d05fb2636a2b78331f9d3fca152903dc. It is recommended to upgrade the affected component. The identifier VDB-233365 was assigned to this vulnerability.",
+    "published": "2023-07-10T16:15:47.357",
+    "last_modified": "2026-06-17T00:21:33.570",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:beeliked:beeliked:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Beeliked Microsite Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10122": {
+    "cve": "CVE-2015-10122",
+    "description": "A vulnerability was found in wp-donate Plugin up to 1.4 on WordPress. It has been classified as critical. This affects an unknown part of the file includes/donate-display.php. The manipulation leads to sql injection. It is possible to initiate the attack remotely. Upgrading to version 1.5 is able to address this issue. The identifier of the patch is 019114cb788d954c5d1b36d6c62418619e93a757. It is recommended to upgrade the affected component. The identifier VDB-234249 was assigned to this vulnerability.",
+    "published": "2023-07-18T05:15:09.603",
+    "last_modified": "2026-06-17T00:21:33.697",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:wp_donate_project:wp_donate:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "wp-donate Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10123": {
+    "cve": "CVE-2015-10123",
+    "description": "An unautheticated remote attacker could send specifically crafted packets to a affected device. If an authenticated user then views that data in a specific page of the web-based management a buffer overflow will be triggered to gain full access of the device.",
+    "published": "2024-03-13T09:15:06.633",
+    "last_modified": "2026-06-17T00:21:33.833",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "WAGO",
+        "product": "Controller BACnet/IP"
+      },
+      {
+        "vendor": "WAGO",
+        "product": "Controller BACnet MS/TP"
+      },
+      {
+        "vendor": "WAGO",
+        "product": "Ethernet Controller 3rd Generation"
+      },
+      {
+        "vendor": "WAGO",
+        "product": "Fieldbus Coupler Ethernet 3rd Generation"
+      },
+      {
+        "vendor": "wago",
+        "product": "750-352_firmware"
+      },
+      {
+        "vendor": "wago",
+        "product": "750-831_firmware"
+      },
+      {
+        "vendor": "wago",
+        "product": "750-829_firmware"
+      },
+      {
+        "vendor": "wago",
+        "product": "750-852_firmware"
+      },
+      {
+        "vendor": "wago",
+        "product": "750-880_firmware"
+      },
+      {
+        "vendor": "wago",
+        "product": "750-881_firmware"
+      },
+      {
+        "vendor": "wago",
+        "product": "750-882_firmware"
+      },
+      {
+        "vendor": "wago",
+        "product": "750-885_firmware"
+      },
+      {
+        "vendor": "wago",
+        "product": "750-889_firmware"
+      },
+      {
+        "vendor": "wago",
+        "product": "750-884_firmware"
+      }
+    ]
+  },
+  "CVE-2015-10124": {
+    "cve": "CVE-2015-10124",
+    "description": "A vulnerability was found in Most Popular Posts Widget Plugin up to 0.8 on WordPress. It has been classified as critical. Affected is the function add_views/show_views of the file functions.php. The manipulation leads to sql injection. It is possible to launch the attack remotely. Upgrading to version 0.9 is able to address this issue. The patch is identified as a99667d11ac8d320006909387b100e9a8b5c12e1. It is recommended to upgrade the affected component. VDB-241026 is the identifier assigned to this vulnerability.",
+    "published": "2023-10-02T14:15:09.757",
+    "last_modified": "2026-06-17T00:21:33.973",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:smartfan:most_popular_posts_widget:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Most Popular Posts Widget Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10125": {
+    "cve": "CVE-2015-10125",
+    "description": "A vulnerability classified as problematic has been found in WP Ultimate CSV Importer Plugin 3.7.2 on WordPress. This affects an unknown part. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. Upgrading to version 3.7.3 is able to address this issue. The identifier of the patch is 13c30af721d3f989caac72dd0f56cf0dc40fad7e. It is recommended to upgrade the affected component. The identifier VDB-241317 was assigned to this vulnerability.",
+    "published": "2023-10-05T23:15:09.330",
+    "last_modified": "2026-06-17T00:21:34.100",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:smackcoders:import_all_pages\\,_post_types\\,_products\\,_orders\\,_and_users_as_xml_\\&_csv:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "WP Ultimate CSV Importer Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10126": {
+    "cve": "CVE-2015-10126",
+    "description": "A vulnerability classified as critical was found in Easy2Map Photos Plugin 1.0.1 on WordPress. This vulnerability affects unknown code. The manipulation leads to sql injection. The attack can be initiated remotely. Upgrading to version 1.1.0 is able to address this issue. The patch is identified as 503d9ee2482d27c065f78d9546f076a406189908. It is recommended to upgrade the affected component. VDB-241318 is the identifier assigned to this vulnerability.",
+    "published": "2023-10-06T08:15:43.293",
+    "last_modified": "2026-06-17T00:21:34.240",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:steven_ellis:easy2map_photos:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Easy2Map Photos Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10127": {
+    "cve": "CVE-2015-10127",
+    "description": "A vulnerability was found in PlusCaptcha Plugin up to 2.0.6 on WordPress and classified as problematic. Affected by this issue is some unknown functionality. The manipulation leads to cross site scripting. The attack may be launched remotely. Upgrading to version 2.0.14 is able to address this issue. The patch is identified as 1274afc635170daafd38306487b6bb8a01f78ecd. It is recommended to upgrade the affected component. VDB-248954 is the identifier assigned to this vulnerability.",
+    "published": "2023-12-26T17:15:07.923",
+    "last_modified": "2026-06-17T00:21:34.370",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:bestwebsoft:pluscaptcha:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "PlusCaptcha Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10128": {
+    "cve": "CVE-2015-10128",
+    "description": "A vulnerability was found in rt-prettyphoto Plugin up to 1.2 on WordPress and classified as problematic. Affected by this issue is the function royal_prettyphoto_plugin_links of the file rt-prettyphoto.php. The manipulation leads to cross site scripting. The attack may be launched remotely. Upgrading to version 1.3 is able to address this issue. The patch is identified as 0d3d38cfa487481b66869e4212df1cefc281ecb7. It is recommended to upgrade the affected component. VDB-249422 is the identifier assigned to this vulnerability.",
+    "published": "2024-01-02T14:15:07.810",
+    "last_modified": "2026-06-17T00:21:34.503",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:royaltechbd:royal_prettyphoto:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "rt-prettyphoto Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10129": {
+    "cve": "CVE-2015-10129",
+    "description": "A vulnerability was found in planet-freo up to 20150116 and classified as problematic. Affected by this issue is some unknown functionality of the file admin/inc/auth.inc.php. The manipulation of the argument auth leads to incorrect comparison. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The name of the patch is 6ad38c58a45642eb8c7844e2f272ef199f59550d. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-252716.",
+    "published": "2024-02-04T05:15:49.087",
+    "last_modified": "2026-06-17T00:21:34.640",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.7,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:samwilson:planet-freo:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "planet-freo"
+      },
+      {
+        "vendor": "samwilson",
+        "product": "planet-freo"
+      }
+    ]
+  },
+  "CVE-2015-10130": {
+    "cve": "CVE-2015-10130",
+    "description": "The Team Circle Image Slider With Lightbox plugin for WordPress is vulnerable to Cross-Site Request Forgery in version 1.0. This is due to missing or incorrect nonce validation on the circle_thumbnail_slider_with_lightbox_image_management_func() function. This makes it possible for unauthenticated attackers to edit image data which can be used to inject malicious JavaScript, along with deleting images, and uploading malicious files via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+    "published": "2024-03-13T03:15:05.993",
+    "last_modified": "2026-06-17T00:21:34.787",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:i13websolution:team_circle_image_slider_with_lightbox:1.0:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "nik00726",
+        "product": "Team Circle Image Slider With Lightbox"
+      },
+      {
+        "vendor": "i13websolution",
+        "product": "continuous_image_carosel_with_lightbox"
+      }
+    ]
+  },
+  "CVE-2015-10131": {
+    "cve": "CVE-2015-10131",
+    "description": "A vulnerability was found in chrisy TFO Graphviz Plugin up to 1.9 on WordPress and classified as problematic. Affected by this issue is the function admin_page_load/admin_page of the file tfo-graphviz-admin.php. The manipulation leads to cross site scripting. The attack may be launched remotely. Upgrading to version 1.10 is able to address this issue. The name of the patch is 594c953a345f79e26003772093b0caafc14b92c2. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-258620.",
+    "published": "2024-03-31T06:15:07.517",
+    "last_modified": "2026-06-17T00:21:34.913",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "chrisy",
+        "product": "TFO Graphviz Plugin"
+      }
+    ]
+  },
+  "CVE-2015-10132": {
+    "cve": "CVE-2015-10132",
+    "description": "A vulnerability classified as problematic was found in Thimo Grauerholz WP-Spreadplugin up to 3.8.6.1 on WordPress. This vulnerability affects unknown code of the file spreadplugin.php. The manipulation of the argument Spreadplugin leads to cross site scripting. The attack can be initiated remotely. Upgrading to version 3.8.6.6 is able to address this issue. The name of the patch is a9b9afc641854698e80aa5dd9ababfc8e0e57d69. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-261676.",
+    "published": "2024-04-21T20:15:45.333",
+    "last_modified": "2026-06-17T00:21:35.047",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Thimo Grauerholz",
+        "product": "WP-Spreadplugin"
+      },
+      {
+        "vendor": "wordpress",
+        "product": "thimo_grauerholz_wp-spreadplugin"
+      }
+    ]
+  },
+  "CVE-2015-10133": {
+    "cve": "CVE-2015-10133",
+    "description": "The Subscribe to Comments for WordPress is vulnerable to Local File Inclusion in versions up to, and including, 2.1.2 via the Path to header value. This allows authenticated attackers, with administrative privileges and above, to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other \u201csafe\u201d file types can be uploaded and included. This same function can also be used to execute arbitrary PHP code.",
+    "published": "2025-07-19T10:15:23.227",
+    "last_modified": "2026-06-17T00:21:35.180",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:markjaquith:subscribe_to_comments:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "markjaquith",
+        "product": "Subscribe to Comments"
+      }
+    ]
+  },
+  "CVE-2015-10134": {
+    "cve": "CVE-2015-10134",
+    "description": "The Simple Backup plugin for WordPress is vulnerable to Arbitrary File Download in versions up to, and including, 2.7.10. via the download_backup_file function. This is due to a lack of capability checks and file type validation. This makes it possible for attackers to download sensitive files such as the wp-config.php file from the affected site.",
+    "published": "2025-07-19T10:15:23.420",
+    "last_modified": "2026-06-17T00:21:35.303",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mywebsiteadvisor:simple_backup:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "mywebsiteadvisor",
+        "product": "Simple Backup"
+      }
+    ]
+  },
+  "CVE-2015-10135": {
+    "cve": "CVE-2015-10135",
+    "description": "The WPshop 2 \u2013 E-Commerce plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the ajaxUpload function in versions before 1.3.9.6. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.",
+    "published": "2025-07-19T10:15:23.583",
+    "last_modified": "2026-06-17T00:21:35.413",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:eoxia:wpshop_2:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "eoxia",
+        "product": "WPshop 2 \u2013 E-Commerce"
+      }
+    ]
+  },
+  "CVE-2015-10136": {
+    "cve": "CVE-2015-10136",
+    "description": "The GI-Media Library plugin for WordPress is vulnerable to Directory Traversal in versions before 3.0 via the 'fileid' parameter. This allows unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information.",
+    "published": "2025-07-19T10:15:23.773",
+    "last_modified": "2026-06-17T00:21:35.530",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:zishanj:gi-media-library:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "zishanj",
+        "product": "GI-Media Library"
+      }
+    ]
+  },
+  "CVE-2015-10137": {
+    "cve": "CVE-2015-10137",
+    "description": "The Website Contact Form With File Upload plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'upload_file()' function in versions up to, and including, 1.3.4. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.",
+    "published": "2025-07-22T02:15:22.813",
+    "last_modified": "2026-06-17T00:21:35.643",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:najeebmedia:website_contact_form_with_file_upload:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "N-Media",
+        "product": "Website Contact Form With File Upload"
+      }
+    ]
+  },
+  "CVE-2015-10138": {
+    "cve": "CVE-2015-10138",
+    "description": "The Work The Flow File Upload plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the jQuery-File-Upload-9.5.0 server and test files in versions up to, and including, 2.5.2. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.",
+    "published": "2025-07-19T12:15:34.123",
+    "last_modified": "2026-06-17T00:21:35.760",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:lynton_reed:work_the_flow_file_upload:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "lynton_reed",
+        "product": "Work The Flow File Upload"
+      }
+    ]
+  },
+  "CVE-2015-10139": {
+    "cve": "CVE-2015-10139",
+    "description": "The WPLMS theme for WordPress is vulnerable to Privilege Escalation in versions 1.5.2 to 1.8.4.1 via the 'wp_ajax_import_data' AJAX action. This makes it possible for authenticated attackers to change otherwise restricted settings and potentially create a new accessible admin account.",
+    "published": "2025-07-19T12:15:35.127",
+    "last_modified": "2026-06-17T00:21:35.877",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:vibethemes:wordpress_learning_management_system_:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "VibeThemes",
+        "product": "WPLMS Learning Management System for WordPress, WordPress LMS"
+      }
+    ]
+  },
+  "CVE-2015-10140": {
+    "cve": "CVE-2015-10140",
+    "description": "The Ajax Load More plugin before 2.8.1.2 does not have authorisation in some of its AJAX actions, allowing any authenticated users, such as subscriber, to upload and delete arbitrary files.",
+    "published": "2025-07-22T14:15:32.590",
+    "last_modified": "2026-06-17T00:21:35.990",
+    "vuln_status": "Modified",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:connekthq:ajax_load_more:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Unknown",
+        "product": "Ajax Load More"
+      }
+    ]
+  },
+  "CVE-2015-10141": {
+    "cve": "CVE-2015-10141",
+    "description": "An unauthenticated OS command injection vulnerability exists within Xdebug versions 2.5.5 and earlier, a PHP debugging extension developed by Derick Rethans. When remote debugging is enabled, Xdebug listens on port 9000 and accepts debugger protocol commands without authentication. An attacker can send a crafted eval command over this interface to execute arbitrary PHP code, which may invoke system-level functions such as system() or passthru(). This results in full compromise of the host under the privileges of the web server user.",
+    "published": "2025-07-23T14:15:31.763",
+    "last_modified": "2026-06-17T00:21:36.150",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Xdebug",
+        "product": "Xdebug"
+      }
+    ]
+  },
+  "CVE-2015-10142": {
+    "cve": "CVE-2015-10142",
+    "description": "Sitecore Experience Platform (XP) prior to 8.0 Initial Release (rev. 141212) and Content Management System (CMS) prior to 7.2 Update-3 (rev. 141226) and prior to\u00a07.5 Update-1 (rev. 150130) contain a vulnerability that may allow an attacker to download files under the web root of the site when the name of the file is already known via a specially-crafted URL.\u00a0Affected files do not include .config, .aspx or .cs files. The issue does not allow for directory browsing.",
+    "published": "2025-07-25T16:15:26.663",
+    "last_modified": "2026-06-17T00:21:36.273",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Sitecore",
+        "product": "Experience Platform (XP)"
+      },
+      {
+        "vendor": "Sitecore",
+        "product": "Content Management System (CMS)"
+      }
+    ]
+  },
+  "CVE-2015-10143": {
+    "cve": "CVE-2015-10143",
+    "description": "The Platform theme for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the *_ajax_save_options() function in all versions up to 1.4.4 (exclusive). This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.",
+    "published": "2025-07-25T03:15:31.447",
+    "last_modified": "2026-06-17T00:21:36.390",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:pagelines:platform_theme:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "PageLines",
+        "product": "Platform"
+      }
+    ]
+  },
+  "CVE-2015-10144": {
+    "cve": "CVE-2015-10144",
+    "description": "The Responsive Thumbnail Slider plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type sanitization in the via the image uploader in versions up to 1.0.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to upload arbitrary files on the affected sites server using a double extension which may make remote code execution possible.",
+    "published": "2025-07-25T03:15:32.463",
+    "last_modified": "2026-06-17T00:21:36.520",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:i13websolution:thumbnail_carousel_slider:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "nik00726",
+        "product": "Thumbnail carousel slider"
+      }
+    ]
+  },
+  "CVE-2015-10145": {
+    "cve": "CVE-2015-10145",
+    "description": "Gargoyle router management utility versions 1.5.x contain an authenticated OS command execution vulnerability in /utility/run_commands.sh. The application fails to properly restrict or validate input supplied via the 'commands' parameter, allowing an authenticated attacker to execute arbitrary shell commands on the underlying system. Successful exploitation may result in full compromise of the device, including unauthorized access to system files and execution of attacker-controlled commands.",
+    "published": "2025-12-31T21:15:50.920",
+    "last_modified": "2026-06-17T00:21:36.657",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:gargoyle-router:gargoyle:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Gargoyle",
+        "product": "Gargoyle Router Management Utility"
+      }
+    ]
+  },
+  "CVE-2015-10146": {
+    "cve": "CVE-2015-10146",
+    "description": "The Thumbnail Slider With Lightbox plugin for WordPress is vulnerable to SQL Injection via the 'id' parameter in all versions up to, and including, 1.0.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+    "published": "2025-10-29T10:15:35.383",
+    "last_modified": "2026-06-17T00:21:36.810",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 4.9,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:i13websolution:thumbnail_slider_with_lightbox:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "nik00726",
+        "product": "Thumbnail Slider With Lightbox"
+      }
+    ]
+  },
+  "CVE-2015-10147": {
+    "cve": "CVE-2015-10147",
+    "description": "The Easy Testimonial Slider and Form plugin for WordPress is vulnerable to SQL Injection via the 'id' parameter in all versions up to, and including, 1.0.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+    "published": "2025-10-29T10:15:36.587",
+    "last_modified": "2026-06-17T00:21:36.940",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 4.9,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:i13websolution:easy_testimonial_slider_and_form:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "nik00726",
+        "product": "Easy Testimonial Slider and Form"
+      }
+    ]
+  },
+  "CVE-2015-10148": {
+    "cve": "CVE-2015-10148",
+    "description": "Hirschmann HiLCOS devices OpenBAT, WLC, BAT300, BAT54 prior to 8.80 and OpenBAT prior to 9.10 are shipped with identical default SSH and SSL keys that cannot be changed, allowing unauthenticated remote attackers to decrypt or intercept encrypted management communications. Attackers can perform man-in-the-middle attacks, impersonate devices, and expose sensitive information by leveraging the shared default cryptographic keys across multiple devices.",
+    "published": "2026-04-03T22:16:24.207",
+    "last_modified": "2026-06-17T00:21:37.070",
+    "vuln_status": "Awaiting Analysis",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Belden",
+        "product": "Hirschmann HiLCOS"
+      }
+    ]
+  },
+  "CVE-2015-20001": {
+    "cve": "CVE-2015-20001",
+    "description": "In the standard library in Rust before 1.2.0, BinaryHeap is not panic-safe. The binary heap is left in an inconsistent state when the comparison of generic elements inside sift_up or sift_down_range panics. This bug leads to a drop of zeroed memory as an arbitrary type, which can result in a memory safety violation.",
+    "published": "2021-04-11T20:15:12.237",
+    "last_modified": "2026-06-17T00:23:23.393",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:rust-lang:rust:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-20019": {
+    "cve": "CVE-2015-20019",
+    "description": "The Content text slider on post WordPress plugin before 6.9 does not sanitise and escape the Title and Message/Content settings, which could lead to Cross-Site Scripting issues",
+    "published": "2021-11-01T09:15:08.037",
+    "last_modified": "2026-06-17T00:23:23.530",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:content_text_slider_on_post_project:content_text_slider_on_post:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Unknown",
+        "product": "Content text slider on post"
+      }
+    ]
+  },
+  "CVE-2015-20067": {
+    "cve": "CVE-2015-20067",
+    "description": "The WP Attachment Export WordPress plugin before 0.2.4 does not have proper access controls, allowing unauthenticated users to download the XML data that holds all the details of attachments/posts on a Wordpress",
+    "published": "2021-11-01T09:15:08.093",
+    "last_modified": "2026-06-17T00:23:23.630",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:wp_attachment_export_project:wp_attachment_export:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Unknown",
+        "product": "WP Attachment Export"
+      }
+    ]
+  },
+  "CVE-2015-20105": {
+    "cve": "CVE-2015-20105",
+    "description": "The ClickBank Affiliate Ads WordPress plugin through 1.20 does not have CSRF check when saving its settings, allowing attacker to make logged in admin change them via a CSRF attack. Furthermore, due to the lack of escaping when they are outputting, it could also lead to Stored Cross-Site Scripting issues",
+    "published": "2021-12-02T18:15:08.027",
+    "last_modified": "2026-06-17T00:23:23.747",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.6,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:cbads:clickbank_affiliate_ads:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Unknown",
+        "product": "ClickBank Affiliate Ads"
+      }
+    ]
+  },
+  "CVE-2015-20106": {
+    "cve": "CVE-2015-20106",
+    "description": "The ClickBank Affiliate Ads WordPress plugin through 1.20 does not escape its settings, allowing high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html is disallowed.",
+    "published": "2021-12-02T18:15:08.127",
+    "last_modified": "2026-06-17T00:23:23.860",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:cbads:clickbank_affiliate_ads:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Unknown",
+        "product": "ClickBank Affiliate Ads"
+      }
+    ]
+  },
+  "CVE-2015-20107": {
+    "cve": "CVE-2015-20107",
+    "description": "In Python (aka CPython) up to 3.10.8, the mailcap module does not add escape characters into commands discovered in the system mailcap file. This may allow attackers to inject shell commands into applications that call mailcap.findmatch with untrusted input (if they lack validation of user-provided filenames or arguments). The fix is also back-ported to 3.7, 3.8, 3.9",
+    "published": "2022-04-13T16:15:08.937",
+    "last_modified": "2026-06-17T00:23:23.967",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.6,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 11,
+    "cpe_uris": [
+      "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*",
+      "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*",
+      "cpe:2.3:a:netapp:ontap_select_deploy_administration_utility:-:*:*:*:*:*:*:*",
+      "cpe:2.3:a:netapp:snapcenter:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-20108": {
+    "cve": "CVE-2015-20108",
+    "description": "xml_security.rb in the ruby-saml gem before 1.0.0 for Ruby allows XPath injection and code execution because prepared statements are not used.",
+    "published": "2023-05-27T19:15:09.043",
+    "last_modified": "2026-06-17T00:23:24.220",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:onelogin:ruby-saml:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-20109": {
+    "cve": "CVE-2015-20109",
+    "description": "end_pattern (called from internal_fnmatch) in the GNU C Library (aka glibc or libc6) before 2.22 might allow context-dependent attackers to cause a denial of service (application crash), as demonstrated by use of the fnmatch library function with the **(!() pattern. NOTE: this is not the same as CVE-2015-8984; also, some Linux distributions have fixed CVE-2015-8984 but have not fixed this additional fnmatch issue.",
+    "published": "2023-06-25T17:15:14.187",
+    "last_modified": "2026-06-17T00:23:24.380",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:gnu:glibc:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-20110": {
+    "cve": "CVE-2015-20110",
+    "description": "JHipster generator-jhipster before 2.23.0 allows a timing attack against validateToken due to a string comparison that stops at the first character that is different. Attackers can guess tokens by brute forcing one character at a time and observing the timing. This of course drastically reduces the search space to a linear amount of guesses based on the token length times the possible characters.",
+    "published": "2023-10-31T03:15:07.613",
+    "last_modified": "2026-06-17T00:23:24.503",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:jhipster:jhipster:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-20111": {
+    "cve": "CVE-2015-20111",
+    "description": "miniupnp before 4c90b87, as used in Bitcoin Core before 0.12 and other products, lacks checks for snprintf return values, leading to a buffer overflow and significant data leak, a different vulnerability than CVE-2019-12107. In Bitcoin Core before 0.12, remote code execution was possible in conjunction with CVE-2015-6031 exploitation.",
+    "published": "2024-11-18T04:15:03.987",
+    "last_modified": "2026-06-17T00:23:24.623",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      },
+      {
+        "vendor": "bitcoin",
+        "product": "bitcoin_core"
+      }
+    ]
+  },
+  "CVE-2015-20112": {
+    "cve": "CVE-2015-20112",
+    "description": "RLPx 5 has two CTR streams based on the same key, IV, and nonce. This can facilitate decryption on a private network.",
+    "published": "2025-06-29T21:15:22.210",
+    "last_modified": "2026-06-17T00:23:24.777",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 3.4,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Ethereum",
+        "product": "RLPx"
+      }
+    ]
+  },
+  "CVE-2015-20113": {
+    "cve": "CVE-2015-20113",
+    "description": "Next Click Ventures RealtyScript 4.0.2 contains cross-site request forgery and persistent cross-site scripting vulnerabilities that allow attackers to perform administrative actions and inject malicious scripts. Attackers can craft malicious web pages that execute unauthorized actions when logged-in users visit them, or inject persistent scripts that execute in the application context.",
+    "published": "2026-03-16T14:17:46.370",
+    "last_modified": "2026-06-17T00:23:24.900",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nextclickventures:realtyscript:4.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Next Click Ventuers",
+        "product": "RealtyScript"
+      }
+    ]
+  },
+  "CVE-2015-20114": {
+    "cve": "CVE-2015-20114",
+    "description": "Next Click Ventures RealtyScript 4.0.2 contains a cross-site scripting vulnerability that allows attackers to execute arbitrary HTML and script code by injecting malicious input through multiple parameters that are not properly sanitized. Attackers can craft requests with injected script payloads in vulnerable parameters to execute code in users' browser sessions within the context of the affected application.",
+    "published": "2026-03-16T14:17:46.690",
+    "last_modified": "2026-06-17T00:23:25.033",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nextclickventures:realtyscript:4.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Next Click Ventuers",
+        "product": "RealtyScript"
+      }
+    ]
+  },
+  "CVE-2015-20115": {
+    "cve": "CVE-2015-20115",
+    "description": "Next Click Ventures RealtyScript 4.0.2 fails to properly sanitize file uploads, allowing attackers to store malicious scripts through the file POST parameter in admin/tools.php. Attackers can upload files containing JavaScript code that executes in the context of admin/tools.php when accessed by other users.",
+    "published": "2026-03-16T14:17:46.883",
+    "last_modified": "2026-06-17T00:23:25.160",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nextclickventures:realtyscript:4.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Next Click Ventures",
+        "product": "RealtyScript"
+      }
+    ]
+  },
+  "CVE-2015-20116": {
+    "cve": "CVE-2015-20116",
+    "description": "Next Click Ventures RealtyScript 4.0.2 fails to properly sanitize CSV file uploads, allowing attackers to inject malicious scripts through filename parameters in multipart form data. Attackers can upload files with XSS payloads in the filename field to execute arbitrary JavaScript in users' browsers when the file is processed or displayed.",
+    "published": "2026-03-16T14:17:47.077",
+    "last_modified": "2026-06-17T00:23:25.290",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nextclickventures:realtyscript:4.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Next Click Ventures",
+        "product": "RealtyScript"
+      }
+    ]
+  },
+  "CVE-2015-20117": {
+    "cve": "CVE-2015-20117",
+    "description": "Next Click Ventures RealtyScript 4.0.2 contains a cross-site request forgery vulnerability that allows unauthenticated attackers to create unauthorized user accounts and administrative users by crafting malicious forms. Attackers can submit hidden form data to /admin/addusers.php and /admin/editadmins.php endpoints to register new users with arbitrary credentials and escalate privileges to SUPERUSER level.",
+    "published": "2026-03-16T14:17:47.260",
+    "last_modified": "2026-06-17T00:23:25.407",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nextclickventures:realtyscript:4.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Next Click Ventures",
+        "product": "RealtyScript"
+      }
+    ]
+  },
+  "CVE-2015-20118": {
+    "cve": "CVE-2015-20118",
+    "description": "Next Click Ventures RealtyScript 4.0.2 contains a stored cross-site scripting vulnerability in the location_name parameter of the admin locations interface. Attackers can submit POST requests to the locations.php endpoint with JavaScript payloads in the location_name field to execute arbitrary code in administrator browsers.",
+    "published": "2026-03-16T14:17:47.450",
+    "last_modified": "2026-06-17T00:23:25.530",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nextclickventures:realtyscript:4.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Next Click Ventures",
+        "product": "RealtyScript"
+      }
+    ]
+  },
+  "CVE-2015-20119": {
+    "cve": "CVE-2015-20119",
+    "description": "Next Click Ventures RealtyScript 4.0.2 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious HTML and iframe elements through the text parameter in the pages.php admin interface. Attackers can submit POST requests to the add page action with crafted iframe payloads in the text parameter to store malicious content that executes in the browsers of users viewing the affected pages.",
+    "published": "2026-03-16T14:17:47.680",
+    "last_modified": "2026-06-17T00:23:25.657",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nextclickventures:realtyscript:4.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Next Click Ventures",
+        "product": "RealtyScript"
+      }
+    ]
+  },
+  "CVE-2015-20120": {
+    "cve": "CVE-2015-20120",
+    "description": "Next Click Ventures RealtyScript 4.0.2 contains multiple time-based blind SQL injection vulnerabilities that allow unauthenticated attackers to extract database information by injecting SQL code into application parameters. Attackers can craft requests with time-delay payloads to infer database contents character by character based on response timing differences.",
+    "published": "2026-03-16T14:17:47.957",
+    "last_modified": "2026-06-17T00:23:25.780",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nextclickventures:realtyscript:4.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Next Click Ventures",
+        "product": "RealtyScript"
+      }
+    ]
+  },
+  "CVE-2015-20121": {
+    "cve": "CVE-2015-20121",
+    "description": "Next Click Ventures RealtyScript 4.0.2 contains SQL injection vulnerabilities that allow unauthenticated attackers to manipulate database queries by injecting arbitrary SQL code through the GET parameter 'u_id' in /admin/users.php and the POST parameter 'agent[]' in /admin/mailer.php. Attackers can exploit time-based blind SQL injection techniques to extract sensitive database information or cause denial of service through sleep-based payloads.",
+    "published": "2026-03-16T14:17:48.160",
+    "last_modified": "2026-06-17T00:23:25.903",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nextclickventures:realtyscript:4.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Next Click Ventures",
+        "product": "RealtyScripts"
+      }
+    ]
+  },
+  "CVE-2015-1000000": {
+    "cve": "CVE-2015-1000000",
+    "description": "Remote file upload vulnerability in mailcwp v1.99 wordpress plugin",
+    "published": "2016-10-06T14:59:00.223",
+    "last_modified": "2026-06-17T00:21:15.080",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mailcwp_project:mailcwp:1.99:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000001": {
+    "cve": "CVE-2015-1000001",
+    "description": "Remote file upload vulnerability in fast-image-adder v1.1 Wordpress plugin",
+    "published": "2016-10-06T14:59:01.287",
+    "last_modified": "2026-06-17T00:21:15.210",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:fast-image-adder_project:fast-image-adder:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000002": {
+    "cve": "CVE-2015-1000002",
+    "description": "Open Proxy in filedownload v1.4 wordpress plugin",
+    "published": "2016-10-06T14:59:02.347",
+    "last_modified": "2026-06-17T00:21:15.307",
+    "vuln_status": "Modified",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:filedownload_project:filedownload:1.4:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000003": {
+    "cve": "CVE-2015-1000003",
+    "description": "Blind SQL Injection in filedownload v1.4 wordpress plugin",
+    "published": "2016-10-06T14:59:03.583",
+    "last_modified": "2026-06-17T00:21:15.410",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:filedownload_project:filedownload:1.4:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000004": {
+    "cve": "CVE-2015-1000004",
+    "description": "XSS in filedownload v1.4 wordpress plugin",
+    "published": "2016-10-06T14:59:04.740",
+    "last_modified": "2026-06-17T00:21:15.503",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:filedownload_project:filedownload:1.4:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000005": {
+    "cve": "CVE-2015-1000005",
+    "description": "Remote file download vulnerability in candidate-application-form v1.0 wordpress plugin",
+    "published": "2016-10-06T14:59:05.817",
+    "last_modified": "2026-06-17T00:21:15.603",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:candidate-application-form_project:candidate-application-form:1.0:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000006": {
+    "cve": "CVE-2015-1000006",
+    "description": "Remote file download vulnerability in recent-backups v0.7 wordpress plugin",
+    "published": "2016-10-06T14:59:07.020",
+    "last_modified": "2026-06-17T00:21:15.700",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:recent-backups_project:recent-backups:0.7:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000007": {
+    "cve": "CVE-2015-1000007",
+    "description": "Remote file download vulnerability in wptf-image-gallery v1.03",
+    "published": "2016-10-06T14:59:08.067",
+    "last_modified": "2026-06-17T00:21:15.807",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:wptf-image-gallery_project:wptf-image-gallery:1.03:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000008": {
+    "cve": "CVE-2015-1000008",
+    "description": "Path Disclosure Vulnerability in wordpress plugin MP3-jPlayer v2.3.2",
+    "published": "2016-10-06T14:59:09.160",
+    "last_modified": "2026-06-17T00:21:15.903",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mp3-jplayer_project:mp3-jplayer:2.3.2:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000009": {
+    "cve": "CVE-2015-1000009",
+    "description": "Open proxy in Wordpress plugin google-adsense-and-hotel-booking v1.05",
+    "published": "2016-10-06T14:59:10.287",
+    "last_modified": "2026-06-17T00:21:15.997",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.1,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:google-adsense-and-hotel-booking_project:google-adsense-and-hotel-booking:1.05:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000010": {
+    "cve": "CVE-2015-1000010",
+    "description": "Remote file download in simple-image-manipulator v1.0 wordpress plugin",
+    "published": "2016-10-06T14:59:11.257",
+    "last_modified": "2026-06-17T00:21:16.093",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:simple-image-manipulator_project:simple-image-manipulator:1.0:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000011": {
+    "cve": "CVE-2015-1000011",
+    "description": "Blind SQL Injection in wordpress plugin dukapress v2.5.9",
+    "published": "2016-10-06T14:59:12.363",
+    "last_modified": "2026-06-17T00:21:16.190",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:dukapress_project:dukapress:2.5.9:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000012": {
+    "cve": "CVE-2015-1000012",
+    "description": "Local File Inclusion Vulnerability in mypixs v0.3 wordpress plugin",
+    "published": "2016-10-06T14:59:13.537",
+    "last_modified": "2026-06-17T00:21:16.303",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mypixs_project:mypixs:0.3:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1000013": {
+    "cve": "CVE-2015-1000013",
+    "description": "Remote file upload vulnerability in wordpress plugin csv2wpec-coupon v1.1",
+    "published": "2016-10-06T14:59:14.537",
+    "last_modified": "2026-06-17T00:21:16.437",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:csv2wpec-coupon_project:csv2wpec-coupon:1.1:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2015-1142857": {
+    "cve": "CVE-2015-1142857",
+    "description": "On multiple SR-IOV cars it is possible for VF's assigned to guests to send ethernet flow control pause frames via the PF. This includes Linux kernel ixgbe driver before commit f079fa005aae08ee0e1bc32699874ff4f02e11c1, the Linux Kernel i40e/i40evf driver before e7358f54a3954df16d4f87e3cad35063f1c17de5 and the DPDK before commit 3f12b9f23b6499ff66ec8b0de941fb469297e5d0, additionally Multiple vendor NIC firmware is affected.",
+    "published": "2018-01-23T14:29:00.220",
+    "last_modified": "2026-06-17T00:21:37.193",
+    "vuln_status": "Modified",
+    "cvss_base_score": 8.6,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 13,
+    "cpe_uris": [
+      "cpe:2.3:o:intel:x710_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:h:intel:x710:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:intel:82599_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:h:intel:82599:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:intel:x540_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:h:intel:x540:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:intel:i350_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:h:intel:i350:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:intel:82576_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:h:intel:82576:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:linux:linux_kernel_ixgbe:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:linux:linux_kernel_i40e\\/i40evf:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:dpdk:dpdk:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  }
+}

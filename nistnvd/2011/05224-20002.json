@@ -1,0 +1,3504 @@
+{
+  "CVE-2011-5224": {
+    "cve": "CVE-2011-5224",
+    "description": "SQL injection vulnerability in the Sentinel plugin 1.0.0 for WordPress allows remote attackers to execute arbitrary SQL commands via unspecified vectors.",
+    "published": "2012-10-25T17:55:05.390",
+    "last_modified": "2026-06-16T23:36:10.890",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:trioniclabs:sentinel:1.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5225": {
+    "cve": "CVE-2011-5225",
+    "description": "Cross-site scripting (XSS) vulnerability in wordpress_sentinel.php in the Sentinel plugin 1.0.0 for WordPress allows remote attackers to inject arbitrary web script or HTML via unknown vectors.",
+    "published": "2012-10-25T17:55:05.500",
+    "last_modified": "2026-06-16T23:36:11.007",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:trioniclabs:sentinel:1.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5226": {
+    "cve": "CVE-2011-5226",
+    "description": "Cross-site request forgery (CSRF) vulnerability in wordpress_sentinel.php in the Sentinel plugin 1.0.0 for WordPress allows remote attackers to hijack the authentication of an administrator for requests that trigger snapshots.",
+    "published": "2012-10-25T17:55:05.547",
+    "last_modified": "2026-06-16T23:36:11.123",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:trioniclabs:sentinel:1.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5227": {
+    "cve": "CVE-2011-5227",
+    "description": "Stack-based buffer overflow in the Syslog service (nssyslogd.exe) in Enterasys Network Management Suite (NMS) before 4.1.0.80 allows remote attackers to execute arbitrary code via a long PRIO field in a message to UDP port 514.",
+    "published": "2012-10-25T17:55:06.217",
+    "last_modified": "2026-06-16T23:36:11.243",
+    "vuln_status": "Modified",
+    "cvss_base_score": 10.0,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:enterasys:netsight:*:*:*:*:*:*:*:*",
+      "cpe:2.3:h:enterasys:netsight:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5228": {
+    "cve": "CVE-2011-5228",
+    "description": "Cross-site scripting (XSS) vulnerability in the Search module (quickstart/search) in appRain CMF 0.1.5 allows remote attackers to inject arbitrary web script or HTML via the ss parameter.",
+    "published": "2012-10-25T17:55:06.813",
+    "last_modified": "2026-06-16T23:36:11.353",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:apprain:apprain:0.1.5:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5229": {
+    "cve": "CVE-2011-5229",
+    "description": "SQL injection vulnerability in quickstart/profile/index.php in the Forum module in appRain CMF 0.1.5 allows remote attackers to execute arbitrary SQL commands via the PATH_INFO.",
+    "published": "2012-10-25T17:55:06.843",
+    "last_modified": "2026-06-16T23:36:11.460",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:apprain:apprain:0.1.5:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5230": {
+    "cve": "CVE-2011-5230",
+    "description": "Multiple SQL injection vulnerabilities in the selectUserIdByLoginPass function in seotoaster_core/application/models/LoginModel.php in Seotoaster 1.9 and earlier allow remote attackers to execute arbitrary SQL commands via the (1) login parameter to sys/login/index or (2) memberLoginName parameter to sys/login/member.",
+    "published": "2012-10-25T17:55:06.890",
+    "last_modified": "2026-06-16T23:36:11.573",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 3,
+    "cpe_uris": [
+      "cpe:2.3:a:seotoaster:seotoaster:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:seotoaster:seotoaster:1.8.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:seotoaster:seotoaster:1.8.3:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5233": {
+    "cve": "CVE-2011-5233",
+    "description": "Heap-based buffer overflow in IrfanView before 4.32 allows remote attackers to execute arbitrary code via crafted \"Rows Per Strip\" and \"Samples Per Pixel\" values in a TIFF image file.",
+    "published": "2012-10-25T17:55:07.890",
+    "last_modified": "2026-06-16T23:36:11.710",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 15,
+    "cpe_uris": [
+      "cpe:2.3:a:irfanview:irfanview:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:3.90:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:3.91:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:3.92:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:3.95:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:3.97:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:3.98:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:3.99:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:4.00:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:4.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:4.20:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:4.23:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:4.25:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:4.27:*:*:*:*:*:*:*",
+      "cpe:2.3:a:irfanview:irfanview:4.28:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5234": {
+    "cve": "CVE-2011-5234",
+    "description": "SQL injection vulnerability in user.php in Social Network Community 2 allows remote attackers to execute arbitrary SQL commands via the userId parameter.",
+    "published": "2012-10-25T17:55:08.107",
+    "last_modified": "2026-06-16T23:36:11.820",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:scripte24shop:social_network_community:2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5235": {
+    "cve": "CVE-2011-5235",
+    "description": "SQL injection vulnerability in mnoGoSearch before 3.3.12 allows remote attackers to execute arbitrary SQL commands via the hostname in a hypertext link.",
+    "published": "2012-10-25T17:55:08.607",
+    "last_modified": "2026-06-16T23:36:11.930",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 30,
+    "cpe_uris": [
+      "cpe:2.3:a:mnogosearch:mnogosearch:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.1.19:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.1.20:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.13:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.14:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.15:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.16:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.17:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.18:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.19:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.20:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.21:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.22:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.23:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.24:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.25:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.26:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.2.42:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mnogosearch:mnogosearch:3.3.10:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5236": {
+    "cve": "CVE-2011-5236",
+    "description": "Moneris eSelectPlus 2.03 PHP API does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+    "published": "2012-11-06T12:21:26.713",
+    "last_modified": "2026-06-16T23:36:12.047",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:moneris:eselect_plus:2.03:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5237": {
+    "cve": "CVE-2011-5237",
+    "description": "PayPal WPS ToolKit does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+    "published": "2012-11-06T12:21:26.790",
+    "last_modified": "2026-06-16T23:36:12.157",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:paypal:wps_toolkit:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5238": {
+    "cve": "CVE-2011-5238",
+    "description": "google-checkout-php-sample-code before 1.3.2 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+    "published": "2012-11-06T12:21:26.867",
+    "last_modified": "2026-06-16T23:36:12.260",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 7,
+    "cpe_uris": [
+      "cpe:2.3:a:google:checkout-php:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:google:checkout-php:1.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:google:checkout-php:1.2:beta:*:*:*:*:*:*",
+      "cpe:2.3:a:google:checkout-php:1.2.1:beta:*:*:*:*:*:*",
+      "cpe:2.3:a:google:checkout-php:1.2.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:google:checkout-php:1.2.5a:*:*:*:*:*:*:*",
+      "cpe:2.3:a:google:checkout-php:1.3.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5239": {
+    "cve": "CVE-2011-5239",
+    "description": "CiviCRM 4.0.5 and 4.1.1 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+    "published": "2012-11-06T12:21:26.930",
+    "last_modified": "2026-06-16T23:36:12.363",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:civicrm:civicrm:4.0.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:civicrm:civicrm:4.1.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5240": {
+    "cve": "CVE-2011-5240",
+    "description": "Magento 1.5 and 1.6.2 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+    "published": "2012-11-06T12:21:26.977",
+    "last_modified": "2026-06-16T23:36:12.467",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:magentocommerce:magento:1.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:magentocommerce:magento:1.6.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5241": {
+    "cve": "CVE-2011-5241",
+    "description": "Services_Twitter 0.6.3 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+    "published": "2012-11-06T12:21:27.023",
+    "last_modified": "2026-06-16T23:36:12.570",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:services_twitter_group:services_twitter:0.6.3:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5242": {
+    "cve": "CVE-2011-5242",
+    "description": "tmhOAuth before 0.61 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+    "published": "2012-11-06T12:21:27.087",
+    "last_modified": "2026-06-16T23:36:12.673",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 17,
+    "cpe_uris": [
+      "cpe:2.3:a:themattharris:tmhoauth:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.11:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.12:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.13:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.14:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.51:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.52:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.53:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.54:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.55:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.56:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.57:*:*:*:*:*:*:*",
+      "cpe:2.3:a:themattharris:tmhoauth:0.58:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5243": {
+    "cve": "CVE-2011-5243",
+    "description": "TwitterOAuth does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+    "published": "2012-11-06T12:21:27.117",
+    "last_modified": "2026-06-16T23:36:12.780",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:abraham_williams:twitteroauth:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5244": {
+    "cve": "CVE-2011-5244",
+    "description": "Multiple off-by-one errors in the (1) token and (2) linetoken functions in backend/dvi/mdvi-lib/afmparse.c in t1lib, as used in teTeX 3.0.x, GNOME evince, and possibly other products, allow remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a DVI file containing a crafted Adobe Font Metrics (AFM) file, different vulnerabilities than CVE-2010-2642 and CVE-2011-0433.",
+    "published": "2012-11-19T12:10:49.337",
+    "last_modified": "2026-06-16T23:36:12.887",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 3,
+    "cpe_uris": [
+      "cpe:2.3:a:gnome:evince:-:*:*:*:*:*:*:*",
+      "cpe:2.3:a:t1lib:t1lib:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:tetex:tetex:3.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5245": {
+    "cve": "CVE-2011-5245",
+    "description": "The readFrom function in providers.jaxb.JAXBXmlTypeProvider in RESTEasy before 2.3.2 allows remote attackers to read arbitrary files via an external entity reference in a Java Architecture for XML Binding (JAXB) input, aka an XML external entity (XXE) injection attack, a similar vulnerability to CVE-2012-0818.",
+    "published": "2012-11-23T20:55:02.163",
+    "last_modified": "2026-06-16T23:36:13.003",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 14,
+    "cpe_uris": [
+      "cpe:2.3:a:redhat:resteasy:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:1.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:1.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:1.0.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:1.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:1.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:2.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:2.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:2.1.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:2.2.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:2.2.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:2.2.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:2.2.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:resteasy:2.3.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5247": {
+    "cve": "CVE-2011-5247",
+    "description": "Snare for Linux before 1.7.0 has password disclosure because the rendered page contains the field RemotePassword.",
+    "published": "2020-01-08T23:15:10.127",
+    "last_modified": "2026-06-16T23:36:13.177",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:prophecyinternational:snare:*:*:*:*:*:linux:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5249": {
+    "cve": "CVE-2011-5249",
+    "description": "Cross-site scripting (XSS) vulnerability in the events page in the System iNtrusion Analysis and Reporting Environment (SNARE) for Linux agent before 1.7.0 allows remote attackers to inject arbitrary web script or HTML via a logged shell command.",
+    "published": "2014-05-14T19:55:06.873",
+    "last_modified": "2026-06-16T23:36:13.283",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 5,
+    "cpe_uris": [
+      "cpe:2.3:a:intersectalliance:system_intrusion_analysis_and_reporting_environment:*:*:*:*:*:linux_kernel:*:*",
+      "cpe:2.3:a:intersectalliance:system_intrusion_analysis_and_reporting_environment:1.4:1:*:*:*:linux_kernel:*:*",
+      "cpe:2.3:a:intersectalliance:system_intrusion_analysis_and_reporting_environment:1.4.1:1:*:*:*:linux_kernel:*:*",
+      "cpe:2.3:a:intersectalliance:system_intrusion_analysis_and_reporting_environment:1.4.1:2:*:*:*:linux_kernel:*:*",
+      "cpe:2.3:a:intersectalliance:system_intrusion_analysis_and_reporting_environment:1.5.0:*:*:*:*:linux_kernel:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5250": {
+    "cve": "CVE-2011-5250",
+    "description": "Snare for Linux before 1.7.0 has CSRF in the web interface.",
+    "published": "2020-01-08T23:15:10.207",
+    "last_modified": "2026-06-16T23:36:13.390",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:prophecyinternational:snare:*:*:*:*:*:linux:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5251": {
+    "cve": "CVE-2011-5251",
+    "description": "Open redirect vulnerability in forum/login.php in vBulletin 4.1.3 and earlier allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via the url parameter in a lostpw action.",
+    "published": "2012-12-31T20:55:04.673",
+    "last_modified": "2026-06-16T23:36:13.500",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 13,
+    "cpe_uris": [
+      "cpe:2.3:a:vbulletin:vbulletin:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.0.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.0.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.0.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.0.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.0.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.0.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.0.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.1.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:vbulletin:vbulletin:4.1.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5252": {
+    "cve": "CVE-2011-5252",
+    "description": "Open redirect vulnerability in Users/Account/LogOff in Orchard 1.0.x before 1.0.21, 1.1.x before 1.1.31, 1.2.x before 1.2.42, and 1.3.x before 1.3.10 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via a URL in the ReturnUrl parameter.",
+    "published": "2013-01-12T04:33:48.993",
+    "last_modified": "2026-06-16T23:36:13.603",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 9,
+    "cpe_uris": [
+      "cpe:2.3:a:orchardproject:orchard:1.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orchardproject:orchard:1.0.20:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orchardproject:orchard:1.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orchardproject:orchard:1.1.30:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orchardproject:orchard:1.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orchardproject:orchard:1.2.41:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orchardproject:orchard:1.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orchardproject:orchard:1.3.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orchardproject:orchard:1.3.10:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5253": {
+    "cve": "CVE-2011-5253",
+    "description": "Dl Download Ticket Service 0.3 through 0.9 allows remote attackers to login as an arbitrary user by supplying an authorization header.",
+    "published": "2013-01-12T04:33:49.040",
+    "last_modified": "2026-06-16T23:36:13.723",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 7,
+    "cpe_uris": [
+      "cpe:2.3:a:thegr:dl:0.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:thegr:dl:0.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:thegr:dl:0.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:thegr:dl:0.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:thegr:dl:0.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:thegr:dl:0.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:thegr:dl:0.9:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5254": {
+    "cve": "CVE-2011-5254",
+    "description": "Unspecified vulnerability in the Connections plugin before 0.7.1.6 for WordPress has unknown impact and attack vectors.",
+    "published": "2013-01-12T04:33:49.070",
+    "last_modified": "2026-06-16T23:36:13.833",
+    "vuln_status": "Modified",
+    "cvss_base_score": 10.0,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 31,
+    "cpe_uris": [
+      "cpe:2.3:a:connections_project:connections:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.2.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.2.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.2.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.2.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.2.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.2.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.2.11:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.2.22:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.2.23:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.2.24:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.3.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.3.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.4.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.5.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.5.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.5.47:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.5.48:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.6.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.6.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.6.2.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.7.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.7.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.7.0.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.7.0.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.7.0.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.7.1.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.7.1.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.7.1.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:connections_project:connections:0.7.1.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5255": {
+    "cve": "CVE-2011-5255",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in admin/login in X3 CMS 0.4.3.1 and earlier allow remote attackers to inject arbitrary web script or HTML via the (1) PATH_INFO, (2) username, or (3) password parameter.",
+    "published": "2013-01-31T05:44:00.210",
+    "last_modified": "2026-06-16T23:36:13.953",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 6,
+    "cpe_uris": [
+      "cpe:2.3:a:x3cms:x3_cms:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:x3cms:x3_cms:0.4:rc2:*:*:*:*:*:*",
+      "cpe:2.3:a:x3cms:x3_cms:0.4.0.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:x3cms:x3_cms:0.4.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:x3cms:x3_cms:0.4.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:x3cms:x3_cms:0.4.2.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5256": {
+    "cve": "CVE-2011-5256",
+    "description": "Cross-site scripting (XSS) vulnerability in the tooltips in LimeSurvey before 1.91+ Build 11379-20111116, when viewing survey results, allows remote attackers to inject arbitrary web script or HTML via unknown parameters.",
+    "published": "2013-02-12T20:55:01.527",
+    "last_modified": "2026-06-16T23:36:14.070",
+    "vuln_status": "Modified",
+    "cvss_base_score": 2.6,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 15,
+    "cpe_uris": [
+      "cpe:2.3:a:limesurvey:limesurvey:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.01:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.50:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.52:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.53\\+:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.70\\+:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.71\\+:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.72:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.80\\+:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.81\\+:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.82\\+:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.85:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.86:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.87\\+:*:*:*:*:*:*:*",
+      "cpe:2.3:a:limesurvey:limesurvey:1.90\\+:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5257": {
+    "cve": "CVE-2011-5257",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in the Classipress theme before 3.1.5 for WordPress allow remote attackers to inject arbitrary web script or HTML via the (1) twitter_id parameter related to the Twitter widget and (2) facebook_id parameter related to the Facebook widget.",
+    "published": "2013-02-12T20:55:01.870",
+    "last_modified": "2026-06-16T23:36:14.183",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 6,
+    "cpe_uris": [
+      "cpe:2.3:a:appthemes:classipress:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:appthemes:classipress:3.0.5.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:appthemes:classipress:3.0.5.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:appthemes:classipress:3.1.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:appthemes:classipress:3.1.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5258": {
+    "cve": "CVE-2011-5258",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in OrangeHRM before 2.6.11.2 allow remote attackers to inject arbitrary web script or HTML via the (1) uniqcode or (2) isAdmin parameter to index.php; or the (3) PATH_INFO to lib/controllers/centralcontroller.php.",
+    "published": "2013-02-12T20:55:02.793",
+    "last_modified": "2026-06-16T23:36:14.297",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 14,
+    "cpe_uris": [
+      "cpe:2.3:a:orangehrm:orangehrm:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.8.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.10:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5259": {
+    "cve": "CVE-2011-5259",
+    "description": "SQL injection vulnerability in lib/controllers/CentralController.php in OrangeHRM before 2.6.11.2 allows remote attackers to execute arbitrary SQL commands via the id parameter.",
+    "published": "2013-02-12T20:55:02.870",
+    "last_modified": "2026-06-16T23:36:14.423",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 14,
+    "cpe_uris": [
+      "cpe:2.3:a:orangehrm:orangehrm:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.8.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:orangehrm:orangehrm:2.6.10:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5260": {
+    "cve": "CVE-2011-5260",
+    "description": "Cross-site scripting (XSS) vulnerability in SAP/BW/DOC/METADATA in SAP NetWeaver allows remote attackers to inject arbitrary web script or HTML via the page parameter.",
+    "published": "2013-02-12T20:55:03.653",
+    "last_modified": "2026-06-16T23:36:14.553",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 8,
+    "cpe_uris": [
+      "cpe:2.3:a:sap:netweaver:-:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:4.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:6.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.0:ehp1:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.0:ehp2:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.0:sp15:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.0:sp8:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5261": {
+    "cve": "CVE-2011-5261",
+    "description": "Cross-site scripting (XSS) vulnerability in serverreport.cgi in Axis M10 Series Network Cameras M1054 firmware 5.21 and earlier allows remote attackers to inject arbitrary web script or HTML via the pageTitle parameter to admin/showReport.shtml.",
+    "published": "2013-02-12T20:55:03.730",
+    "last_modified": "2026-06-16T23:36:14.660",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:o:axis:m10_series_network_cameras_firmware:*:*:*:*:*:*:*:*",
+      "cpe:2.3:h:axis:m1054_network_camera:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5262": {
+    "cve": "CVE-2011-5262",
+    "description": "SQL injection vulnerability in prodpage.cfm in SonicWALL Aventail allows remote attackers to execute arbitrary SQL commands via the CategoryID parameter.",
+    "published": "2013-02-12T20:55:03.777",
+    "last_modified": "2026-06-16T23:36:14.770",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 4,
+    "cpe_uris": [
+      "cpe:2.3:a:sonicwall:aventail_sra_ex_virtual_appliance:-:*:*:*:*:*:*:*",
+      "cpe:2.3:h:sonicwall:aventail_sra_ex6000:-:*:*:*:*:*:*:*",
+      "cpe:2.3:h:sonicwall:aventail_sra_ex7000:-:*:*:*:*:*:*:*",
+      "cpe:2.3:h:sonicwall:aventail_sra_ex9000:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5263": {
+    "cve": "CVE-2011-5263",
+    "description": "Cross-site scripting (XSS) vulnerability in RetrieveMailExamples in SAP NetWeaver 7.30 and earlier allows remote attackers to inject arbitrary web script or HTML via the server parameter.",
+    "published": "2013-02-12T20:55:03.823",
+    "last_modified": "2026-06-16T23:36:14.880",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 9,
+    "cpe_uris": [
+      "cpe:2.3:a:sap:netweaver:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.0:ehp1:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.0:ehp2:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.0:sp15:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.0:sp8:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.01:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.02:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:netweaver:7.10:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5264": {
+    "cve": "CVE-2011-5264",
+    "description": "Cross-site scripting (XSS) vulnerability in lazyest-backup.php in the Lazyest Backup plugin before 0.2.2 for WordPress allows remote attackers to inject arbitrary web script or HTML via the xml_or_all parameter.",
+    "published": "2013-02-12T20:55:04.057",
+    "last_modified": "2026-06-16T23:36:14.993",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 4,
+    "cpe_uris": [
+      "cpe:2.3:a:marcel_brinkkemper:lazyest-backup:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:marcel_brinkkemper:lazyest-backup:0.1.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:marcel_brinkkemper:lazyest-backup:0.2.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5265": {
+    "cve": "CVE-2011-5265",
+    "description": "Cross-site scripting (XSS) vulnerability in cached_image.php in the Featurific For WordPress plugin 1.6.2 for WordPress allows remote attackers to inject arbitrary web script or HTML via the snum parameter.  NOTE: this has been disputed by a third party.",
+    "published": "2013-02-12T20:55:04.200",
+    "last_modified": "2026-06-16T23:36:15.110",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:featurific_for_wordpress_project:featurific-for-wordpress:1.6.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5266": {
+    "cve": "CVE-2011-5266",
+    "description": "Imperva SecureSphere Web Application Firewall (WAF) before 12-august-2010 allows SQL injection filter bypass.",
+    "published": "2020-01-08T23:15:10.283",
+    "last_modified": "2026-06-16T23:36:15.227",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:imperva:securesphere_web_application_firewall:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5267": {
+    "cve": "CVE-2011-5267",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in spell-check-savedicts.php in the SpellChecker module in Xinha, as used in WikiWig 5.01 and possibly other products, allow remote attackers to inject arbitrary web script or HTML via the (1) to_p_dict or (2) to_r_list parameter.  NOTE: this issue might be related to the htmlarea plugin and CVE-2013-5670.",
+    "published": "2013-11-05T18:55:04.713",
+    "last_modified": "2026-06-16T23:36:15.340",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:wikiwig_project:wikiwig:5.0.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5268": {
+    "cve": "CVE-2011-5268",
+    "description": "connection.c in Bip before 0.8.9 does not properly close sockets, which allows remote attackers to cause a denial of service (file descriptor consumption and crash) via multiple failed SSL handshakes, a different vulnerability than CVE-2013-4550.  NOTE: this issue was SPLIT from CVE-2013-4550 because it is a different type of issue.",
+    "published": "2013-12-24T19:55:06.943",
+    "last_modified": "2026-06-16T23:36:15.450",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 14,
+    "cpe_uris": [
+      "cpe:2.3:a:duckcorp:bip:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:duckcorp:bip:0.8.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:duckcorp:bip:0.8.0:rc0:*:*:*:*:*:*",
+      "cpe:2.3:a:duckcorp:bip:0.8.0:rc1:*:*:*:*:*:*",
+      "cpe:2.3:a:duckcorp:bip:0.8.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:duckcorp:bip:0.8.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:duckcorp:bip:0.8.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:duckcorp:bip:0.8.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:duckcorp:bip:0.8.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:duckcorp:bip:0.8.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:duckcorp:bip:0.8.7:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:18:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:19:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:20:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5269": {
+    "cve": "CVE-2011-5269",
+    "description": "Cross-site scripting (XSS) vulnerability in ProjectForge before 3.5.3 allows remote authenticated users to inject arbitrary web script or HTML via a validation message.",
+    "published": "2014-01-02T14:59:03.097",
+    "last_modified": "2026-06-16T23:36:15.583",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 7,
+    "cpe_uris": [
+      "cpe:2.3:a:projectforge:projectforge:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:projectforge:projectforge:3.4.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:projectforge:projectforge:3.4.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:projectforge:projectforge:3.4.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:projectforge:projectforge:3.4.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:projectforge:projectforge:3.5.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:projectforge:projectforge:3.5.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5270": {
+    "cve": "CVE-2011-5270",
+    "description": "wp-admin/press-this.php in WordPress before 3.0.6 does not enforce the publish_posts capability requirement, which allows remote authenticated users to perform publish actions by leveraging the Contributor role.",
+    "published": "2014-01-21T01:55:03.323",
+    "last_modified": "2026-06-16T23:36:15.697",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 6,
+    "cpe_uris": [
+      "cpe:2.3:a:wordpress:wordpress:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:3.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:3.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:3.0.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:3.0.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:wordpress:wordpress:3.0.4:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5271": {
+    "cve": "CVE-2011-5271",
+    "description": "Pacemaker before 1.1.6 configure script creates temporary files insecurely",
+    "published": "2019-11-12T14:15:11.013",
+    "last_modified": "2026-06-16T23:36:15.800",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:clusterlabs:pacemaker:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5272": {
+    "cve": "CVE-2011-5272",
+    "description": "SQL injection vulnerability in Domain Technologie Control (DTC) before 0.34.1 allows remote authenticated users to execute arbitrary SQL commands via the vps_note parameter to dtcadmin/logPushlet.php.  NOTE: this issue was originally part of CVE-2011-3197, but that ID was SPLIT due to different researchers.",
+    "published": "2014-03-21T04:38:53.243",
+    "last_modified": "2026-06-16T23:36:15.910",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 35,
+    "cpe_uris": [
+      "cpe:2.3:a:gplhost:domain_technologie_control:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.24.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.27.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.14:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.15:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.16:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.17:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.18:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.20:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.7:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5273": {
+    "cve": "CVE-2011-5273",
+    "description": "Directory traversal vulnerability in shared/package-installer in Domain Technologie Control (DTC) before 0.34.1 allows remote authenticated users to execute arbitrary PHP code via a .. (dot dot) in the pkg parameter in a do_install action to dtc/.",
+    "published": "2014-03-21T04:38:53.290",
+    "last_modified": "2026-06-16T23:36:16.037",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 35,
+    "cpe_uris": [
+      "cpe:2.3:a:gplhost:domain_technologie_control:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.24.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.27.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.14:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.15:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.16:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.17:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.18:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.20:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.7:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5274": {
+    "cve": "CVE-2011-5274",
+    "description": "The drawAdminTools_PackageInstaller function in shared/inc/forms/packager.php in Domain Technologie Control (DTC) before 0.32.11 allows remote attackers to execute arbitrary commands via shell metacharacters in the dtcpkg_directory parameter in a do_install action to dtc/.",
+    "published": "2014-03-21T04:38:58.823",
+    "last_modified": "2026-06-16T23:36:16.150",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 34,
+    "cpe_uris": [
+      "cpe:2.3:a:gplhost:domain_technologie_control:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.24.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.27.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.14:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.15:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.16:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.17:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.18:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.20:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.6:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5275": {
+    "cve": "CVE-2011-5275",
+    "description": "The install script in Domain Technologie Control (DTC) before 0.34.1 gives sudo permissions for chrootuid to the dtc user, which makes it easier for context-dependent users to gain privileges.",
+    "published": "2014-03-21T04:38:58.837",
+    "last_modified": "2026-06-16T23:36:16.267",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 35,
+    "cpe_uris": [
+      "cpe:2.3:a:gplhost:domain_technologie_control:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.24.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.27.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.14:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.15:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.16:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.17:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.18:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.20:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.7:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5276": {
+    "cve": "CVE-2011-5276",
+    "description": "SQL injection vulnerability in the drawAdminTools_PackageInstaller function in shared/inc/forms/packager.php in Domain Technologie Control (DTC) before 0.32.11 allows remote authenticated users to execute arbitrary SQL commands via the database_name parameter.",
+    "published": "2014-03-21T04:38:58.870",
+    "last_modified": "2026-06-16T23:36:16.380",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 34,
+    "cpe_uris": [
+      "cpe:2.3:a:gplhost:domain_technologie_control:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.24.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.25.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.26.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.27.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.9:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.28.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.14:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.15:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.16:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.29.17:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.6:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.10:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.18:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.30.20:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.4:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gplhost:domain_technologie_control:0.32.6:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5277": {
+    "cve": "CVE-2011-5277",
+    "description": "Multiple SQL injection vulnerabilities in signature.php in the Advanced Forum Signatures (aka afsignatures) plugin 2.0.4 for MyBB allow remote attackers to execute arbitrary SQL commands via the (1) afs_type, (2) afs_background, (3) afs_showonline, (4) afs_bar_left, (5) afs_bar_center, (6) afs_full_line1, (7) afs_full_line2, (8) afs_full_line3, (9) afs_full_line4, (10) afs_full_line5, or (11) afs_full_line6 parameter.  NOTE: the provenance of this information is unknown; the details are obtained solely from third party information.",
+    "published": "2014-04-08T14:22:08.020",
+    "last_modified": "2026-06-16T23:36:16.493",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:advanced_forum_signatures_project:advanced_forum_signatures:2.0.4:*:*:*:*:mybb:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5278": {
+    "cve": "CVE-2011-5278",
+    "description": "SQL injection vulnerability in signature.php in Advanced Forum Signatures plugin (aka afsignatures) 2.0.4 for MyBB allows remote attackers to execute arbitrary SQL commands via the afs_bar_right parameter.",
+    "published": "2014-04-08T14:22:08.067",
+    "last_modified": "2026-06-16T23:36:16.607",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:advanced_forum_signatures_project:advanced_forum_signatures:2.0.4:*:*:*:*:mybb:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5279": {
+    "cve": "CVE-2011-5279",
+    "description": "CRLF injection vulnerability in the CGI implementation in Microsoft Internet Information Services (IIS) 4.x and 5.x on Windows NT and Windows 2000 allows remote attackers to modify arbitrary uppercase environment variables via a \\n (newline) character in an HTTP header.",
+    "published": "2014-04-23T20:55:06.623",
+    "last_modified": "2026-06-16T23:36:16.723",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 4,
+    "cpe_uris": [
+      "cpe:2.3:a:microsoft:internet_information_services:4.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_information_services:5.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_2000:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5280": {
+    "cve": "CVE-2011-5280",
+    "description": "Multiple stack-based buffer overflows in BOINC 6.13.x allow remote attackers to cause a denial of service (crash) via a long trickle-up to (1) client/cs_trickle.cpp or (2) db/db_base.cpp.",
+    "published": "2014-06-02T15:55:07.807",
+    "last_modified": "2026-06-16T23:36:16.857",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:universityofcalifornia:boinc_client:6.13.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:universityofcalifornia:boinc_client:6.13.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5282": {
+    "cve": "CVE-2011-5282",
+    "description": "mIRC prior to 7.22 has a message leak because chopping of outbound messages is mishandled.",
+    "published": "2020-01-21T16:15:11.557",
+    "last_modified": "2026-06-16T23:36:16.963",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mirc:mirc:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "mIRC",
+        "product": "mIRC"
+      }
+    ]
+  },
+  "CVE-2011-5283": {
+    "cve": "CVE-2011-5283",
+    "description": "Cross-site scripting (XSS) vulnerability in the web management interface in httpd/cgi-bin/ipinfo.cgi in Smoothwall Express 3.1 and 3.0 SP3 and earlier allows remote attackers to inject arbitrary web script or HTML via the IP parameter in a Run action.",
+    "published": "2014-12-31T22:59:00.053",
+    "last_modified": "2026-06-16T23:36:17.070",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:o:smoothwall:smoothwall:3.0:sp3:*:*:express:*:*:*",
+      "cpe:2.3:o:smoothwall:smoothwall:3.1:*:*:*:express:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5284": {
+    "cve": "CVE-2011-5284",
+    "description": "Cross-site request forgery (CSRF) vulnerability in the web management interface in httpd/cgi-bin/shutdown.cgi in Smoothwall Express 3.1 and 3.0 SP3 and earlier allows remote attackers to hijack the authentication of administrators for requests that perform a reboot via a request to cgi-bin/shutdown.cgi.",
+    "published": "2014-12-31T22:59:01.567",
+    "last_modified": "2026-06-16T23:36:17.187",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:o:smoothwall:smoothwall:*:*:*:*:express:*:*:*",
+      "cpe:2.3:o:smoothwall:smoothwall:3.0:sp3:*:*:express:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5285": {
+    "cve": "CVE-2011-5285",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in BugFree 2.1.3 allow remote attackers to inject arbitrary web script or HTML via (1) the ActionType parameter to Bug.php, the ReportMode parameter to (2) Report.php or (3) ReportLeft.php, or the PATH_INFO to (4) AdminProjectList.php, (5) AdminGroupList.php, or (6) AdminUserLogList.php.",
+    "published": "2015-01-01T02:59:01.533",
+    "last_modified": "2026-06-16T23:36:17.293",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:bugfree:bugfree:2.1.3:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5286": {
+    "cve": "CVE-2011-5286",
+    "description": "SQL injection vulnerability in social-slider-2/ajax.php in the Social Slider plugin before 7.4.2 for WordPress allows remote attackers to execute arbitrary SQL commands via the rA array parameter.",
+    "published": "2015-01-01T02:59:02.783",
+    "last_modified": "2026-06-16T23:36:17.400",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:social_slider_project:social_slider:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5287": {
+    "cve": "CVE-2011-5287",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in HESK before 2.4.1 allow remote attackers to inject arbitrary web script or HTML via the (1) hesk_settings[tmp_title] or (2) hesklang[ENCODING] parameter to inc/header.inc.php; the hesklang[attempt] parameter to (3) inc/assignment_search.inc.php, (4) inc/attachments.inc.php, (5) inc/common.inc.php, (6) inc/database.inc.php, (7) inc/prepare_ticket_search.inc.php, (8) inc/print_tickets.inc.php, (9) inc/show_admin_nav.inc.php, (10) inc/show_search_form.inc.php, or (11) inc/ticket_list.inc.php; or (12) the PATH_INFO to language/en/text.php.",
+    "published": "2015-01-01T02:59:03.783",
+    "last_modified": "2026-06-16T23:36:17.503",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:hesk:hesk:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5288": {
+    "cve": "CVE-2011-5288",
+    "description": "Multiple buffer overflows in the ThreeDify.ThreeDifyDesigner.1 ActiveX control in ActiveSolid.dll in ThreeDify Designer 5.0.2 allow remote attackers to execute arbitrary code via a long argument to the (1) cmdExport, (2) cmdImport, (3) cmdOpen, or (4) cmdSave method.",
+    "published": "2015-01-01T02:59:04.830",
+    "last_modified": "2026-06-16T23:36:17.610",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:threedify:threedify_designer:5.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5289": {
+    "cve": "CVE-2011-5289",
+    "description": "The SaveDecrypted method in the ChilkatCrypt2.ChilkatOmaDrm.1 ActiveX control in ChilkatCrypt2.dll in aTube Catcher 2.3.570 allows remote attackers to write to arbitrary files via a pathname in the argument.",
+    "published": "2015-01-01T02:59:05.753",
+    "last_modified": "2026-06-16T23:36:17.737",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:diego_uscanga:atube_catcher:2.3.570:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5290": {
+    "cve": "CVE-2011-5290",
+    "description": "The SaveToFile method in the UniBasicPack.UniTextBox ActiveX control in UniBasic100_EDA1811C.ocx in IDrive Online Backup 3.4.0 allows remote attackers to write to arbitrary files via a pathname in the first argument.",
+    "published": "2015-01-01T02:59:06.613",
+    "last_modified": "2026-06-16T23:36:17.840",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:idrive_inc:idrive_online_backup:3.4.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5291": {
+    "cve": "CVE-2011-5291",
+    "description": "The SaveData method in the Cygnicon.ViewControl.1 ActiveX control in CyViewer.ocx in Ashampoo 3D CAD Professional 3.x before 3.0.2 allows remote attackers to write to arbitrary files via a pathname in the first argument.",
+    "published": "2015-01-01T02:59:07.330",
+    "last_modified": "2026-06-16T23:36:17.943",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:ashampoo_gmbh_\\&_co.:ashampoo_3d_cad_professional_3:3.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:ashampoo_gmbh_\\&_co.:ashampoo_3d_cad_professional_3:3.0.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5292": {
+    "cve": "CVE-2011-5292",
+    "description": "The EaseWeFtp.FtpLibrary ActiveX control in EaseWeFtp.ocx in Easewe FTP OCX 4.5.0.9 does not restrict access to certain methods, which allows remote attackers to execute arbitrary files via a pathname in the first argument to the (1) Execute or (2) Run method, (3) write to arbitrary files via a pathname in the argument to the CreateLocalFile method, (4) create arbitrary directories via a pathname in the argument to the CreateLocalFolder method, or (5) delete arbitrary files via a pathname in the argument to the DeleteLocalFile method.",
+    "published": "2015-01-01T02:59:08.173",
+    "last_modified": "2026-06-16T23:36:18.050",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:easewe_software:easewe_ftp_ocx_activex_control:4.5.0.9:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5293": {
+    "cve": "CVE-2011-5293",
+    "description": "The cmdSave method in the ThreeDify.ThreeDifyDesigner.1 ActiveX control in ActiveSolid.dll in ThreeDify Designer 5.0.2 allows remote attackers to write to arbitrary files via a pathname in the argument.",
+    "published": "2015-01-01T02:59:09.050",
+    "last_modified": "2026-06-16T23:36:18.153",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:threediffy:threedify_designer:5.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5294": {
+    "cve": "CVE-2011-5294",
+    "description": "The SaveMessage method in the LEADeMail.LEADSmtp.20 ActiveX control in LTCML14n.dll 14.0.0.34 in Kofax e-Transactions Sender Sendbox 2.5.0.933 allows remote attackers to write to arbitrary files via a pathname in the first argument.",
+    "published": "2015-01-01T11:59:00.037",
+    "last_modified": "2026-06-16T23:36:18.260",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:kofax:kofax_e-transactions_sender_sendbox:2.5.0.933:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5295": {
+    "cve": "CVE-2011-5295",
+    "description": "Buffer overflow in the Download method in a certain ActiveX control in MDIEEx.dll in Gogago YouTube Video Converter 1.1.6 allows remote attackers to execute arbitrary code via a long argument.",
+    "published": "2015-01-01T11:59:01.147",
+    "last_modified": "2026-06-16T23:36:18.370",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:gogago:gogago_youtube_video_converter:1.1.6:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5296": {
+    "cve": "CVE-2011-5296",
+    "description": "Cross-site scripting (XSS) vulnerability in profilo.php in Happy Chat 1.0 allows remote attackers to inject arbitrary web script or HTML via the nick parameter.",
+    "published": "2015-01-01T11:59:02.333",
+    "last_modified": "2026-06-16T23:36:18.473",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:tuttophp:happy_chat:1.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5297": {
+    "cve": "CVE-2011-5297",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in TTChat 1.0.4 allow remote attackers to inject arbitrary web script or HTML via (1) the msg parameter to default.php or (2) the username parameter to chat_form.php.",
+    "published": "2015-01-01T11:59:03.490",
+    "last_modified": "2026-06-16T23:36:18.583",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:ttfreeware:tigertoms_chat_room:1.0.4:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5298": {
+    "cve": "CVE-2011-5298",
+    "description": "Multiple cross-site request forgery (CSRF) vulnerabilities in Argyle Social 2011-04-26 allow remote attackers to hijack the authentication of administrators for requests that (1) modify credentials via the role parameter to users/create/, (2) modify rules via the terms field in stream_filter_rule JSON data to settings-ajax/stream_filter_rules/create, or (3) modify efforts via the title field in effort JSON data to publish-ajax/efforts/create.",
+    "published": "2015-01-01T11:59:04.630",
+    "last_modified": "2026-06-16T23:36:18.687",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:viralheat:argyle_social:2011-04-26:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5299": {
+    "cve": "CVE-2011-5299",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in poMMo Aardvark PR16.1 allow remote attackers to inject arbitrary web script or HTML via (1) the referer parameter to index.php, (2) the site_name parameter to admin/setup/config/general.php, (3) the group_name parameter to admin/subscribers/subscribers_groups.php, or (4) the field_name parameter to admin/setup/setup_fields.php.",
+    "published": "2015-01-01T11:59:05.583",
+    "last_modified": "2026-06-16T23:36:18.790",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:pommo:pommo-ardvark:pr16.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5300": {
+    "cve": "CVE-2011-5300",
+    "description": "Cross-site request forgery (CSRF) vulnerability in admin/setup/config/users.php in poMMo Aardvark PR16.1 allows remote attackers to hijack the authentication of administrators for requests that modify credentials via certain admin_ parameters.",
+    "published": "2015-01-01T11:59:06.663",
+    "last_modified": "2026-06-16T23:36:18.897",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:pommo:pommo-ardvark:pr16.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5301": {
+    "cve": "CVE-2011-5301",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in PHPDug 2.0.0 allow remote attackers to inject arbitrary web script or HTML via (1) the story_url parameter to add_story.php, (2) the email parameter to editprofile.php, (3) the title parameter to adm/content_add.php, or (4) the username parameter to adm/admin_edit.php.",
+    "published": "2015-01-01T11:59:07.553",
+    "last_modified": "2026-06-16T23:36:19.007",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:kubelabs:phpdug:2.0.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5302": {
+    "cve": "CVE-2011-5302",
+    "description": "Cross-site request forgery (CSRF) vulnerability in adm/admin_edit.php in PHPDug 2.0.0 allows remote attackers to hijack the authentication of administrators for requests that modify credentials.",
+    "published": "2015-01-01T11:59:08.397",
+    "last_modified": "2026-06-16T23:36:19.113",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:kubelabs:phpdug:2.0.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5303": {
+    "cve": "CVE-2011-5303",
+    "description": "Cross-site scripting (XSS) vulnerability in Spitfire CMS 1.0.436 allows remote attackers to inject arbitrary web script or HTML via a cms_username cookie.",
+    "published": "2015-01-01T11:59:09.193",
+    "last_modified": "2026-06-16T23:36:19.217",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:clausmuus:spitfire:1.0436:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5304": {
+    "cve": "CVE-2011-5304",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in the Sodahead Polls plugin before 2.0.4 for WordPress allow remote attackers to inject arbitrary web script or HTML via (1) the poll_id parameter to customizer.php or (2) the customize parameter to poll.php.",
+    "published": "2015-01-01T11:59:10.053",
+    "last_modified": "2026-06-16T23:36:19.323",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:sodahead:sodahead_polls:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5305": {
+    "cve": "CVE-2011-5305",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in CosmoShop ePRO 10.05.00 allow remote attackers to inject arbitrary web script or HTML via (1) the rcopy parameter to cgi-bin/admin/rubrikadmin.cgi, (2) the typ parameter to cgi-bin/admin/artikeladmin.cgi, or (3) the suchbegriff parameter to cgi-bin/admin/shophilfe_suche.cgi.",
+    "published": "2015-01-01T11:59:11.223",
+    "last_modified": "2026-06-16T23:36:19.430",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:zaunz_gmbh:cosmoshop:10.05.00:*:*:*:epro:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5306": {
+    "cve": "CVE-2011-5306",
+    "description": "Cross-site request forgery (CSRF) vulnerability in cgi-bin/admin/setup_edit.cgi in CosmoShop ePRO 10.05.00 allows remote attackers to hijack the authentication of administrators for requests that modify settings via a setup action.",
+    "published": "2015-01-01T11:59:12.240",
+    "last_modified": "2026-06-16T23:36:19.540",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:zaunz_gmbh:cosmoshop:10.05.00:*:*:*:epro:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5307": {
+    "cve": "CVE-2011-5307",
+    "description": "Cross-site scripting (XSS) vulnerability in index.php in the PhotoSmash plugin 1.0.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the action parameter.",
+    "published": "2015-01-01T11:59:13.117",
+    "last_modified": "2026-06-16T23:36:19.643",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:photosmash_project:photosmash:1.01:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5308": {
+    "cve": "CVE-2011-5308",
+    "description": "Multiple SQL injection vulnerabilities in cdnvote-post.php in the cdnvote plugin before 0.4.2 for WordPress allow remote attackers to execute arbitrary SQL commands via the (1) cdnvote_post_id or (2) cdnvote_point parameter.",
+    "published": "2015-01-01T11:59:13.990",
+    "last_modified": "2026-06-16T23:36:19.747",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:cdnvote_project:cdnvote:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5309": {
+    "cve": "CVE-2011-5309",
+    "description": "Cross-site scripting (XSS) vulnerability in pages.php in Wikipad 1.6.0 allows remote attackers to inject arbitrary web script or HTML via the id parameter.",
+    "published": "2015-01-01T11:59:14.973",
+    "last_modified": "2026-06-16T23:36:19.857",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:cherry-design:wikipad:1.6.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5310": {
+    "cve": "CVE-2011-5310",
+    "description": "Directory traversal vulnerability in pages.php in Wikipad 1.6.0 allows remote attackers to read arbitrary files via a .. (dot dot) in the id parameter.",
+    "published": "2015-01-01T11:59:15.850",
+    "last_modified": "2026-06-16T23:36:19.963",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:cherry-design:wikipad:1.6.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5311": {
+    "cve": "CVE-2011-5311",
+    "description": "Cross-site request forgery (CSRF) vulnerability in pages.php in Wikipad 1.6.0 allows remote attackers to hijack the authentication of administrators for requests that modify pages via the data[text] parameter.",
+    "published": "2015-01-01T11:59:16.600",
+    "last_modified": "2026-06-16T23:36:20.067",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:cherry-design:wikipad:1.6.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5312": {
+    "cve": "CVE-2011-5312",
+    "description": "Multiple cross-site scripting (XSS) vulnerabilities in Gollos 2.8 allow remote attackers to inject arbitrary web script or HTML via the returnurl parameter to (1) register.aspx, (2) publication/info.aspx, or (3) user/add.aspx, or (4) the q parameter to product/list.aspx.",
+    "published": "2015-01-01T11:59:17.427",
+    "last_modified": "2026-06-16T23:36:20.173",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:gollos:gollos:2.8:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5313": {
+    "cve": "CVE-2011-5313",
+    "description": "Multiple SQL injection vulnerabilities in includes/password.php in Redaxscript 0.3.2 allow remote attackers to execute arbitrary SQL commands via the (1) id or (2) password parameter to the password_reset program.",
+    "published": "2015-01-01T11:59:18.303",
+    "last_modified": "2026-06-16T23:36:20.277",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:redaxscript:redaxscript:0.3.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5314": {
+    "cve": "CVE-2011-5314",
+    "description": "templates/default/index.php in Redaxscript 0.3.2 allows remote attackers to obtain sensitive information via a direct request, which reveals the full path in an error message.",
+    "published": "2015-01-01T11:59:19.130",
+    "last_modified": "2026-06-16T23:36:20.390",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:redaxscript:redaxscript:0.3.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5315": {
+    "cve": "CVE-2011-5315",
+    "description": "Cross-site request forgery (CSRF) vulnerability in admin/index.php in whCMS 0.115 alpha allows remote attackers to hijack the authentication of administrators for requests that modify credentials via a user save action.",
+    "published": "2015-01-01T11:59:20.020",
+    "last_modified": "2026-06-16T23:36:20.490",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:whcms_project:whcms:0.115:alpha:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5316": {
+    "cve": "CVE-2011-5316",
+    "description": "Cross-site request forgery (CSRF) vulnerability in admin/index.php in Cambio 0.5a nightly r37 allows remote attackers to hijack the authentication of administrators for requests that modify credentials via a user save action.",
+    "published": "2015-01-01T11:59:20.913",
+    "last_modified": "2026-06-16T23:36:20.597",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:cambio_project:cambio:0.5a:r37:*:*:nightly:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5317": {
+    "cve": "CVE-2011-5317",
+    "description": "Cross-site scripting (XSS) vulnerability in editText.php in WonderCMS before 0.4 allows remote attackers to inject arbitrary web script or HTML via the content parameter.",
+    "published": "2015-01-01T11:59:21.723",
+    "last_modified": "2026-06-16T23:36:20.703",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:wondercms:wondercms:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5318": {
+    "cve": "CVE-2011-5318",
+    "description": "Multiple cross-site request forgery (CSRF) vulnerabilities in diafan.CMS before 5.1 allow remote attackers to hijack the authentication of administrators for requests that (1) modify articles via a save_post action to admin/news/saveNEWS_ID/, (2) modify settings via a save_post action to admin/site/save2/, or (3) modify credentials via a save_post action to admin/usersite/save2/.",
+    "published": "2015-01-01T11:59:22.537",
+    "last_modified": "2026-06-16T23:36:20.807",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:diafan:diafan.cms:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5319": {
+    "cve": "CVE-2011-5319",
+    "description": "content/renderer/device_sensors/device_motion_event_pump.cc in Google Chrome before 41.0.2272.76 does not properly restrict access to high-rate accelerometer data, which makes it easier for remote attackers to capture keystrokes via a crafted web site that listens for ondevicemotion events, a different vulnerability than CVE-2015-1231.",
+    "published": "2015-03-09T00:59:00.153",
+    "last_modified": "2026-06-16T23:36:20.910",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5320": {
+    "cve": "CVE-2011-5320",
+    "description": "scanf and related functions in glibc before 2.15 allow local users to cause a denial of service (segmentation fault) via a large string of 0s.",
+    "published": "2017-10-18T14:29:00.217",
+    "last_modified": "2026-06-16T23:36:21.027",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.2,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:gnu:glibc:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5321": {
+    "cve": "CVE-2011-5321",
+    "description": "The tty_open function in drivers/tty/tty_io.c in the Linux kernel before 3.1.1 mishandles a driver-lookup failure, which allows local users to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact via crafted access to a device file under the /dev/pts directory.",
+    "published": "2016-05-02T10:59:02.373",
+    "last_modified": "2026-06-16T23:36:21.137",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5322": {
+    "cve": "CVE-2011-5322",
+    "description": "GE Healthcare Centricity Analytics Server 1.1 has a default password of (1) V0yag3r for the SQL Server sa user, (2) G3car3s for the analyst user, (3) G3car3s for the ccg user, (4) V0yag3r for the viewer user, and (5) geservice for the geservice user in the Webmin interface, which has unspecified impact and attack vectors.",
+    "published": "2015-08-04T14:59:14.627",
+    "last_modified": "2026-06-16T23:36:21.247",
+    "vuln_status": "Modified",
+    "cvss_base_score": 10.0,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:gehealthcare:centricity_analytics_server:1.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5323": {
+    "cve": "CVE-2011-5323",
+    "description": "GE Healthcare Centricity PACS-IW 3.7.3.7, 3.7.3.8, and possibly other versions has a password of A11enda1e for the sa SQL server user, which has unspecified impact and attack vectors.  NOTE: it is not clear whether this password is default, hardcoded, or dependent on another system or product that requires a fixed value.",
+    "published": "2015-08-04T14:59:15.613",
+    "last_modified": "2026-06-16T23:36:21.353",
+    "vuln_status": "Modified",
+    "cvss_base_score": 10.0,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:gehealthcare:centricity_pacs-iw:3.7.3.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gehealthcare:centricity_pacs-iw:3.7.3.8:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5324": {
+    "cve": "CVE-2011-5324",
+    "description": "The TeraRecon server, as used in GE Healthcare Centricity PACS-IW 3.7.3.7, 3.7.3.8, and possibly other versions, has a password of (1) shared for the shared user and (2) scan for the scan user, which has unspecified impact and attack vectors.  NOTE: it is not clear whether this password is default, hardcoded, or dependent on another system or product that requires a fixed value.",
+    "published": "2015-08-04T14:59:16.660",
+    "last_modified": "2026-06-16T23:36:21.463",
+    "vuln_status": "Modified",
+    "cvss_base_score": 10.0,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "2.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:gehealthcare:centricity_pacs-iw:3.7.3.7:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gehealthcare:centricity_pacs-iw:3.7.3.8:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5325": {
+    "cve": "CVE-2011-5325",
+    "description": "Directory traversal vulnerability in the BusyBox implementation of tar before 1.22.0 v5 allows remote attackers to point to files outside the current working directory via a symlink.",
+    "published": "2017-08-07T17:29:00.220",
+    "last_modified": "2026-06-16T23:36:21.570",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 7,
+    "cpe_uris": [
+      "cpe:2.3:a:busybox:busybox:*:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:lts:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:18.10:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5326": {
+    "cve": "CVE-2011-5326",
+    "description": "imlib2 before 1.4.9 allows remote attackers to cause a denial of service (divide-by-zero error and application crash) by drawing a 2x1 ellipse.",
+    "published": "2016-05-13T16:59:00.140",
+    "last_modified": "2026-06-16T23:36:21.733",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 3,
+    "cpe_uris": [
+      "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:enlightenment:imlib2:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5327": {
+    "cve": "CVE-2011-5327",
+    "description": "In the Linux kernel before 3.1, an off by one in the drivers/target/loopback/tcm_loop.c tcm_loop_make_naa_tpg() function could result in at least memory corruption.",
+    "published": "2019-07-27T22:15:11.230",
+    "last_modified": "2026-06-16T23:36:21.860",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5328": {
+    "cve": "CVE-2011-5328",
+    "description": "The user-access-manager plugin before 1.2 for WordPress has CSRF.",
+    "published": "2019-08-20T15:15:11.040",
+    "last_modified": "2026-06-16T23:36:22.060",
+    "vuln_status": "Modified",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:user_access_manager_project:user_access_manager:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5329": {
+    "cve": "CVE-2011-5329",
+    "description": "The redirection plugin before 2.2.9 for WordPress has XSS in the admin menu, a different issue than CVE-2011-4562.",
+    "published": "2019-08-28T12:15:10.670",
+    "last_modified": "2026-06-16T23:36:22.220",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:redirection:redirection:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5330": {
+    "cve": "CVE-2011-5330",
+    "description": "Distributed Ruby (aka DRuby) 1.8 mishandles the sending of syscalls.",
+    "published": "2019-11-18T18:15:09.727",
+    "last_modified": "2026-06-16T23:36:25.927",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:distributed_ruby_project:distributed_ruby:1.8:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-5331": {
+    "cve": "CVE-2011-5331",
+    "description": "Distributed Ruby (aka DRuby) 1.8 mishandles instance_eval.",
+    "published": "2019-11-18T18:15:09.807",
+    "last_modified": "2026-06-16T23:36:27.733",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:distributed_ruby_project:distributed_ruby:1.8:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "n/a"
+      }
+    ]
+  },
+  "CVE-2011-10001": {
+    "cve": "CVE-2011-10001",
+    "description": "A vulnerability was found in iamdroppy phoenixcf. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file content/2-Community/articles.cfm. The manipulation leads to sql injection. The patch is named d156faf8bc36cd49c3b10d3697ef14167ad451d8. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218491.",
+    "published": "2023-01-18T16:15:10.617",
+    "last_modified": "2026-06-16T23:28:26.290",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:phoenixcf_project:phoenixcf:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "iamdroppy",
+        "product": "phoenixcf"
+      }
+    ]
+  },
+  "CVE-2011-10002": {
+    "cve": "CVE-2011-10002",
+    "description": "A vulnerability classified as critical has been found in weblabyrinth 0.3.1. This affects the function Labyrinth of the file labyrinth.inc.php. The manipulation leads to sql injection. Upgrading to version 0.3.2 is able to address this issue. The identifier of the patch is 60793fd8c8c4759596d3510641e96ea40e7f60e9. It is recommended to upgrade the affected component. The identifier VDB-220221 was assigned to this vulnerability.",
+    "published": "2023-02-07T17:15:09.180",
+    "last_modified": "2026-06-16T23:28:26.417",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:weblabyrinth_project:weblabyrinth:0.3.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "weblabyrinth"
+      }
+    ]
+  },
+  "CVE-2011-10003": {
+    "cve": "CVE-2011-10003",
+    "description": "A vulnerability was found in XpressEngine up to 1.4.4. It has been rated as critical. This issue affects some unknown processing of the component Update Query Handler. The manipulation leads to sql injection. Upgrading to version 1.4.5 is able to address this issue. The patch is named c6e94449f21256d6362450b29c7847305e756ad5. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220247.",
+    "published": "2023-02-07T21:15:08.917",
+    "last_modified": "2026-06-16T23:28:26.553",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:xpressengine:xpressengine:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "XpressEngine"
+      }
+    ]
+  },
+  "CVE-2011-10004": {
+    "cve": "CVE-2011-10004",
+    "description": "A vulnerability was found in reciply Plugin up to 1.1.7 on WordPress. It has been rated as critical. This issue affects some unknown processing of the file uploadImage.php. The manipulation leads to unrestricted upload. The attack may be initiated remotely. Upgrading to version 1.1.8 is able to address this issue. The identifier of the patch is e3ff616dc08d3aadff9253f1085e13f677d0c676. It is recommended to upgrade the affected component. The identifier VDB-242189 was assigned to this vulnerability.",
+    "published": "2023-10-17T00:15:10.500",
+    "last_modified": "2026-06-16T23:28:26.673",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:reciply_project:reciply:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "reciply Plugin"
+      }
+    ]
+  },
+  "CVE-2011-10005": {
+    "cve": "CVE-2011-10005",
+    "description": "A vulnerability, which was classified as critical, was found in EasyFTP 1.7.0.2. Affected is an unknown function of the component MKD Command Handler. The manipulation leads to buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-250716.",
+    "published": "2024-01-16T08:15:07.933",
+    "last_modified": "2026-06-16T23:28:26.807",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:easyftp_server_project:easyftp_server:1.7.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "EasyFTP"
+      }
+    ]
+  },
+  "CVE-2011-10006": {
+    "cve": "CVE-2011-10006",
+    "description": "A vulnerability was found in GamerZ WP-PostRatings up to 1.64. It has been classified as problematic. This affects an unknown part of the file wp-postratings.php. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. Upgrading to version 1.65 is able to address this issue. The identifier of the patch is 6182a5682b12369ced0becd3b505439ce2eb8132. It is recommended to upgrade the affected component. The identifier VDB-259629 was assigned to this vulnerability.",
+    "published": "2024-04-08T13:15:07.680",
+    "last_modified": "2026-06-16T23:28:27.127",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:lesterchan:wp-postratings:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "GamerZ",
+        "product": "WP-PostRatings"
+      }
+    ]
+  },
+  "CVE-2011-10007": {
+    "cve": "CVE-2011-10007",
+    "description": "File::Find::Rule through 0.34 for Perl is vulnerable to Arbitrary Code Execution when `grep()` encounters a crafted filename.\n\nA file handle is opened with the 2 argument form of `open()` allowing an attacker controlled filename to provide the MODE parameter to `open()`, turning the filename into a command to be executed.\n\nExample:\n\n$ mkdir /tmp/poc; echo > \"/tmp/poc/|id\"\n$ perl -MFile::Find::Rule \\\n\u00a0 \u00a0 -E 'File::Find::Rule->grep(\"foo\")->in(\"/tmp/poc\")'\nuid=1000(user) gid=1000(user) groups=1000(user),100(users)",
+    "published": "2025-06-05T12:15:22.807",
+    "last_modified": "2026-06-16T23:28:27.367",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "RCLAMP",
+        "product": "File::Find::Rule"
+      }
+    ]
+  },
+  "CVE-2011-10008": {
+    "cve": "CVE-2011-10008",
+    "description": "A stack-based buffer overflow vulnerability exists in MPlayer Lite r33064 due to improper bounds checking when handling M3U playlist files containing long http:// URL entries. An attacker can craft a malicious .m3u file with a specially formatted URL that triggers a stack overflow when processed by the player, particularly via drag-and-drop interaction. This flaw allows for control of the execution flow through SEH overwrite and a DEP bypass using a ROP chain that leverages known gadgets in loaded DLLs. Successful exploitation may result in arbitrary code execution with the privileges of the current user.",
+    "published": "2025-07-31T15:15:31.460",
+    "last_modified": "2026-06-16T23:28:27.550",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "MPlayer Project",
+        "product": "MPlayer Lite"
+      }
+    ]
+  },
+  "CVE-2011-10009": {
+    "cve": "CVE-2011-10009",
+    "description": "S40 CMS v0.4.2 contains a path traversal vulnerability in its index.php page handler. The p parameter is not properly sanitized, allowing attackers to traverse the file system and access arbitrary files outside the web root. This can be exploited remotely without authentication by appending traversal sequences and a null byte to bypass file extension checks.",
+    "published": "2025-08-13T21:15:27.020",
+    "last_modified": "2026-06-16T23:28:27.670",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "S40 CMS",
+        "product": "S40 CMS"
+      }
+    ]
+  },
+  "CVE-2011-10010": {
+    "cve": "CVE-2011-10010",
+    "description": "QuickShare File Server 1.2.1 contains a path traversal vulnerability in its FTP service due to improper sanitation of user-supplied file paths. Authenticated users can exploit this flaw by submitting crafted sequences to access or write files outside the intended virtual directory. When the \"Writable\" option is enabled (default during account creation), this allows attackers to upload arbitrary files to privileged locations such as system32, enabling remote code execution via MOF injection or executable placement.",
+    "published": "2025-08-13T21:15:28.133",
+    "last_modified": "2026-06-16T23:28:27.800",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "QuickShareHQ",
+        "product": "QuickShare File Server"
+      }
+    ]
+  },
+  "CVE-2011-10011": {
+    "cve": "CVE-2011-10011",
+    "description": "WeBid 1.0.2 contains a remote code injection vulnerability in the converter.php script, where unsanitized input in the to parameter of a POST request is written directly into includes/currencies.php. This allows unauthenticated attackers to inject arbitrary PHP code, resulting in persistent remote code execution when the modified script is accessed or included by the application.",
+    "published": "2025-08-13T21:15:28.293",
+    "last_modified": "2026-06-16T23:28:27.927",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "WeBid",
+        "product": "WeBid"
+      }
+    ]
+  },
+  "CVE-2011-10012": {
+    "cve": "CVE-2011-10012",
+    "description": "NetOp (now part of Impero Software) Remote Control Client v9.5 is vulnerable to a stack-based buffer overflow when processing .dws configuration files. If a .dws file contains a string longer than 520 bytes, the application fails to perform proper bounds checking, allowing an attacker to execute arbitrary code when the file is opened.",
+    "published": "2025-08-13T21:15:28.463",
+    "last_modified": "2026-06-16T23:28:28.057",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "NetOp",
+        "product": "Remote Control Client"
+      }
+    ]
+  },
+  "CVE-2011-10013": {
+    "cve": "CVE-2011-10013",
+    "description": "Traq versions 2.0 through 2.3 contain a remote code execution vulnerability in the admincp/common.php script. The flawed authorization logic fails to halt execution after a failed access check, allowing unauthenticated users to reach admin-only functionality. This can be exploited via plugins.php to inject and execute arbitrary PHP code.",
+    "published": "2025-08-13T21:15:28.607",
+    "last_modified": "2026-06-16T23:28:28.177",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Traq Project",
+        "product": "Issue Tracking System"
+      }
+    ]
+  },
+  "CVE-2011-10014": {
+    "cve": "CVE-2011-10014",
+    "description": "GTA San Andreas Multiplayer (SA-MP) server version 0.3.1.1 is vulnerable to a stack-based buffer overflow triggered by parsing a malformed server.cfg configuration file. The vulnerability allows local attackers to execute arbitrary code when the server binary (samp-server.exe) processes a crafted echo directive containing excessive input. The original 'sa-mp.com' site is defunct, but the community maintains mirrors and forks that may be vulnerable.",
+    "published": "2025-08-13T21:15:28.757",
+    "last_modified": "2026-06-16T23:28:28.297",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "SA-MP Team",
+        "product": "San Andreas Multiplayer"
+      }
+    ]
+  },
+  "CVE-2011-10015": {
+    "cve": "CVE-2011-10015",
+    "description": "Cytel Studio version 9.0 and earlier is vulnerable to a stack-based buffer overflow triggered by parsing a malformed .CY3 file. The vulnerability occurs when the application copies user-controlled strings into a fixed-size stack buffer (256 bytes) without proper bounds checking. Exploitation allows arbitrary code execution when the crafted file is opened.",
+    "published": "2025-08-13T21:15:28.910",
+    "last_modified": "2026-06-16T23:28:28.417",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Cytel Inc.",
+        "product": "Cytel Studio"
+      }
+    ]
+  },
+  "CVE-2011-10016": {
+    "cve": "CVE-2011-10016",
+    "description": "Real Networks Netzip Classic version 7.5.1.86 is vulnerable to a stack-based buffer overflow when parsing a specially crafted ZIP archive. The vulnerability is triggered when the application attempts to process a file name within the archive that exceeds the expected buffer size. Exploitation allows arbitrary code execution under the context of the victim user when the ZIP file is opened.",
+    "published": "2025-08-13T21:15:29.067",
+    "last_modified": "2026-06-16T23:28:28.530",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "RealNetworks Inc.",
+        "product": "Netzip Classic"
+      }
+    ]
+  },
+  "CVE-2011-10017": {
+    "cve": "CVE-2011-10017",
+    "description": "Snort Report versions < 1.3.2 contains a remote command execution vulnerability in the nmap.php and nbtscan.php scripts. These scripts fail to properly sanitize user input passed via the target GET parameter, allowing attackers to inject arbitrary shell commands. Exploitation requires no authentication and can result in full compromise of the underlying system.",
+    "published": "2025-08-13T21:15:29.233",
+    "last_modified": "2026-06-16T23:28:28.643",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Symmetrix Technologies",
+        "product": "Snort Report"
+      }
+    ]
+  },
+  "CVE-2011-10018": {
+    "cve": "CVE-2011-10018",
+    "description": "myBB version 1.6.4 was distributed with an unauthorized backdoor embedded in the source code. The backdoor allowed remote attackers to execute arbitrary PHP code by injecting payloads into a specially crafted collapsed cookie. This vulnerability was introduced during packaging and was not part of the intended application logic. Exploitation requires no authentication and results in full compromise of the web server under the context of the web application.",
+    "published": "2025-08-13T21:15:29.387",
+    "last_modified": "2026-06-16T23:28:28.753",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mybb:mybb:1.6.4:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "myBB Group",
+        "product": "Forum Software"
+      }
+    ]
+  },
+  "CVE-2011-10019": {
+    "cve": "CVE-2011-10019",
+    "description": "Spreecommerce versions prior to 0.60.2 contains a remote command execution vulnerability in its search functionality. The application fails to properly sanitize input passed via the search[send][] parameter, which is dynamically invoked using Ruby\u2019s send method. This allows attackers to execute arbitrary shell commands on the server without authentication.",
+    "published": "2025-08-13T21:15:29.543",
+    "last_modified": "2026-06-16T23:28:28.880",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:spreecommerce:spree:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Spreecommerce",
+        "product": "Spreecommerce"
+      }
+    ]
+  },
+  "CVE-2011-10020": {
+    "cve": "CVE-2011-10020",
+    "description": "Kaillera Server version 0.86 is vulnerable to a denial-of-service condition triggered by sending a malformed UDP packet after the initial handshake. Once a client sends a valid HELLO0.83 packet and receives a response, any subsequent malformed packet causes the server to crash and become unresponsive. This flaw stems from improper input validation in the server\u2019s UDP packet handler, allowing unauthenticated remote attackers to disrupt service availability.",
+    "published": "2025-08-20T16:15:34.327",
+    "last_modified": "2026-06-16T23:28:29.007",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Kaillera Project",
+        "product": "Server"
+      }
+    ]
+  },
+  "CVE-2011-10021": {
+    "cve": "CVE-2011-10021",
+    "description": "Magix Musik Maker 16 is vulnerable to a stack-based buffer overflow due to improper handling of .mmm arrangement files. The vulnerability arises from an unsafe strcpy() operation that fails to validate input length, allowing attackers to overwrite the Structured Exception Handler (SEH). By crafting a malicious .mmm file, an attacker can trigger the overflow when the file is opened, potentially leading to arbitrary code execution. This vulnerability was remediated in version 17.",
+    "published": "2025-08-20T16:15:34.510",
+    "last_modified": "2026-06-16T23:28:29.123",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "MAGIX Software GmbH",
+        "product": "Magix Musik Maker"
+      }
+    ]
+  },
+  "CVE-2011-10022": {
+    "cve": "CVE-2011-10022",
+    "description": "SPlayer version 3.7 and earlier is vulnerable to a stack-based buffer overflow when processing HTTP responses containing an overly long Content-Type header. The vulnerability occurs due to improper bounds checking on the header value, allowing an attacker to overwrite the Structured Exception Handler (SEH) and execute arbitrary code. Exploitation requires the victim to open a media file that triggers an HTTP request to a malicious server, which responds with a crafted Content-Type header.",
+    "published": "2025-08-20T16:15:34.687",
+    "last_modified": "2026-06-16T23:28:29.243",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "SPlayer Project",
+        "product": "SPlayer"
+      }
+    ]
+  },
+  "CVE-2011-10023": {
+    "cve": "CVE-2011-10023",
+    "description": "MJM QuickPlayer (also known as MJM Player) version 2010 contains a stack-based buffer overflow vulnerability triggered by opening a malicious .s3m music file. The flaw occurs due to improper bounds checking in the file parser, allowing an attacker to overwrite memory and execute arbitrary code. Exploitation is achieved via a crafted payload that bypasses DEP and ASLR protections using ROP techniques, and requires user interaction to open the file.",
+    "published": "2025-08-20T16:15:34.870",
+    "last_modified": "2026-06-16T23:28:29.357",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "MJM Software",
+        "product": "QuickPlayer"
+      }
+    ]
+  },
+  "CVE-2011-10024": {
+    "cve": "CVE-2011-10024",
+    "description": "MJM Core Player (likely now referred to as MJM Player) 2011 is vulnerable to a stack-based buffer overflow when parsing specially crafted .s3m music files. The vulnerability arises from improper bounds checking in the file parser, allowing an attacker to overwrite memory on the stack and execute arbitrary code. Exploitation is triggered when a user opens a malicious .s3m file, and the exploit bypasses DEP and ASLR protections using a ROP chain.",
+    "published": "2025-08-20T16:15:35.057",
+    "last_modified": "2026-06-16T23:28:29.483",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "MJM Software",
+        "product": "Core Player"
+      }
+    ]
+  },
+  "CVE-2011-10025": {
+    "cve": "CVE-2011-10025",
+    "description": "Subtitle Processor 7.7.1 contains a buffer overflow vulnerability in its .m3u file parser. When a crafted playlist file is opened, the application converts input to Unicode and copies it to a fixed-size stack buffer without proper bounds checking. This allows an attacker to overwrite the Structured Exception Handler (SEH) and execute arbitrary code.",
+    "published": "2025-08-20T16:15:35.257",
+    "last_modified": "2026-06-16T23:28:29.600",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Subtitle Processor",
+        "product": "Subtitle Processor"
+      }
+    ]
+  },
+  "CVE-2011-10026": {
+    "cve": "CVE-2011-10026",
+    "description": "Spreecommerce versions prior to 0.50.x contain a remote command execution vulnerability in the API's search functionality. Improper input sanitation allows attackers to inject arbitrary shell commands via the search[instance_eval] parameter, which is dynamically invoked using Ruby\u2019s send method. This flaw enables unauthenticated attackers to execute commands on the server.",
+    "published": "2025-08-20T16:15:35.440",
+    "last_modified": "2026-06-16T23:28:29.713",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:spreecommerce:spree:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Spreecommerce",
+        "product": "Spreecommerce"
+      }
+    ]
+  },
+  "CVE-2011-10027": {
+    "cve": "CVE-2011-10027",
+    "description": "AOL Desktop 9.6 contains a buffer overflow vulnerability in its Tool\\rich.rct component when parsing .rtx files. By embedding an overly long string in a hyperlink tag, an attacker can trigger a stack-based buffer overflow due to the use of unsafe strcpy operations. This allows remote attackers to execute arbitrary code when a victim opens a malicious .rtx file.\u00a0AOL Desktop is end-of-life and no longer supported.\u00a0Users are encouraged to migrate to AOL Desktop Gold or alternative platforms.",
+    "published": "2025-08-20T16:15:35.617",
+    "last_modified": "2026-06-16T23:28:29.833",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "AOL Inc.",
+        "product": "AOL Desktop"
+      }
+    ]
+  },
+  "CVE-2011-10028": {
+    "cve": "CVE-2011-10028",
+    "description": "The RealNetworks RealArcade platform includes an ActiveX control (InstallerDlg.dll, version 2.6.0.445) that exposes a method named Exec via the StubbyUtil.ProcessMgr COM object. This method allows remote attackers to execute arbitrary commands on a victim's Windows machine without proper validation or restrictions. This platform was sometimes referred to or otherwise known as RealArcade or Arcade Games and has since consolidated with RealNetworks' platform, GameHouse.",
+    "published": "2025-08-20T16:15:35.790",
+    "last_modified": "2026-06-16T23:28:29.953",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "RealNetworks",
+        "product": "RealArcade ActiveX"
+      }
+    ]
+  },
+  "CVE-2011-10029": {
+    "cve": "CVE-2011-10029",
+    "description": "Solar FTP Server fails to properly handle format strings passed to the USER command. When a specially crafted string containing format specifiers is sent, the server crashes due to a read access violation in the __output_1() function of sfsservice.exe. This results in a denial of service (DoS) condition.",
+    "published": "2025-08-20T16:15:35.973",
+    "last_modified": "2026-06-16T23:28:30.080",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Flexbyte Software",
+        "product": "Solar FTP Server"
+      }
+    ]
+  },
+  "CVE-2011-10030": {
+    "cve": "CVE-2011-10030",
+    "description": "Foxit PDF Reader <\u00a0 4.3.1.0218 exposes a JavaScript API function, createDataObject(), that allows untrusted PDF content to write arbitrary files anywhere on disk. By embedding a malicious PDF that calls this API, an attacker can drop executables or scripts into privileged folders, leading to code execution the next time the system boots or the user logs in.",
+    "published": "2025-08-20T16:15:36.150",
+    "last_modified": "2026-06-16T23:28:30.190",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Foxit Software",
+        "product": "Foxit PDF Reader"
+      }
+    ]
+  },
+  "CVE-2011-10032": {
+    "cve": "CVE-2011-10032",
+    "description": "Sunway ForceControl version 6.1 SP3 and earlier contains a stack-based buffer overflow vulnerability in the SNMP NetDBServer service, which listens on TCP port 2001. The flaw is triggered when the service receives a specially crafted packet using opcode 0x57 with an overly long payload. Due to improper bounds checking during packet parsing, attacker-controlled data overwrites the Structured Exception Handler (SEH), allowing arbitrary code execution in the context of the service. This vulnerability can be exploited remotely without authentication and may lead to full system compromise on affected Windows hosts.",
+    "published": "2025-08-30T14:15:39.727",
+    "last_modified": "2026-06-16T23:28:30.317",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Sunway",
+        "product": "ForceControl"
+      }
+    ]
+  },
+  "CVE-2011-10033": {
+    "cve": "CVE-2011-10033",
+    "description": "The WordPress plugin\u00a0is-human <= v1.4.2 contains\u00a0an eval injection vulnerability in /is-human/engine.php that can be triggered via the 'type' parameter when the 'action' parameter is set to 'log-reset'. The root cause is unsafe use of eval() on user-controlled input, which can lead to execution of attacker-supplied PHP and OS commands. This may result in arbitrary code execution as the webserver user, site compromise, or data exfiltration. The is-human plugin was made defunct in June 2008 and is no longer available for download. This vulnerability was exploited in the wild in March 2012.",
+    "published": "2025-10-15T02:15:31.020",
+    "last_modified": "2026-06-16T23:28:30.427",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "is-human WordPress Plugin",
+        "product": "is-human WordPress Plugin"
+      }
+    ]
+  },
+  "CVE-2011-10034": {
+    "cve": "CVE-2011-10034",
+    "description": "AUTOMGEN versions up to and including 8.0.0.7 (also referenced as 8.022) contain a vulnerability in that project file handling frees an object and subsequently dereferences the stale pointer when processing certain malformed fields. The dangling-pointer use enables an attacker to influence an indirect call through attacker-controlled memory, resulting in denial-of-service. In some conditions, remote code execution may be possible.",
+    "published": "2025-11-12T22:15:40.533",
+    "last_modified": "2026-06-16T23:28:30.563",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "IRAI",
+        "product": "AUTOMGEN"
+      }
+    ]
+  },
+  "CVE-2011-10035": {
+    "cve": "CVE-2011-10035",
+    "description": "Nagios XI versions prior to\u00a02011R1.9\u00a0contain privilege escalation vulnerabilities in the scripts that install or update system crontab entries. Due to time-of-check/time-of-use\u00a0race conditions and missing synchronization or final-path validation, a local low-privileged user could manipulate filesystem state during crontab installation to influence the files or commands executed with elevated privileges, resulting in execution with higher privileges.",
+    "published": "2025-10-30T22:15:34.733",
+    "last_modified": "2026-06-16T23:28:30.690",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 7.0,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 10,
+    "cpe_uris": [
+      "cpe:2.3:a:nagios:nagios_xi:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.2:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.3:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.4:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.5:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.6:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.7:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.8:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Nagios",
+        "product": "XI"
+      }
+    ]
+  },
+  "CVE-2011-10036": {
+    "cve": "CVE-2011-10036",
+    "description": "Nagios XI versions prior to\u00a02011R1.9\u00a0are vulnerable to cross-site scripting (XSS) via\u00a0the handling of the \"backend_url\" JavaScript link. Insufficient validation or escaping of user-supplied input may allow an attacker to inject and execute arbitrary script in the context of a victim's browser.",
+    "published": "2025-10-30T22:15:35.223",
+    "last_modified": "2026-06-16T23:28:30.833",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 10,
+    "cpe_uris": [
+      "cpe:2.3:a:nagios:nagios_xi:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.2:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.3:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.4:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.5:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.6:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.7:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.8:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Nagios",
+        "product": "XI"
+      }
+    ]
+  },
+  "CVE-2011-10037": {
+    "cve": "CVE-2011-10037",
+    "description": "Nagios XI versions prior to\u00a02011R1.9\u00a0are vulnerable to cross-site scripting (XSS) via\u00a0the handling of xiwindow variables used to build permalinks in the web interface. Insufficient validation or escaping of user-supplied input may allow an attacker to inject and execute arbitrary script in the context of a victim's browser.",
+    "published": "2025-10-30T22:15:35.363",
+    "last_modified": "2026-06-16T23:28:30.957",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 10,
+    "cpe_uris": [
+      "cpe:2.3:a:nagios:nagios_xi:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.2:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.3:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.4:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.5:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.6:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.7:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.8:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Nagios",
+        "product": "XI"
+      }
+    ]
+  },
+  "CVE-2011-10038": {
+    "cve": "CVE-2011-10038",
+    "description": "Nagios XI versions prior to\u00a02011R1.9\u00a0are vulnerable to cross-site scripting (XSS) via\u00a0the recurring downtime script of the web interface. Insufficient validation or escaping of user-supplied input may allow an attacker to inject and execute arbitrary script in the context of a victim's browser.",
+    "published": "2025-10-30T22:15:35.500",
+    "last_modified": "2026-06-16T23:28:31.080",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 10,
+    "cpe_uris": [
+      "cpe:2.3:a:nagios:nagios_xi:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.2:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.3:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.4:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.5:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.6:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.7:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.8:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Nagios",
+        "product": "XI"
+      }
+    ]
+  },
+  "CVE-2011-10039": {
+    "cve": "CVE-2011-10039",
+    "description": "Nagios XI versions prior to\u00a02011R1.9\u00a0are vulnerable to cross-site scripting (XSS) via\u00a0the Alert Heatmap report and the \u201cMy Reports\u201d listing of the web interface. Insufficient validation or escaping of user-supplied input may allow an attacker to inject and execute arbitrary script in the context of a victim's browser.",
+    "published": "2025-10-30T22:15:35.640",
+    "last_modified": "2026-06-16T23:28:31.197",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 10,
+    "cpe_uris": [
+      "cpe:2.3:a:nagios:nagios_xi:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.2:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.3:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.4:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.5:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.6:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.7:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.8:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Nagios",
+        "product": "XI"
+      }
+    ]
+  },
+  "CVE-2011-10040": {
+    "cve": "CVE-2011-10040",
+    "description": "Nagios XI versions prior to\u00a02011R1.9\u00a0are vulnerable to cross-site scripting (XSS) via\u00a0the link-handling functions used by status and report pages. Insufficient validation or escaping of user-supplied input may allow an attacker to inject and execute arbitrary script in the context of a victim's browser.",
+    "published": "2025-10-30T22:15:35.773",
+    "last_modified": "2026-06-16T23:28:31.320",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 10,
+    "cpe_uris": [
+      "cpe:2.3:a:nagios:nagios_xi:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.1:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.2:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.3:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.4:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.5:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.6:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.7:*:*:*:*:*:*",
+      "cpe:2.3:a:nagios:nagios_xi:2011:r1.8:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Nagios",
+        "product": "XI"
+      }
+    ]
+  },
+  "CVE-2011-10041": {
+    "cve": "CVE-2011-10041",
+    "description": "Uploadify WordPress plugin versions up to and including 1.0\u00a0contain an arbitrary file upload vulnerability in process_upload.php due to missing file type validation. An unauthenticated remote attacker can upload arbitrary files to the affected WordPress site, which may allow remote code execution by uploading executable content to a web-accessible location.",
+    "published": "2026-01-15T22:16:08.927",
+    "last_modified": "2026-06-16T23:28:31.433",
+    "vuln_status": "Deferred",
+    "cvss_base_score": null,
+    "cvss_base_severity": null,
+    "cvss_version": null,
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Steven",
+        "product": "Uploadify"
+      }
+    ]
+  },
+  "CVE-2011-10043": {
+    "cve": "CVE-2011-10043",
+    "description": "Module::Load versions before 0.22 for Perl allow arbitrary modules outside of @INC to be loaded.\n\nModule names starting with \"::\" could be passed to the load function to specify arbitrary module paths.\n\nAttackers able to influence module names passed to load could use that bug to execute arbitrary code.",
+    "published": "2026-07-07T12:16:24.880",
+    "last_modified": "2026-07-07T17:16:31.890",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "BINGOS",
+        "product": "Module::Load"
+      }
+    ]
+  },
+  "CVE-2011-20001": {
+    "cve": "CVE-2011-20001",
+    "description": "A vulnerability has been identified in SIMATIC S7-1200 CPU V1 family (incl. SIPLUS variants) (All versions < V2.0.3), SIMATIC S7-1200 CPU V2 family (incl. SIPLUS variants) (All versions < V2.0.3). The web server interface of affected devices improperly processes incoming malformed HTTP traffic at high rate. This could allow an unauthenticated remote attacker to force the device entering the stop/defect state, thus creating a denial of service condition.",
+    "published": "2025-10-14T10:15:32.457",
+    "last_modified": "2026-06-16T23:30:34.560",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Siemens",
+        "product": "SIMATIC S7-1200 CPU V1 family (incl. SIPLUS variants)"
+      },
+      {
+        "vendor": "Siemens",
+        "product": "SIMATIC S7-1200 CPU V2 family (incl. SIPLUS variants)"
+      }
+    ]
+  },
+  "CVE-2011-20002": {
+    "cve": "CVE-2011-20002",
+    "description": "A vulnerability has been identified in SIMATIC S7-1200 CPU V1 family (incl. SIPLUS variants) (All versions < V2.0.2), SIMATIC S7-1200 CPU V2 family (incl. SIPLUS variants) (All versions < V2.0.2). Affected controllers are vulnerable to capture-replay in the communication with the engineering software. This could allow an on-path attacker between the engineering software and the controller to execute any previously recorded commands at a later time (e.g. set the controller to STOP), regardless whether or not the controller had a password configured.",
+    "published": "2025-10-14T10:15:33.633",
+    "last_modified": "2026-06-16T23:30:34.700",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.4,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Siemens",
+        "product": "SIMATIC S7-1200 CPU V1 family (incl. SIPLUS variants)"
+      },
+      {
+        "vendor": "Siemens",
+        "product": "SIMATIC S7-1200 CPU V2 family (incl. SIPLUS variants)"
+      }
+    ]
+  }
+}

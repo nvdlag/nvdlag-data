@@ -1,0 +1,1683 @@
+{
+  "CVE-2021-47900": {
+    "cve": "CVE-2021-47900",
+    "description": "Gila CMS versions prior to 2.0.0 contain a remote code execution vulnerability that allows unauthenticated attackers to execute arbitrary system commands through manipulated HTTP headers. Attackers can inject PHP code in the User-Agent header with shell_exec() to run system commands by sending crafted requests to the admin endpoint.",
+    "published": "2026-01-27T16:16:12.920",
+    "last_modified": "2026-06-17T04:18:43.273",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Gila CMS",
+        "product": "Gila CMS"
+      }
+    ]
+  },
+  "CVE-2021-47901": {
+    "cve": "CVE-2021-47901",
+    "description": "Dirsearch 0.4.1 contains a CSV injection vulnerability when using the --csv-report flag that allows attackers to inject formulas through redirected endpoints. Attackers can craft malicious server redirects with comma-separated paths containing Excel formulas to manipulate the generated CSV report.",
+    "published": "2026-01-27T16:16:13.113",
+    "last_modified": "2026-06-17T04:18:43.393",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "maurosoria",
+        "product": "dirsearch"
+      }
+    ]
+  },
+  "CVE-2021-47902": {
+    "cve": "CVE-2021-47902",
+    "description": "Testa Online Test Management System 3.4.7 contains a SQL injection vulnerability that allows attackers to manipulate database queries through the 'q' search parameter. Attackers can inject malicious SQL code in the search field to extract database information, potentially accessing sensitive user or system data.",
+    "published": "2026-01-27T16:16:13.283",
+    "last_modified": "2026-06-17T04:18:43.503",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Testa",
+        "product": "Testa Online Test Management System"
+      }
+    ]
+  },
+  "CVE-2021-47903": {
+    "cve": "CVE-2021-47903",
+    "description": "LiteSpeed Web Server Enterprise 5.4.11 contains an authenticated command injection vulnerability in the external app configuration interface. Authenticated administrators can inject shell commands through the 'Command' parameter in the server configuration, allowing remote code execution via path traversal and bash command injection.",
+    "published": "2026-01-23T17:16:02.743",
+    "last_modified": "2026-06-17T04:18:43.617",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "LiteSpeed Technologies Inc",
+        "product": "LiteSpeed Web Server Enterprise"
+      }
+    ]
+  },
+  "CVE-2021-47904": {
+    "cve": "CVE-2021-47904",
+    "description": "PhreeBooks 5.2.3 contains an authenticated file upload vulnerability in the Image Manager that allows remote code execution. Attackers can upload a malicious PHP web shell by exploiting unrestricted file type uploads to gain command execution on the server.",
+    "published": "2026-01-23T17:16:03.990",
+    "last_modified": "2026-06-17T04:18:43.730",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Phreesoft",
+        "product": "PhreeBooks"
+      }
+    ]
+  },
+  "CVE-2021-47905": {
+    "cve": "CVE-2021-47905",
+    "description": "MyBB Delete Account Plugin 1.4 contains a cross-site scripting vulnerability in the account deletion reason input field. Attackers can inject malicious scripts that will execute in the admin interface when viewing delete account reasons.",
+    "published": "2026-01-23T17:16:04.180",
+    "last_modified": "2026-06-17T04:18:43.840",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mybb:delete_account:1.4:*:*:*:*:mybb:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "vintagedaddyo",
+        "product": "MyBB Delete Account Plugin"
+      }
+    ]
+  },
+  "CVE-2021-47906": {
+    "cve": "CVE-2021-47906",
+    "description": "BloofoxCMS 0.5.2.1 contains a stored cross-site scripting vulnerability in the articles text parameter that allows authenticated attackers to inject malicious scripts. Attackers can insert malicious javascript payloads in the text field to execute scripts and potentially steal authenticated users' cookies.",
+    "published": "2026-01-23T17:16:04.383",
+    "last_modified": "2026-06-17T04:18:43.963",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "BloofoxCMS",
+        "product": "BloofoxCMS"
+      }
+    ]
+  },
+  "CVE-2021-47907": {
+    "cve": "CVE-2021-47907",
+    "description": "Rocket LMS 1.1 contains a persistent cross-site scripting vulnerability in the support ticket module that allows authenticated users to inject malicious script code through the title parameter. Attackers can submit support tickets with embedded HTML/JavaScript payloads that execute in the browsers of other users viewing the message history, enabling session hijacking and phishing attacks.",
+    "published": "2026-05-10T13:16:27.247",
+    "last_modified": "2026-06-17T04:18:44.073",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Rocketsoft",
+        "product": "Rocket LMS"
+      }
+    ]
+  },
+  "CVE-2021-47908": {
+    "cve": "CVE-2021-47908",
+    "description": "Ultimate POS 4.4 contains a persistent cross-site scripting vulnerability in the product name parameter that allows remote attackers to inject malicious scripts. Attackers can exploit the vulnerability through product add or edit functions to execute arbitrary JavaScript and potentially hijack user sessions.",
+    "published": "2026-02-01T13:15:54.727",
+    "last_modified": "2026-06-17T04:18:44.190",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "thewebfosters",
+        "product": "Unknown"
+      }
+    ]
+  },
+  "CVE-2021-47909": {
+    "cve": "CVE-2021-47909",
+    "description": "Mult-E-Cart Ultimate 2.4 contains multiple SQL injection vulnerabilities in inventory, customer, vendor, and order modules. Remote attackers with privileged vendor or admin roles can exploit the 'id' parameter to execute malicious SQL commands and compromise the database management system.",
+    "published": "2026-02-01T13:15:54.890",
+    "last_modified": "2026-06-17T04:18:44.307",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Techraft",
+        "product": "Digital Multivendor Marketplace Online Store"
+      }
+    ]
+  },
+  "CVE-2021-47910": {
+    "cve": "CVE-2021-47910",
+    "description": "AccessPress Social Icons 1.8.2 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by entering JavaScript payloads into the 'icon title' field. Attackers can store XSS payloads like image tags with onerror event handlers that execute when the plugin page is viewed, affecting all users who access the plugin interface.",
+    "published": "2026-05-10T13:16:27.890",
+    "last_modified": "2026-06-17T04:18:44.417",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Accesspressthemes",
+        "product": "AccessPress Social Icons"
+      }
+    ]
+  },
+  "CVE-2021-47911": {
+    "cve": "CVE-2021-47911",
+    "description": "Affiliate Pro 1.7 contains multiple reflected cross-site scripting vulnerabilities in the index module's input fields. Attackers can inject malicious scripts through fullname, username, and email parameters to execute client-side attacks and manipulate browser requests.",
+    "published": "2026-02-01T13:15:55.067",
+    "last_modified": "2026-06-17T04:18:44.530",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "jdwebdesigner",
+        "product": "Affiliate Pro"
+      }
+    ]
+  },
+  "CVE-2021-47912": {
+    "cve": "CVE-2021-47912",
+    "description": "PHP Melody version 3.0 contains multiple non-persistent cross-site scripting vulnerabilities in categories, import, and user import files. Attackers can inject malicious scripts through unvalidated parameters to execute client-side attacks and potentially hijack user sessions.",
+    "published": "2026-02-01T13:15:55.243",
+    "last_modified": "2026-06-17T04:18:44.637",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:phpsugar:php_melody:3.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "PHPSUGAR",
+        "product": "PHP Melody"
+      }
+    ]
+  },
+  "CVE-2021-47913": {
+    "cve": "CVE-2021-47913",
+    "description": "PHP Melody 3.0 contains a persistent cross-site scripting vulnerability in the video editor that allows privileged users to inject malicious scripts. Attackers can exploit the WYSIWYG editor to execute persistent scripts, potentially leading to session hijacking and application manipulation.",
+    "published": "2026-02-01T13:15:55.413",
+    "last_modified": "2026-06-17T04:18:44.760",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:phpsugar:php_melody:3.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "PHPSUGAR",
+        "product": "PHP Melody"
+      }
+    ]
+  },
+  "CVE-2021-47914": {
+    "cve": "CVE-2021-47914",
+    "description": "PHP Melody version 3.0 contains a persistent cross-site scripting vulnerability in the edit-video.php submitted parameter that allows remote attackers to inject malicious script code. Attackers can exploit this vulnerability to execute arbitrary JavaScript, potentially leading to session hijacking, persistent phishing, and manipulation of application modules.",
+    "published": "2026-02-01T13:15:55.573",
+    "last_modified": "2026-06-17T04:18:44.880",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:phpsugar:php_melody:3.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "PHPSUGAR",
+        "product": "PHP Melody"
+      }
+    ]
+  },
+  "CVE-2021-47915": {
+    "cve": "CVE-2021-47915",
+    "description": "PHP Melody version 3.0 contains a remote SQL injection vulnerability in the video edit module that allows authenticated attackers to inject malicious SQL commands. Attackers can exploit the unvalidated 'vid' parameter to execute arbitrary database queries and potentially compromise the web application and database management system.",
+    "published": "2026-02-01T13:15:55.740",
+    "last_modified": "2026-06-17T04:18:45.003",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 8.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:phpsugar:php_melody:3.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "PHPSUGAR",
+        "product": "PHP Melody"
+      }
+    ]
+  },
+  "CVE-2021-47917": {
+    "cve": "CVE-2021-47917",
+    "description": "Simple CMS 2.1 contains a persistent cross-site scripting vulnerability in user input parameters that allows remote attackers to inject malicious script code. Attackers can exploit the newUser and editUser modules to inject persistent scripts that execute on user list preview, potentially leading to session hijacking and application manipulation.",
+    "published": "2026-02-01T13:15:56.073",
+    "last_modified": "2026-06-17T04:18:45.143",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:simplephpscripts:simple_cms_php:2.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Simplephpscripts",
+        "product": "Simple CMS"
+      }
+    ]
+  },
+  "CVE-2021-47918": {
+    "cve": "CVE-2021-47918",
+    "description": "Simple CMS 2.1 contains a remote SQL injection vulnerability that allows privileged attackers to inject unfiltered SQL commands in the users module. Attackers can exploit unvalidated input parameters in the admin.php file to compromise the database management system and web application.",
+    "published": "2026-02-01T13:15:56.237",
+    "last_modified": "2026-06-17T04:18:45.267",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 8.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:simplephpscripts:simple_cms_php:2.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Simplephpscripts",
+        "product": "Simple CMS"
+      }
+    ]
+  },
+  "CVE-2021-47919": {
+    "cve": "CVE-2021-47919",
+    "description": "Simple CMS 2.1 contains a non-persistent cross-site scripting vulnerability in the preview.php file's id parameter. Attackers can inject malicious script code through a GET request to execute arbitrary scripts and potentially hijack user sessions or perform phishing attacks.",
+    "published": "2026-02-01T13:15:56.403",
+    "last_modified": "2026-06-17T04:18:45.390",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:simplephpscripts:simple_cms_php:2.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Simplephpscripts",
+        "product": "Simple CMS"
+      }
+    ]
+  },
+  "CVE-2021-47920": {
+    "cve": "CVE-2021-47920",
+    "description": "WebMO Job Manager 20.0 contains a cross-site scripting vulnerability in search parameters that allows remote attackers to inject malicious script code. Attackers can exploit the filterSearch and filterSearchType parameters to perform non-persistent attacks including session hijacking and external redirects.",
+    "published": "2026-02-01T13:15:56.573",
+    "last_modified": "2026-06-17T04:18:45.510",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "WebMO, LLC",
+        "product": "WebMO Job Manager"
+      }
+    ]
+  },
+  "CVE-2021-47921": {
+    "cve": "CVE-2021-47921",
+    "description": "Free Photo & Video Vault 0.0.2 contains a directory traversal web vulnerability that allows remote attackers to manipulate application path requests and access sensitive system files. Attackers can exploit the vulnerability without privileges to retrieve environment variables and access unauthorized system paths.",
+    "published": "2026-02-01T13:15:56.760",
+    "last_modified": "2026-06-17T04:18:45.623",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Author: Scott Ferreira",
+        "product": "Free Photo & Video Vault - WiFi Transfe\u202ar"
+      }
+    ]
+  },
+  "CVE-2021-47922": {
+    "cve": "CVE-2021-47922",
+    "description": "Slider by Soliloquy 2.6.2 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts through the title parameter. Attackers can add JavaScript payloads in the title field when creating or editing sliders, which executes in the browsers of users viewing the slider on both administrative and frontend pages.",
+    "published": "2026-05-10T13:16:28.033",
+    "last_modified": "2026-06-17T04:18:45.733",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Soliloquywp",
+        "product": "Slider by Soliloquy"
+      }
+    ]
+  },
+  "CVE-2021-47923": {
+    "cve": "CVE-2021-47923",
+    "description": "OpenCart 3.0.3.8 contains a session fixation vulnerability that allows attackers to hijack user sessions by injecting arbitrary values into the OCSESSID cookie. Attackers can set malicious OCSESSID cookie values that the server accepts and maintains, enabling session takeover and unauthorized access to user accounts.",
+    "published": "2026-05-10T13:16:28.170",
+    "last_modified": "2026-06-17T04:18:45.840",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Opencart",
+        "product": "opencart"
+      }
+    ]
+  },
+  "CVE-2021-47924": {
+    "cve": "CVE-2021-47924",
+    "description": "Ultimate Product Catalogue 5.8.2 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts through the price parameter. Attackers can submit POST requests to post.php with HTML/JavaScript payloads in the price field to execute arbitrary code when the product is viewed.",
+    "published": "2026-05-10T13:16:28.307",
+    "last_modified": "2026-06-17T04:18:45.953",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Etoilewebdesign",
+        "product": "Ultimate Product Catalogue"
+      }
+    ]
+  },
+  "CVE-2021-47925": {
+    "cve": "CVE-2021-47925",
+    "description": "CMDBuild 3.3.2 contains multiple stored cross-site scripting vulnerabilities that allow authenticated attackers to inject arbitrary web script or HTML via crafted input in card creation and file upload endpoints. Attackers can inject XSS payloads through Employee card parameters or SVG file attachments in the classes endpoint, which execute when other users view the affected records or preview attachments.",
+    "published": "2026-05-10T13:16:28.437",
+    "last_modified": "2026-06-17T04:18:46.067",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Cmdbuild",
+        "product": "CMDBuild"
+      }
+    ]
+  },
+  "CVE-2021-47926": {
+    "cve": "CVE-2021-47926",
+    "description": "Contact Form to Email 1.3.24 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by creating forms with script tags in the form name field. Attackers can craft form names containing JavaScript code that executes when other logged-in users access the form management page, enabling session hijacking or credential theft.",
+    "published": "2026-05-10T13:16:28.573",
+    "last_modified": "2026-06-17T04:18:46.177",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Form2Email",
+        "product": "Contact Form to Email"
+      }
+    ]
+  },
+  "CVE-2021-47927": {
+    "cve": "CVE-2021-47927",
+    "description": "WordPress Plugin WP Symposium Pro 2021.10 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by exploiting insufficient sanitization of the forum name parameter. Attackers can submit POST requests to the admin setup page with JavaScript payloads in the wps_admin_forum_add_name parameter, which are stored and executed when the forum is accessed.",
+    "published": "2026-05-10T13:16:28.707",
+    "last_modified": "2026-06-17T04:18:46.290",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Wpsymposiumpro",
+        "product": "WP Symposium Pro"
+      }
+    ]
+  },
+  "CVE-2021-47928": {
+    "cve": "CVE-2021-47928",
+    "description": "Opencart TMD Vendor System 3.x contains a blind SQL injection vulnerability that allows unauthenticated attackers to extract database information by injecting SQL code through the product_id parameter. Attackers can craft malicious SQL queries using time-based or content-based blind injection techniques to enumerate usernames, emails, and password reset codes from the oc_user table.",
+    "published": "2026-05-10T13:16:28.863",
+    "last_modified": "2026-06-17T04:18:46.397",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "opencartextensions",
+        "product": "Extension TMD Vendor System"
+      }
+    ]
+  },
+  "CVE-2021-47929": {
+    "cve": "CVE-2021-47929",
+    "description": "Filterable Portfolio Gallery 1.0 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious JavaScript by entering payloads in the title field. Attackers can store JavaScript code like image tags with onerror handlers that execute when the gallery is previewed, affecting all users viewing the page.",
+    "published": "2026-05-10T13:16:29.017",
+    "last_modified": "2026-06-17T04:18:46.503",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Filterable-Portfolio",
+        "product": "Filterable Portfolio Gallery"
+      }
+    ]
+  },
+  "CVE-2021-47930": {
+    "cve": "CVE-2021-47930",
+    "description": "Balbooa Joomla Forms Builder 2.0.6 contains an unauthenticated SQL injection vulnerability in the form submission handler that allows remote attackers to execute arbitrary SQL queries. Attackers can send POST requests to the com_baforms component with malicious JSON payloads in the 'id' field parameter to extract sensitive database information.",
+    "published": "2026-05-10T13:16:29.163",
+    "last_modified": "2026-06-17T04:18:46.613",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Balbooa",
+        "product": "Balbooa Joomla Forms Builder"
+      }
+    ]
+  },
+  "CVE-2021-47931": {
+    "cve": "CVE-2021-47931",
+    "description": "Exponent CMS 2.6 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts through the Title and Text Block parameters in the text editing endpoint. Attackers can inject iframe payloads with embedded SVG onload events to execute arbitrary JavaScript. The application also exposes database credentials in responses and lacks brute-force protection on authentication endpoints.",
+    "published": "2026-05-10T13:16:29.293",
+    "last_modified": "2026-06-17T04:18:46.767",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Exponentcms",
+        "product": "Exponent CMS"
+      }
+    ]
+  },
+  "CVE-2021-47932": {
+    "cve": "CVE-2021-47932",
+    "description": "WordPress TheCartPress 1.5.3.6 contains an unauthenticated privilege escalation vulnerability that allows attackers to create administrator accounts by submitting crafted requests to the AJAX handler. Attackers can send POST requests to the tcp_register_and_login_ajax action with tcp_role set to administrator to gain full administrative access without authentication.",
+    "published": "2026-05-10T13:16:29.427",
+    "last_modified": "2026-06-17T04:18:46.943",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "thecartpress",
+        "product": "TheCartPress"
+      }
+    ]
+  },
+  "CVE-2021-47933": {
+    "cve": "CVE-2021-47933",
+    "description": "WordPress MStore API 2.0.6 contains an arbitrary file upload vulnerability that allows unauthenticated attackers to upload malicious files by sending POST requests to the REST API endpoint. Attackers can upload PHP files with arbitrary names to the config_file endpoint to achieve remote code execution on the server.",
+    "published": "2026-05-10T13:16:29.560",
+    "last_modified": "2026-06-17T04:18:47.053",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "mstore",
+        "product": "MStore API"
+      }
+    ]
+  },
+  "CVE-2021-47934": {
+    "cve": "CVE-2021-47934",
+    "description": "MyBB Timeline Plugin 1.0 contains cross-site scripting vulnerabilities that allow attackers to inject malicious scripts through thread titles, post content, and user profile fields like Location and Bio. Attackers can also exploit a cross-site request forgery vulnerability in the timeline.php profile action to change a user's cover picture by crafting malicious forms that execute when victims visit affected profiles.",
+    "published": "2026-05-16T16:16:21.267",
+    "last_modified": "2026-06-17T04:18:47.163",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "MyBB",
+        "product": "MyBB Timeline Plugin"
+      }
+    ]
+  },
+  "CVE-2021-47935": {
+    "cve": "CVE-2021-47935",
+    "description": "Sentry 8.2.0 contains a remote code execution vulnerability that allows authenticated superusers to execute arbitrary commands by injecting malicious pickle-serialized objects through the audit log entry data parameter. Attackers can submit crafted POST requests to the admin audit log endpoint with base64-encoded compressed pickle payloads in the data field to achieve code execution with application privileges.",
+    "published": "2026-05-10T13:16:29.693",
+    "last_modified": "2026-06-17T04:18:47.277",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:sentry:sentry:8.2.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Sentry",
+        "product": "Sentry"
+      }
+    ]
+  },
+  "CVE-2021-47936": {
+    "cve": "CVE-2021-47936",
+    "description": "OpenCATS 0.9.4 contains a remote code execution vulnerability that allows unauthenticated attackers to execute arbitrary commands by uploading malicious PHP files disguised as resume attachments. Attackers can upload PHP payloads through the careers job application endpoint and execute system commands via POST requests to the uploaded file in the upload directory.",
+    "published": "2026-05-10T13:16:29.830",
+    "last_modified": "2026-06-17T04:18:47.403",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Opencats",
+        "product": "OpenCATS"
+      }
+    ]
+  },
+  "CVE-2021-47937": {
+    "cve": "CVE-2021-47937",
+    "description": "e107 CMS 2.3.0 contains a remote code execution vulnerability that allows authenticated users with theme installation permissions to execute arbitrary commands by uploading malicious theme files. Attackers can upload a crafted theme package through the theme.php endpoint that deploys a web shell to the e107_themes directory, then execute system commands via the payload.php script.",
+    "published": "2026-05-10T13:16:29.960",
+    "last_modified": "2026-06-17T04:18:47.513",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "E107",
+        "product": "e107 CMS"
+      }
+    ]
+  },
+  "CVE-2021-47938": {
+    "cve": "CVE-2021-47938",
+    "description": "ImpressCMS 1.4.2 contains a remote code execution vulnerability in the autotasks administrative interface that allows authenticated attackers to execute arbitrary PHP code by injecting malicious code into the sat_code parameter. Attackers can authenticate, submit a POST request to /modules/system/admin.php?fct=autotasks&op=mod with crafted sat_code containing PHP commands, which creates an executable file that accepts arbitrary commands via GET parameters.",
+    "published": "2026-05-10T13:16:30.100",
+    "last_modified": "2026-06-17T04:18:47.623",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Impresscms",
+        "product": "ImpressCMS"
+      }
+    ]
+  },
+  "CVE-2021-47939": {
+    "cve": "CVE-2021-47939",
+    "description": "Evolution CMS 3.1.6 contains a remote code execution vulnerability that allows authenticated users with module creation permissions to execute arbitrary system commands by injecting PHP code into module parameters. Attackers can send POST requests to /manager/index.php with malicious PHP code in the 'post' parameter to create modules that execute arbitrary commands when invoked.",
+    "published": "2026-05-10T13:16:30.233",
+    "last_modified": "2026-06-17T04:18:47.730",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Evo",
+        "product": "Evolution CMS"
+      }
+    ]
+  },
+  "CVE-2021-47940": {
+    "cve": "CVE-2021-47940",
+    "description": "WordPress Plugin Download From Files version 1.48 and earlier contains an arbitrary file upload vulnerability that allows unauthenticated attackers to upload malicious files by exploiting the AJAX fileupload action. Attackers can send POST requests to the admin-ajax.php endpoint with the download_from_files_617_fileupload action, manipulating the allowExt parameter to bypass file type restrictions and upload executable files like PHP shells to the web root.",
+    "published": "2026-05-10T13:16:30.363",
+    "last_modified": "2026-06-17T04:18:47.840",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "download-from-files",
+        "product": "Download From Files"
+      }
+    ]
+  },
+  "CVE-2021-47941": {
+    "cve": "CVE-2021-47941",
+    "description": "WordPress Plugin Survey & Poll 1.5.7.3 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the wp_sap cookie parameter. Attackers can craft SQL payloads in the cookie to extract sensitive database information including usernames, passwords, and other confidential data from the WordPress database.",
+    "published": "2026-05-10T13:16:30.493",
+    "last_modified": "2026-06-17T04:18:47.953",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Modalsurvey",
+        "product": "Survey & Poll"
+      }
+    ]
+  },
+  "CVE-2021-47942": {
+    "cve": "CVE-2021-47942",
+    "description": "Home Assistant Community Store (HACS) prior to 1.10.0 contains a path traversal vulnerability that allows unauthenticated attackers to read sensitive files by traversing directories via the /hacsfiles/ endpoint. Attackers can retrieve the .storage/auth file containing user credentials and refresh tokens, then craft valid JWT tokens to gain administrative access to Home Assistant instances.",
+    "published": "2026-05-16T16:16:21.390",
+    "last_modified": "2026-06-17T04:18:48.067",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:hacs:home_assistant_community_store:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Home-Assistant",
+        "product": "Home Assistant Community Store (HACS)"
+      }
+    ]
+  },
+  "CVE-2021-47943": {
+    "cve": "CVE-2021-47943",
+    "description": "TextPattern CMS 4.8.7 contains a remote code execution vulnerability that allows authenticated attackers to execute arbitrary commands by uploading malicious PHP files through the file upload functionality. Attackers can upload a PHP shell via the Files section in the content area and execute commands by accessing the uploaded file at /textpattern/files/ with GET parameters passed to the system function.",
+    "published": "2026-05-10T13:16:30.627",
+    "last_modified": "2026-06-17T04:18:48.190",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Textpattern",
+        "product": "TextPattern CMS"
+      }
+    ]
+  },
+  "CVE-2021-47944": {
+    "cve": "CVE-2021-47944",
+    "description": "memono Notepad 4.2 contains a denial of service vulnerability that allows attackers to crash the application by pasting excessively long character buffers into note fields. Attackers can generate a payload containing 350000 repeated characters and paste it twice into a new note to trigger an application crash on iOS devices.",
+    "published": "2026-05-10T13:16:30.760",
+    "last_modified": "2026-06-17T04:18:48.300",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "memono",
+        "product": "Notepad"
+      }
+    ]
+  },
+  "CVE-2021-47945": {
+    "cve": "CVE-2021-47945",
+    "description": "Argus Surveillance DVR 4.0 contains an unquoted service path vulnerability in the DVRWatchdog service that allows local attackers to escalate privileges by exploiting the service binary path. Attackers can place a malicious executable in the Program Files directory to be executed with LocalSystem privileges when the service starts.",
+    "published": "2026-05-10T13:16:30.897",
+    "last_modified": "2026-06-17T04:18:48.410",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "argus",
+        "product": "Argus Surveillance DVR"
+      }
+    ]
+  },
+  "CVE-2021-47946": {
+    "cve": "CVE-2021-47946",
+    "description": "OpenCart 3.0.3.6 contains a cross-site request forgery vulnerability in the /account/edit endpoint that allows unauthenticated attackers to modify victim account details by tricking users into visiting malicious pages. Attackers can craft CSRF payloads that change victim email addresses and account information, then use password reset functionality to gain unauthorized access to compromised accounts.",
+    "published": "2026-05-10T13:16:31.027",
+    "last_modified": "2026-06-17T04:18:48.520",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Opencart",
+        "product": "OpenCart"
+      }
+    ]
+  },
+  "CVE-2021-47947": {
+    "cve": "CVE-2021-47947",
+    "description": "Projectsend r1295 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by submitting crafted input in the 'name' parameter of files-edit.php. Attackers can inject JavaScript payloads through the file name field that execute in the browser when the file is viewed by other users, particularly affecting System Administrator users on the Dashboard page.",
+    "published": "2026-05-10T13:16:31.180",
+    "last_modified": "2026-06-17T04:18:48.637",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Projectsend",
+        "product": "Projectsend"
+      }
+    ]
+  },
+  "CVE-2021-47948": {
+    "cve": "CVE-2021-47948",
+    "description": "WordPress GetPaid Plugin 2.4.6 contains an HTML injection vulnerability that allows authenticated attackers to inject arbitrary HTML code by exploiting the Help Text field in payment forms. Attackers can inject malicious HTML including image tags and scripts into the Help Text field during payment form creation, which gets stored in the database and executed in the browser when the form is viewed.",
+    "published": "2026-05-10T13:16:31.323",
+    "last_modified": "2026-06-17T04:18:48.743",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "invoicing",
+        "product": "Payments Plugin GetPaid"
+      }
+    ]
+  },
+  "CVE-2021-47949": {
+    "cve": "CVE-2021-47949",
+    "description": "CyberPanel 2.1 contains a command execution vulnerability that allows authenticated attackers to read arbitrary files and execute remote code by exploiting symlink attacks through the filemanager controller endpoint. Attackers can manipulate the completeStartingPath parameter in POST requests to /filemanager/controller to create symbolic links, read sensitive files like database credentials, and execute arbitrary shell commands through the /websites/fetchFolderDetails endpoint.",
+    "published": "2026-05-10T13:16:31.453",
+    "last_modified": "2026-06-17T04:18:48.853",
+    "vuln_status": "Awaiting Analysis",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Cyberpanel",
+        "product": "CyberPanel"
+      }
+    ]
+  },
+  "CVE-2021-47950": {
+    "cve": "CVE-2021-47950",
+    "description": "Advanced Guestbook 2.4.4 contains a persistent cross-site scripting vulnerability in the smilies administration interface that allows authenticated attackers to inject malicious scripts by manipulating the s_emotion parameter. Attackers can submit POST requests to admin.php with JavaScript code in the s_emotion field, which executes when administrators view the smilies tab.",
+    "published": "2026-05-10T13:16:31.587",
+    "last_modified": "2026-06-17T04:18:48.967",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Ampps",
+        "product": "Advanced Guestbook"
+      }
+    ]
+  },
+  "CVE-2021-47951": {
+    "cve": "CVE-2021-47951",
+    "description": "WordPress Picture Gallery 1.4.2 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts through the Edit Content URL field in the Access Control settings. Attackers can enter JavaScript payloads in the plugin options that are stored in the database and executed when the functionality is triggered, enabling session hijacking or credential theft.",
+    "published": "2026-05-10T13:16:31.720",
+    "last_modified": "2026-06-17T04:18:49.077",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "picture-gallery",
+        "product": "Picture Gallery"
+      }
+    ]
+  },
+  "CVE-2021-47952": {
+    "cve": "CVE-2021-47952",
+    "description": "python jsonpickle 2.0.0 contains a remote code execution vulnerability that allows attackers to execute arbitrary Python commands by deserializing malicious JSON payloads containing py/repr objects. Attackers can craft JSON strings with py/repr directives that invoke the eval function during deserialization to execute arbitrary code.",
+    "published": "2026-05-16T16:16:21.520",
+    "last_modified": "2026-07-15T02:17:05.733",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Jsonpickle",
+        "product": "python jsonpickle"
+      },
+      {
+        "vendor": "Red Hat",
+        "product": "Red Hat Ansible Automation Platform 2"
+      }
+    ]
+  },
+  "CVE-2021-47953": {
+    "cve": "CVE-2021-47953",
+    "description": "OpenCart 3.0.3.7 contains a cross-site request forgery vulnerability that allows attackers to change user passwords by sending crafted requests to the account/password endpoint. Attackers can trick authenticated users into submitting hidden forms with new password values in the 'password' and 'confirm' parameters to hijack accounts.",
+    "published": "2026-05-10T13:16:31.853",
+    "last_modified": "2026-06-17T04:18:49.300",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Opencart",
+        "product": "OpenCart"
+      }
+    ]
+  },
+  "CVE-2021-47954": {
+    "cve": "CVE-2021-47954",
+    "description": "LayerBB 1.1.4 contains an SQL injection vulnerability that allows unauthenticated attackers to manipulate database queries by injecting SQL code through the search_query parameter. Attackers can send POST requests to /search.php with malicious search_query values using CASE WHEN statements to extract sensitive database information.",
+    "published": "2026-05-16T16:16:21.650",
+    "last_modified": "2026-06-17T04:18:49.410",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "LayerBB",
+        "product": "LayerBB"
+      }
+    ]
+  },
+  "CVE-2021-47955": {
+    "cve": "CVE-2021-47955",
+    "description": "CouchCMS 2.2.1 contains a cross-site scripting vulnerability that allows authenticated attackers to execute arbitrary JavaScript by uploading malicious SVG files through the file upload functionality. Attackers can upload SVG files containing embedded script tags to the browse.php endpoint, which are then executed in users' browsers when the files are accessed or previewed.",
+    "published": "2026-05-16T16:16:21.780",
+    "last_modified": "2026-06-17T04:18:49.517",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "CouchCMS",
+        "product": "CouchCMS"
+      }
+    ]
+  },
+  "CVE-2021-47956": {
+    "cve": "CVE-2021-47956",
+    "description": "EgavilanMedia PHPCRUD 1.0 contains an SQL injection vulnerability that allows unauthenticated attackers to manipulate database queries by injecting SQL code through the firstname parameter. Attackers can send POST requests to insert.php with malicious firstname values to extract sensitive database information.",
+    "published": "2026-05-16T16:16:21.907",
+    "last_modified": "2026-06-17T04:18:49.627",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Egavilanmedia",
+        "product": "EgavilanMedia PHPCRUD"
+      }
+    ]
+  },
+  "CVE-2021-47957": {
+    "cve": "CVE-2021-47957",
+    "description": "Cookie Law Bar 1.2.1 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by submitting unsanitized input to the Bar Message field. Attackers can inject script payloads through the plugin settings page that execute in the browsers of all WordPress users viewing the site, enabling cookie theft and sensitive data exfiltration.",
+    "published": "2026-05-16T16:16:22.037",
+    "last_modified": "2026-06-17T04:18:49.737",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Cookielawinfo",
+        "product": "Cookie Law Bar"
+      }
+    ]
+  },
+  "CVE-2021-47958": {
+    "cve": "CVE-2021-47958",
+    "description": "CouchCMS 2.2.1 contains a server-side request forgery vulnerability that allows authenticated attackers to make arbitrary HTTP requests by uploading malicious SVG files. Attackers can upload SVG files containing external entity references through the browse.php endpoint to access internal services and resources.",
+    "published": "2026-05-15T19:16:54.623",
+    "last_modified": "2026-06-17T04:18:49.847",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "CouchCMS",
+        "product": "CouchCMS"
+      }
+    ]
+  },
+  "CVE-2021-47959": {
+    "cve": "CVE-2021-47959",
+    "description": "WordPress Plugin WPGraphQL 1.3.5 contains a denial of service vulnerability that allows unauthenticated attackers to exhaust server resources by sending batched GraphQL queries with duplicated fields. Attackers can send POST requests to the GraphQL endpoint with amplified field duplication payloads to trigger server out-of-memory conditions and MySQL connection errors.",
+    "published": "2026-05-15T19:16:55.643",
+    "last_modified": "2026-06-17T04:18:49.967",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Wpgraphql",
+        "product": "WPGraphQL"
+      }
+    ]
+  },
+  "CVE-2021-47960": {
+    "cve": "CVE-2021-47960",
+    "description": "A files or directories accessible to external parties vulnerability in Synology SSL VPN Client before 1.4.5-0684 allows remote attackers to access files within the installation directory via a local HTTP server bound to the loopback interface. By leveraging user interaction with a crafted web page, attackers may retrieve sensitive files such as configuration files, certificates, and logs, leading to information disclosure.",
+    "published": "2026-04-10T10:16:02.853",
+    "last_modified": "2026-06-17T04:18:50.080",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:synology:ssl_vpn_client:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Synology",
+        "product": "Synology SSL VPN Client"
+      }
+    ]
+  },
+  "CVE-2021-47961": {
+    "cve": "CVE-2021-47961",
+    "description": "A plaintext storage of a password vulnerability in Synology SSL VPN Client before 1.4.5-0684 allows remote attackers to access or influence the user's PIN code due to insecure storage. This may lead to unauthorized VPN configuration and potential interception of subsequent VPN traffic when combined with user interaction.",
+    "published": "2026-04-10T10:16:03.913",
+    "last_modified": "2026-06-17T04:18:50.197",
+    "vuln_status": "Analyzed",
+    "cvss_base_score": 8.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:synology:ssl_vpn_client:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Synology",
+        "product": "Synology SSL VPN Client"
+      }
+    ]
+  },
+  "CVE-2021-47962": {
+    "cve": "CVE-2021-47962",
+    "description": "Savsoft Quiz 5.0 contains a persistent cross-site scripting vulnerability in the user account settings page that allows authenticated attackers to inject malicious HTML and JavaScript code. Attackers can inject script payloads into user profile fields at the edit_user endpoint, which execute in the browsers of users viewing the affected profile after submission.",
+    "published": "2026-05-15T19:16:55.770",
+    "last_modified": "2026-06-17T04:18:50.303",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "savsofts",
+        "product": "Savsoft Quiz"
+      }
+    ]
+  },
+  "CVE-2021-47963": {
+    "cve": "CVE-2021-47963",
+    "description": "Anote 1.0 contains a persistent cross-site scripting vulnerability that allows attackers to execute arbitrary code by injecting malicious payloads into markdown files stored within the application. Attackers can craft malicious markdown files with embedded JavaScript that executes system commands when opened, enabling remote code execution on the victim's computer.",
+    "published": "2026-05-15T19:16:55.900",
+    "last_modified": "2026-06-17T04:18:50.410",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "AnotherNote",
+        "product": "Anote"
+      }
+    ]
+  },
+  "CVE-2021-47964": {
+    "cve": "CVE-2021-47964",
+    "description": "Schlix CMS 2.2.6-6 contains a remote code execution vulnerability that allows authenticated attackers to execute arbitrary PHP code by uploading malicious extension packages through the block manager. Attackers can upload a crafted ZIP file containing PHP code in the packageinfo.inc file and trigger execution by accessing the About tab of the installed extension.",
+    "published": "2026-05-15T19:16:56.030",
+    "last_modified": "2026-06-17T04:18:50.520",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Schlix",
+        "product": "Schlix CMS"
+      }
+    ]
+  },
+  "CVE-2021-47965": {
+    "cve": "CVE-2021-47965",
+    "description": "WordPress Plugin WP Super Edit 2.5.4 and earlier contains an unrestricted file upload vulnerability in the FCKeditor component that allows attackers to upload dangerous file types without validation. Attackers can upload arbitrary files through the filemanager upload endpoint to achieve remote code execution and complete system compromise.",
+    "published": "2026-05-15T19:16:56.163",
+    "last_modified": "2026-06-17T04:18:50.630",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "wp-super-edit",
+        "product": "WP Super Edit"
+      }
+    ]
+  },
+  "CVE-2021-47966": {
+    "cve": "CVE-2021-47966",
+    "description": "PHP Timeclock 1.04 contains time-based and boolean-based blind SQL injection vulnerabilities in the login_userid parameter of login.php that allows unauthenticated attackers to extract database contents. Attackers can submit crafted POST requests with SQL payloads using SLEEP functions or RLIKE conditional statements to dump sensitive database information including employee names and credentials.",
+    "published": "2026-05-15T19:16:56.293",
+    "last_modified": "2026-06-17T04:18:50.743",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Timeclock",
+        "product": "PHP Timeclock"
+      }
+    ]
+  },
+  "CVE-2021-47967": {
+    "cve": "CVE-2021-47967",
+    "description": "PHP Timeclock 1.04 contains multiple cross-site scripting vulnerabilities that allow unauthenticated attackers to inject arbitrary JavaScript by manipulating URL paths and POST parameters. Attackers can append malicious payloads to login.php, timeclock.php, audit.php, and timerpt.php endpoints, or inject code through from_date and to_date parameters in report requests to execute scripts in user browsers.",
+    "published": "2026-05-15T19:16:56.433",
+    "last_modified": "2026-06-17T04:18:50.850",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Timeclock",
+        "product": "PHP Timeclock"
+      }
+    ]
+  },
+  "CVE-2021-47968": {
+    "cve": "CVE-2021-47968",
+    "description": "Podcast Generator 3.1 is vulnerable to persistent cross-site scripting, allowing authenticated attackers to inject malicious scripts by submitting unfiltered JavaScript code in the long_description parameter. Attackers can inject script tags through episode creation or editing requests to execute arbitrary JavaScript when other users view the episode details.",
+    "published": "2026-05-15T19:16:56.560",
+    "last_modified": "2026-06-17T04:18:50.960",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Podcastgenerator",
+        "product": "Podcast Generator"
+      }
+    ]
+  },
+  "CVE-2021-47969": {
+    "cve": "CVE-2021-47969",
+    "description": "Color Notes 1.4 contains a denial of service vulnerability that allows attackers to crash the application by pasting excessively long character strings into note fields. Attackers can generate a payload containing 350,000 repeated characters and paste it twice into a new note to cause the application to stop responding.",
+    "published": "2026-05-16T16:16:22.170",
+    "last_modified": "2026-06-17T04:18:51.070",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "color-notes",
+        "product": "Color Notes"
+      }
+    ]
+  },
+  "CVE-2021-47970": {
+    "cve": "CVE-2021-47970",
+    "description": "Macaron Notes 5.5 contains a denial of service vulnerability that allows attackers to crash the application by creating notes with excessively long character strings. Attackers can generate a payload containing 350000 repeated characters and paste it into a note field to trigger application crash and stop functionality.",
+    "published": "2026-05-16T16:16:22.330",
+    "last_modified": "2026-06-17T04:18:51.177",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Macaron Notes",
+        "product": "Macaron Notes"
+      }
+    ]
+  },
+  "CVE-2021-47971": {
+    "cve": "CVE-2021-47971",
+    "description": "My Notes Safe 5.3 contains a denial of service vulnerability that allows attackers to crash the application by pasting excessively long character strings into note fields. Attackers can generate a payload containing 350000 repeated characters and paste it twice into a new note to trigger an application crash.",
+    "published": "2026-05-16T16:16:22.463",
+    "last_modified": "2026-06-17T04:18:51.290",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "my-notes-safe",
+        "product": "My Notes Safe"
+      }
+    ]
+  },
+  "CVE-2021-47972": {
+    "cve": "CVE-2021-47972",
+    "description": "Sticky Notes & Color Widgets 1.4.2 contains a denial of service vulnerability that allows attackers to crash the application by creating notes with excessively long character strings. Attackers can paste large payloads of repeated characters into note fields to trigger application crashes and make the application stop responding.",
+    "published": "2026-05-16T16:16:22.587",
+    "last_modified": "2026-06-17T04:18:51.400",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "sticky-notes-color-widgets",
+        "product": "Sticky Notes Color Widgets"
+      }
+    ]
+  },
+  "CVE-2021-47973": {
+    "cve": "CVE-2021-47973",
+    "description": "Sticky Notes Widget 3.0.6 contains a denial of service vulnerability that allows attackers to crash the application by pasting excessively long character strings into note fields. Attackers can generate a payload containing 350000 repeated characters and paste it twice into a new note to trigger an application crash on iOS devices.",
+    "published": "2026-05-16T16:16:22.713",
+    "last_modified": "2026-06-17T04:18:51.510",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "sticky-notes",
+        "product": "Sticky Notes Widget"
+      }
+    ]
+  },
+  "CVE-2021-47974": {
+    "cve": "CVE-2021-47974",
+    "description": "VX Search 13.5.28 contains an unquoted service path vulnerability in both VX Search Server and VX Search Enterprise services that allows local attackers to escalate privileges. Attackers can place malicious executables in unquoted path directories like C:\\Program Files\\VX Search to execute arbitrary code with LocalSystem privileges when services restart.",
+    "published": "2026-05-16T16:16:22.843",
+    "last_modified": "2026-06-17T04:18:51.617",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Vxsearch",
+        "product": "VX Search"
+      }
+    ]
+  },
+  "CVE-2021-47975": {
+    "cve": "CVE-2021-47975",
+    "description": "WP Learn Manager 1.1.2 contains a stored cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts through the `fieldtitle` parameter. Attackers can submit POST requests to the jslm_fieldordering page with XSS payloads in the fieldtitle field to execute arbitrary JavaScript when administrators view the field ordering interface.",
+    "published": "2026-05-16T16:16:22.973",
+    "last_modified": "2026-06-17T04:18:51.730",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Wplearnmanager",
+        "product": "WP Learn Manager"
+      }
+    ]
+  },
+  "CVE-2021-47976": {
+    "cve": "CVE-2021-47976",
+    "description": "TextPattern CMS 4.9.0-dev contains a remote code execution vulnerability that allows authenticated attackers to upload arbitrary PHP files by exploiting the plugin upload functionality. Attackers can authenticate, retrieve a CSRF token from the plugin event page, and upload malicious PHP files to the textpattern/tmp/ directory for code execution.",
+    "published": "2026-05-16T16:16:23.107",
+    "last_modified": "2026-06-17T04:18:51.847",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Textpattern",
+        "product": "TextPattern CMS"
+      }
+    ]
+  },
+  "CVE-2021-47977": {
+    "cve": "CVE-2021-47977",
+    "description": "WordPress Plugin Anti-Malware Security and Bruteforce Firewall 4.20.59 contains a directory traversal vulnerability that allows unauthenticated attackers to read arbitrary files by manipulating the file parameter. Attackers can send requests to the duplicator_download action via admin-ajax.php with path traversal sequences to access sensitive system files outside the intended directory.",
+    "published": "2026-05-16T16:16:23.233",
+    "last_modified": "2026-06-17T04:18:51.960",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Gotmls",
+        "product": "Malware Security and Bruteforce Firewall"
+      }
+    ]
+  },
+  "CVE-2021-47978": {
+    "cve": "CVE-2021-47978",
+    "description": "ProcessMaker 3.5.4 contains a local file inclusion vulnerability that allows unauthenticated attackers to read arbitrary files by exploiting improper path traversal validation. Attackers can send requests with directory traversal sequences to access sensitive system files like /etc/passwd without authentication.",
+    "published": "2026-05-16T16:16:23.360",
+    "last_modified": "2026-06-17T04:18:52.077",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.2,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Processmaker",
+        "product": "ProcessMaker"
+      }
+    ]
+  },
+  "CVE-2021-47979": {
+    "cve": "CVE-2021-47979",
+    "description": "WordPress Plugin Backup and Restore 1.0.3 contains an arbitrary file deletion vulnerability that allows authenticated attackers to delete files by manipulating parameters in AJAX requests. Attackers can send POST requests to admin-ajax.php with crafted file_name and folder_name parameters to delete arbitrary files from the WordPress installation directory.",
+    "published": "2026-05-16T16:16:23.490",
+    "last_modified": "2026-06-17T04:18:52.187",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Miniorange",
+        "product": "Backup and Restore"
+      }
+    ]
+  },
+  "CVE-2021-47980": {
+    "cve": "CVE-2021-47980",
+    "description": "Fuel CMS 1.4.13 contains a blind SQL injection vulnerability that allows authenticated attackers to manipulate database queries by injecting SQL code through the 'col' parameter in the Activity Log interface. Attackers can send requests to the logs endpoint with malicious SQL payloads in the 'col' parameter to extract database information based on response time delays.",
+    "published": "2026-05-16T16:16:23.623",
+    "last_modified": "2026-06-17T04:18:52.297",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Getfuelcms",
+        "product": "Fuel CMS"
+      }
+    ]
+  },
+  "CVE-2021-47981": {
+    "cve": "CVE-2021-47981",
+    "description": "Quick.CMS 6.7 contains a cross-site scripting vulnerability in the sliders form that allows authenticated attackers to inject malicious scripts by submitting XSS payloads through the sDescription parameter. Attackers can craft CSRF forms targeting the admin.php?p=sliders-form endpoint to execute arbitrary JavaScript in victim browsers when the form is submitted.",
+    "published": "2026-05-16T16:16:23.753",
+    "last_modified": "2026-06-17T04:18:52.407",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Opensolution",
+        "product": "Quick.CMS"
+      }
+    ]
+  },
+  "CVE-2021-47982": {
+    "cve": "CVE-2021-47982",
+    "description": "WordPress Plugin WP-Paginate 2.1.3 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by manipulating the preset parameter. Attackers can submit POST requests to the plugin settings page with script payloads in the preset parameter that are stored and executed when administrators view the settings.",
+    "published": "2026-06-08T02:16:22.190",
+    "last_modified": "2026-06-17T04:18:52.520",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "maxfoundry",
+        "product": "WP-Paginate"
+      }
+    ]
+  },
+  "CVE-2021-47983": {
+    "cve": "CVE-2021-47983",
+    "description": "WordPress Plugin Stripe Payments 2.0.39 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts through the AcceptStripePayments-settings[currency_code] parameter. Attackers can submit POST requests to /wp-admin/options.php with script payloads in the currency_code field to execute arbitrary JavaScript in administrator browsers when settings are viewed.",
+    "published": "2026-06-08T02:16:22.363",
+    "last_modified": "2026-06-17T04:18:52.637",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "mra13",
+        "product": "Accept Stripe Payments"
+      }
+    ]
+  },
+  "CVE-2021-47984": {
+    "cve": "CVE-2021-47984",
+    "description": "WordPress Plugin WP24 Domain Check 1.6.2 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by submitting crafted input to the fieldnameDomain parameter. Attackers can inject JavaScript payloads through the plugin settings form at options.php that execute in the browsers of administrators viewing the settings page.",
+    "published": "2026-06-08T02:16:22.503",
+    "last_modified": "2026-06-17T04:18:52.747",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "WP24",
+        "product": "WP24 Domain Check"
+      }
+    ]
+  },
+  "CVE-2021-47985": {
+    "cve": "CVE-2021-47985",
+    "description": "Brother SAPSprint 7.60 contains an unquoted service path vulnerability in the SAPSprint service binary that allows local attackers to escalate privileges. Attackers can place a malicious executable in the Program Files directory path to be executed with LocalSystem privileges when the service starts automatically.",
+    "published": "2026-06-19T15:16:34.420",
+    "last_modified": "2026-06-23T15:42:30.483",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "Brother",
+        "product": "SAPSprint"
+      }
+    ]
+  },
+  "CVE-2021-47986": {
+    "cve": "CVE-2021-47986",
+    "description": "Parse Server before 4.10.0 contains a supply chain vulnerability where incorrect version tags were pushed to the repository linking to unreviewed code in a personal fork. Attackers could exploit this by specifying affected version tags in dependency declarations to execute unreviewed and potentially malicious code.",
+    "published": "2026-06-25T22:16:58.210",
+    "last_modified": "2026-06-26T16:19:06.243",
+    "vuln_status": "Awaiting Analysis",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "parse-community",
+        "product": "parse-server"
+      }
+    ]
+  },
+  "CVE-2021-47987": {
+    "cve": "CVE-2021-47987",
+    "description": "Parse Server before 4.10.0 was affected by a supply chain incident in which incorrect version tags were pushed to the official repository pointing to an unreviewed personal fork of a contributor with write access. No releases were published with these tags; a project was exposed only if it defined a git-based dependency referencing one of the affected tags (for example, parse-server#4.9.3). The code behind the tags was not reviewed or approved, and although no malicious code was identified, the introduction of security vulnerabilities could not be ruled out.",
+    "published": "2026-06-25T22:16:58.373",
+    "last_modified": "2026-06-26T20:22:16.713",
+    "vuln_status": "Deferred",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": false,
+    "cpe_count": 0,
+    "cpe_uris": [],
+    "vendor_products": [
+      {
+        "vendor": "parse-community",
+        "product": "parse-server"
+      }
+    ]
+  }
+}

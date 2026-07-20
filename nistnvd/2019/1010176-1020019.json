@@ -1,0 +1,2130 @@
+{
+  "CVE-2019-1010176": {
+    "cve": "CVE-2019-1010176",
+    "description": "JerryScript commit 4e58ccf68070671e1fff5cd6673f0c1d5b80b166 is affected by: Buffer Overflow. The impact is: denial of service and possibly arbitrary code execution. The component is: function lit_char_to_utf8_bytes (jerry-core/lit/lit-char-helpers.c:377). The attack vector is: executing crafted javascript code. The fixed version is: after commit 505dace719aebb3308a3af223cfaa985159efae0.",
+    "published": "2019-07-25T14:15:11.623",
+    "last_modified": "2026-06-17T02:09:50.107",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:jerryscript:jerryscript:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "JerryScript",
+        "product": "JerryScript"
+      }
+    ]
+  },
+  "CVE-2019-1010177": {
+    "cve": "CVE-2019-1010177",
+    "description": "Jsish 2.4.70 2.047 is affected by: Use After Free. The impact is: denial of service and possibly arbitrary code execution. The component is: function Jsi_RegExpNew (jsi/jsiRegexp.c:39). The attack vector is: executing crafted javascript code. The fixed version is: after commit 48a66c798d.",
+    "published": "2019-07-24T12:15:11.080",
+    "last_modified": "2026-06-17T02:09:50.230",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:jsish:jsish:2.4.70_2.047:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Jsish",
+        "product": "Jsi"
+      }
+    ]
+  },
+  "CVE-2019-1010178": {
+    "cve": "CVE-2019-1010178",
+    "description": "Fred MODX Revolution < 1.0.0-beta5 is affected by: Incorrect Access Control - CWE-648. The impact is: Remote Code Execution. The component is: assets/components/fred/web/elfinder/connector.php. The attack vector is: Uploading a PHP file or change data in the database. The fixed version is: https://github.com/modxcms/fred/commit/139cefac83b2ead90da23187d92739dec79d3ccd and https://github.com/modxcms/fred/commit/01f0a3d1ae7f3970639c2a0db1887beba0065246.",
+    "published": "2019-07-24T14:15:10.877",
+    "last_modified": "2026-06-17T02:09:50.350",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 7,
+    "cpe_uris": [
+      "cpe:2.3:a:modx:fred:1.0.0:-:*:*:*:modx:*:*",
+      "cpe:2.3:a:modx:fred:1.0.0:beta2:*:*:*:modx:*:*",
+      "cpe:2.3:a:modx:fred:1.0.0:beta4:*:*:*:modx:*:*",
+      "cpe:2.3:a:modx:fred:1.0.0:pl:*:*:*:modx:*:*",
+      "cpe:2.3:a:modx:fred:1.0.0:rc:*:*:*:modx:*:*",
+      "cpe:2.3:a:modx:fred:1.0.0:rc1:*:*:*:modx:*:*",
+      "cpe:2.3:a:modx:fred:1.0.0:rc2:*:*:*:modx:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Fred",
+        "product": "MODX Revolution"
+      }
+    ]
+  },
+  "CVE-2019-1010179": {
+    "cve": "CVE-2019-1010179",
+    "description": "PHKP including commit 88fd9cfdf14ea4b6ac3e3967feea7bcaabb6f03b is affected by: Improper Neutralization of Special Elements used in a Command ('Command Injection'). The impact is: It is possible to manipulate gpg-keys or execute commands remotely. The component is: function pgp_exec() phkp.php:98. The attack vector is: HKP-Api: /pks/lookup?search.",
+    "published": "2019-07-24T14:15:10.923",
+    "last_modified": "2026-06-17T02:09:50.477",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:phkp_project:phkp:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "PHKP",
+        "product": "PHKP"
+      }
+    ]
+  },
+  "CVE-2019-1010180": {
+    "cve": "CVE-2019-1010180",
+    "description": "GNU gdb All versions is affected by: Buffer Overflow - Out of bound memory access. The impact is: Deny of Service, Memory Disclosure, and Possible Code Execution. The component is: The main gdb module. The attack vector is: Open an ELF for debugging. The fixed version is: Not fixed yet.",
+    "published": "2019-07-24T13:15:10.997",
+    "last_modified": "2026-06-17T02:09:50.590",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 3,
+    "cpe_uris": [
+      "cpe:2.3:a:gnu:gdb:*:*:*:*:*:*:*:*",
+      "cpe:2.3:o:opensuse:leap:15.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:opensuse:leap:15.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "GNU",
+        "product": "gdb"
+      }
+    ]
+  },
+  "CVE-2019-1010182": {
+    "cve": "CVE-2019-1010182",
+    "description": "yaml-rust 0.4.0 and earlier is affected by: Uncontrolled Recursion. The impact is: Denial of service by impossible to catch abort. The component is: YamlLoader::load_from_str function. The attack vector is: Parsing of a malicious YAML document. The fixed version is: 0.4.1 and later.",
+    "published": "2019-07-25T14:15:11.670",
+    "last_modified": "2026-06-17T02:09:50.730",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:yaml-rust_project:yaml-rust:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "yaml-rust",
+        "product": "yaml-rust"
+      }
+    ]
+  },
+  "CVE-2019-1010183": {
+    "cve": "CVE-2019-1010183",
+    "description": "serde serde_yaml 0.6.0 to 0.8.3 is affected by: Uncontrolled Recursion. The impact is: Denial of service by aborting. The component is: from_* functions (all deserialization functions). The attack vector is: Parsing a malicious YAML file. The fixed version is: 0.8.4 and later.",
+    "published": "2019-07-25T13:15:11.593",
+    "last_modified": "2026-06-17T02:09:50.850",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:serde-yaml_project:serde-yaml:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "serde",
+        "product": "serde_yaml"
+      }
+    ]
+  },
+  "CVE-2019-1010189": {
+    "cve": "CVE-2019-1010189",
+    "description": "mgetty prior to version 1.2.1 is affected by: Infinite Loop. The impact is: DoS, the program does never terminates. The component is: g3/g32pbm.c. The attack vector is: Local, the user should open a specially crafted file. The fixed version is: 1.2.1.",
+    "published": "2019-07-24T14:15:10.987",
+    "last_modified": "2026-06-17T02:09:50.960",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mgetty_project:mgetty:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "mgetty",
+        "product": "mgetty"
+      }
+    ]
+  },
+  "CVE-2019-1010190": {
+    "cve": "CVE-2019-1010190",
+    "description": "mgetty prior to 1.2.1 is affected by: out-of-bounds read. The impact is: DoS, the program may crash if the memory is not mapped. The component is: putwhitespan() in g3/pbm2g3.c. The attack vector is: Local, the victim must open a specially crafted file. The fixed version is: 1.2.1.",
+    "published": "2019-07-24T13:15:11.073",
+    "last_modified": "2026-06-17T02:09:51.083",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mgetty_project:mgetty:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "mgetty",
+        "product": "mgetty"
+      }
+    ]
+  },
+  "CVE-2019-1010191": {
+    "cve": "CVE-2019-1010191",
+    "description": "marginalia < 1.6 is affected by: SQL Injection. The impact is: The impact is a injection of any SQL queries when a user controller argument is added as a component. The component is: Affects users that add a component that is user controller, for instance a parameter or a header. The attack vector is: Hacker inputs a SQL to a vulnerable vector(header, http parameter, etc). The fixed version is: 1.6.",
+    "published": "2019-07-24T14:15:11.033",
+    "last_modified": "2026-06-17T02:09:51.200",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:marginalia_project:marginalia:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "marginalia",
+        "product": "marginalia"
+      }
+    ]
+  },
+  "CVE-2019-1010193": {
+    "cve": "CVE-2019-1010193",
+    "description": "hisiphp 1.0.8 is affected by: Cross Site Scripting (XSS).",
+    "published": "2019-07-24T13:15:11.167",
+    "last_modified": "2026-06-17T02:09:51.313",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:hisiphp:hisiphp:1.0.8:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "hisiphp",
+        "product": "hisiphp"
+      }
+    ]
+  },
+  "CVE-2019-1010199": {
+    "cve": "CVE-2019-1010199",
+    "description": "ServiceStack ServiceStack Framework 4.5.14 is affected by: Cross Site Scripting (XSS). The impact is: JavaScrpit is reflected in the server response, hence executed by the browser. The component is: the query used in the GET request is prone. The attack vector is: Since there is no server-side validation and If Browser encoding is bypassed, the victim is affected when opening a crafted URL. The fixed version is: 5.2.0.",
+    "published": "2019-07-23T18:15:14.313",
+    "last_modified": "2026-06-17T02:09:51.427",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:servicestack:servicestack:4.5.14:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "ServiceStack",
+        "product": "ServiceStack Framework"
+      }
+    ]
+  },
+  "CVE-2019-1010200": {
+    "cve": "CVE-2019-1010200",
+    "description": "Voice Builder Prior to commit c145d4604df67e6fc625992412eef0bf9a85e26b and f6660e6d8f0d1d931359d591dbdec580fef36d36 is affected by: CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'). The impact is: Remote code execution with the same privileges as the servers. The component is: Two web servers in the projects expose three vulnerable endpoints that can be accessed remotely. The endpoints are defined at: - /tts: https://github.com/google/voice-builder/blob/3a449a3e8d5100ff323161c89b897f6d5ccdb6f9/merlin_model_server/api.js#L34 - /alignment: https://github.com/google/voice-builder/blob/3a449a3e8d5100ff323161c89b897f6d5ccdb6f9/festival_model_server/api.js#L28 - /tts: https://github.com/google/voice-builder/blob/3a449a3e8d5100ff323161c89b897f6d5ccdb6f9/festival_model_server/api.js#L65. The attack vector is: Attacker sends a GET request to the vulnerable endpoint with a specially formatted query parameter. The fixed version is: After commit f6660e6d8f0d1d931359d591dbdec580fef36d36.",
+    "published": "2019-07-23T18:15:14.377",
+    "last_modified": "2026-06-17T02:09:51.540",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:google:voice_builder:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Voice Builder",
+        "product": "Voice Builder"
+      }
+    ]
+  },
+  "CVE-2019-1010201": {
+    "cve": "CVE-2019-1010201",
+    "description": "Jeesite 1.2.7 is affected by: SQL Injection. The impact is: sensitive information disclosure. The component is: updateProcInsIdByBusinessId() function in src/main/java/com.thinkgem.jeesite/modules/act/ActDao.java has SQL Injection vulnerability. The attack vector is: network connectivity,authenticated. The fixed version is: 4.0 and later.",
+    "published": "2019-07-23T18:15:14.457",
+    "last_modified": "2026-06-17T02:09:51.673",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:jeesite:jeesite:1.2.7:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Jeesite",
+        "product": "Jeesite"
+      }
+    ]
+  },
+  "CVE-2019-1010202": {
+    "cve": "CVE-2019-1010202",
+    "description": "Jeesite 1.2.7 is affected by: XML External Entity (XXE). The impact is: sensitive information disclosure. The component is: convertToModel() function in src/main/java/com.thinkgem.jeesite/modules/act/service/ActProcessService.java. The attack vector is: network connectivity,authenticated,must upload a specially crafted xml file. The fixed version is: 4.0 and later.",
+    "published": "2019-07-23T14:15:13.060",
+    "last_modified": "2026-06-17T02:09:51.787",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:jeesite:jeesite:1.2.7:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Jeesite",
+        "product": "Jeesite"
+      }
+    ]
+  },
+  "CVE-2019-1010204": {
+    "cve": "CVE-2019-1010204",
+    "description": "GNU binutils gold gold v1.11-v1.16 (GNU binutils v2.21-v2.31.1) is affected by: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read. The impact is: Denial of service. The component is: gold/fileread.cc:497, elfcpp/elfcpp_file.h:644. The attack vector is: An ELF file with an invalid e_shoff header field must be opened.",
+    "published": "2019-07-23T14:15:13.373",
+    "last_modified": "2026-06-17T02:09:51.897",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 4,
+    "cpe_uris": [
+      "cpe:2.3:a:gnu:binutils:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gnu:binutils_gold:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:netapp:hci_management_node:-:*:*:*:*:*:*:*",
+      "cpe:2.3:a:netapp:solidfire:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "GNU binutils",
+        "product": "gold"
+      }
+    ]
+  },
+  "CVE-2019-1010205": {
+    "cve": "CVE-2019-1010205",
+    "description": "LINAGORA hublin latest (commit 72ead897082403126bf8df9264e70f0a9de247ff) is affected by: Directory Traversal. The impact is: The vulnerability allows an attacker to access any file (with a fixed extension) on the server. The component is: A web-view renderer; details here: https://lgtm.com/projects/g/linagora/hublin/snapshot/af9f1ce253b4ee923ff8da8f9d908d02a8e95b7f/files/backend/webserver/views.js?sort=name&dir=ASC&mode=heatmap&showExcluded=false#xb24eb0101d2aec21:1. The attack vector is: Attacker sends a specially crafted HTTP request.",
+    "published": "2019-07-23T14:15:13.437",
+    "last_modified": "2026-06-17T02:09:52.020",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:linagora:hublin:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "LINAGORA",
+        "product": "hublin"
+      }
+    ]
+  },
+  "CVE-2019-1010206": {
+    "cve": "CVE-2019-1010206",
+    "description": "OSS Http Request (Apache Cordova Plugin) 6 is affected by: Missing SSL certificate validation. The impact is: certificate spoofing. The component is: use this library when https communication. The attack vector is: certificate spoofing.",
+    "published": "2019-07-23T14:15:13.513",
+    "last_modified": "2026-06-17T02:09:52.147",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.9,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:http_request_project:http_request:6.0:*:*:*:*:cordova:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "OSS",
+        "product": "Http Request (Apache Cordova Plugin)"
+      }
+    ]
+  },
+  "CVE-2019-1010207": {
+    "cve": "CVE-2019-1010207",
+    "description": "Genetechsolutions Pie Register 3.0.15 is affected by: Cross Site Scripting (XSS). The impact is: Stealing of session cookies. The component is: File: Login. Parameters: interim-login, wp-lang, and supplied URL. The attack vector is: If a victim clicks a malicious link, the attacker can steal his/her account. The fixed version is: 3.0.16.",
+    "published": "2019-07-23T14:15:13.593",
+    "last_modified": "2026-06-17T02:09:52.263",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:genetechsolutions:pie_register:3.0.15:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Genetechsolutions",
+        "product": "Pie Register"
+      }
+    ]
+  },
+  "CVE-2019-1010208": {
+    "cve": "CVE-2019-1010208",
+    "description": "IDRIX, Truecrypt Veracrypt, Truecrypt Prior to 1.23-Hotfix-1 (Veracrypt), all versions (Truecrypt) is affected by: Buffer Overflow. The impact is: Minor information disclosure of kernel stack. The component is: Veracrypt NT Driver (veracrypt.sys). The attack vector is: Locally executed code, IOCTL request to driver. The fixed version is: 1.23-Hotfix-1.",
+    "published": "2019-07-23T14:15:13.653",
+    "last_modified": "2026-06-17T02:09:52.383",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.3,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:idrix:truecrypt:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:idrix:veracrypt:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "IDRIX, Truecrypt",
+        "product": "Veracrypt, Truecrypt"
+      }
+    ]
+  },
+  "CVE-2019-1010209": {
+    "cve": "CVE-2019-1010209",
+    "description": "GoUrl.io GoURL Wordpress Plugin 1.4.13 and earlier is affected by: CWE-434. The impact is: unauthenticated/unzuthorized Attacker can upload executable file in website. The component is: gourl.php#L5637. The fixed version is: 1.4.14.",
+    "published": "2019-07-23T14:15:13.747",
+    "last_modified": "2026-06-17T02:09:52.500",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:gorul:gourl:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "GoUrl.io",
+        "product": "GoURL Wordpress Plugin"
+      }
+    ]
+  },
+  "CVE-2019-1010218": {
+    "cve": "CVE-2019-1010218",
+    "description": "Cherokee Webserver Latest Cherokee Web server Upto Version 1.2.103 (Current stable) is affected by: Buffer Overflow - CWE-120. The impact is: Crash. The component is: Main cherokee command. The attack vector is: Overwrite argv[0] to an insane length with execl. The fixed version is: There's no fix yet.",
+    "published": "2019-07-22T18:15:10.917",
+    "last_modified": "2026-06-17T02:09:52.620",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:cherokee-project:cherokee_web_server:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Cherokee Webserver",
+        "product": "Latest Cherokee Web server"
+      }
+    ]
+  },
+  "CVE-2019-1010220": {
+    "cve": "CVE-2019-1010220",
+    "description": "tcpdump.org tcpdump 4.9.2 is affected by: CWE-126: Buffer Over-read. The impact is: May expose Saved Frame Pointer, Return Address etc. on stack. The component is: line 234: \"ND_PRINT((ndo, \"%s\", buf));\", in function named \"print_prefix\", in \"print-hncp.c\". The attack vector is: The victim must open a specially crafted pcap file.",
+    "published": "2019-07-22T18:15:11.027",
+    "last_modified": "2026-06-17T02:09:52.737",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.3,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:tcpdump:tcpdump:4.9.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "tcpdump.org",
+        "product": "tcpdump"
+      }
+    ]
+  },
+  "CVE-2019-1010221": {
+    "cve": "CVE-2019-1010221",
+    "description": "LineageOS 16.0 and earlier is affected by: Incorrect Access Control. The impact is: The property checked by `adb root` can also be set in a normal adb shell session. The component is: adb shell (patches to fix this are at https://review.lineageos.org/c/LineageOS/android_system_core/+/234800, https://review.lineageos.org/c/LineageOS/android_device_lineage_sepolicy/+/234799). The attack vector is: When adb is enabled, and an attacker has physical access, `adb shell setprop service.adb.root 1` allows restarting adb as root.",
+    "published": "2019-07-23T14:15:13.827",
+    "last_modified": "2026-06-17T02:09:52.900",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:lineageos:lineageos:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "LineageOS",
+        "product": "LineageOS"
+      }
+    ]
+  },
+  "CVE-2019-1010228": {
+    "cve": "CVE-2019-1010228",
+    "description": "OFFIS.de DCMTK 3.6.3 and below is affected by: Buffer Overflow. The impact is: Possible code execution and confirmed Denial of Service. The component is: DcmRLEDecoder::decompress() (file dcrledec.h, line 122). The attack vector is: Many scenarios of DICOM file processing (e.g. DICOM to image conversion). The fixed version is: 3.6.4, after commit 40917614e.",
+    "published": "2019-07-22T17:15:38.793",
+    "last_modified": "2026-06-17T02:09:53.070",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 3,
+    "cpe_uris": [
+      "cpe:2.3:a:offis:dcmtk:*:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "OFFIS.de",
+        "product": "DCMTK"
+      }
+    ]
+  },
+  "CVE-2019-1010232": {
+    "cve": "CVE-2019-1010232",
+    "description": "Juniper juniper/libslax libslax latest version (as of commit 084ddf6ab4a55b59dfa9a53f9c5f14d192c4f8e5 Commits on Sep 1, 2018) is affected by: Buffer Overflow. The impact is: remote dos. The component is: slaxlexer.c:601(funtion:slaxGetInput). The attack vector is: ./slaxproc --slax-to-xslt POC0.",
+    "published": "2019-07-22T16:15:11.253",
+    "last_modified": "2026-06-17T02:09:53.193",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:juniper:libslax:0.22.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Juniper",
+        "product": "juniper/libslax"
+      }
+    ]
+  },
+  "CVE-2019-1010234": {
+    "cve": "CVE-2019-1010234",
+    "description": "The Linux Foundation ONOS 1.15.0 and ealier is affected by: Improper Input Validation. The impact is: The attacker can remotely execute any commands by sending malicious http request to the controller. The component is: Method runJavaCompiler in YangLiveCompilerManager.java. The attack vector is: network connectivity.",
+    "published": "2019-07-22T15:15:10.393",
+    "last_modified": "2026-06-17T02:09:53.307",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:linuxfoundation:open_network_operating_system:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "The Linux Foundation",
+        "product": "ONOS"
+      }
+    ]
+  },
+  "CVE-2019-1010235": {
+    "cve": "CVE-2019-1010235",
+    "description": "Frog CMS 1.1 is affected by: Cross Site Scripting (XSS). The impact is: Cookie stealing, Alert pop-up on page, Redirecting to another phishing site, Executing browser exploits. The component is: Snippets.",
+    "published": "2019-07-22T15:15:10.457",
+    "last_modified": "2026-06-17T02:09:53.420",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:frog_cms_project:frog_cms:1.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Frog CMS",
+        "product": "Frog CMS"
+      }
+    ]
+  },
+  "CVE-2019-1010237": {
+    "cve": "CVE-2019-1010237",
+    "description": "Ilias 5.3 before 5.3.12; 5.2 before 5.2.21 is affected by: Cross Site Scripting (XSS) - CWE-79 Type 2: Stored XSS (or Persistent). The impact is: Execute code in the victim's browser. The component is: Assessment / TestQuestionPool. The attack vector is: Cloze Test Text gap (attacker) / Corrections view (victim). The fixed version is: 5.3.12.",
+    "published": "2019-07-22T15:15:10.517",
+    "last_modified": "2026-06-17T02:09:53.533",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:ilias:ilias:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:ilias:ilias:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Ilias",
+        "product": "Ilias"
+      }
+    ]
+  },
+  "CVE-2019-1010238": {
+    "cve": "CVE-2019-1010238",
+    "description": "Gnome Pango 1.42 and later is affected by: Buffer Overflow. The impact is: The heap based buffer overflow can be used to get code execution. The component is: function name: pango_log2vis_get_embedding_levels, assignment of nchars and the loop condition. The attack vector is: Bug can be used when application pass invalid utf-8 strings to functions like pango_itemize.",
+    "published": "2019-07-19T17:15:11.690",
+    "last_modified": "2026-06-17T02:09:53.650",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 28,
+    "cpe_uris": [
+      "cpe:2.3:a:gnome:pango:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:oracle:sd-wan_edge:7.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:oracle:sd-wan_edge:8.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:oracle:sd-wan_edge:8.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:oracle:sd-wan_edge:8.2:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:19.04:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:openshift_container_platform:3.11:*:*:*:*:*:*:*",
+      "cpe:2.3:a:redhat:openshift_container_platform:4.1:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux:8.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_eus:8.1:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_eus:8.2:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_eus:8.4:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_server_aus:8.2:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_server_aus:8.4:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_server_tus:8.2:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_server_tus:8.4:*:*:*:*:*:*:*",
+      "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Gnome",
+        "product": "Pango"
+      }
+    ]
+  },
+  "CVE-2019-1010239": {
+    "cve": "CVE-2019-1010239",
+    "description": "DaveGamble/cJSON cJSON 1.7.8 is affected by: Improper Check for Unusual or Exceptional Conditions. The impact is: Null dereference, so attack can cause denial of service. The component is: cJSON_GetObjectItemCaseSensitive() function. The attack vector is: crafted json file. The fixed version is: 1.7.9 and later.",
+    "published": "2019-07-19T17:15:11.783",
+    "last_modified": "2026-06-17T02:09:53.827",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:davegamble:cjson:1.7.8:*:*:*:*:*:*:*",
+      "cpe:2.3:a:oracle:timesten_in-memory_database:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "DaveGamble/cJSON",
+        "product": "cJSON"
+      }
+    ]
+  },
+  "CVE-2019-1010241": {
+    "cve": "CVE-2019-1010241",
+    "description": "Jenkins Credentials Binding Plugin Jenkins 1.17 is affected by: CWE-257: Storing Passwords in a Recoverable Format. The impact is: Authenticated users can recover credentials. The component is: config-variables.jelly line #30 (passwordVariable). The attack vector is: Attacker creates and executes a Jenkins job.",
+    "published": "2019-07-19T17:15:11.877",
+    "last_modified": "2026-06-17T02:09:53.950",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:jenkins:credentials_binding:1.17:*:*:*:*:jenkins:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Jenkins Credentials Binding Plugin",
+        "product": "Jenkins"
+      }
+    ]
+  },
+  "CVE-2019-1010245": {
+    "cve": "CVE-2019-1010245",
+    "description": "The Linux Foundation ONOS SDN Controller 1.15 and earlier versions is affected by: Improper Input Validation. The impact is: A remote attacker can execute arbitrary commands on the controller. The component is: apps/yang/src/main/java/org/onosproject/yang/impl/YangLiveCompilerManager.java. The attack vector is: network connectivity. The fixed version is: 1.15.",
+    "published": "2019-07-19T15:15:11.987",
+    "last_modified": "2026-06-17T02:09:54.067",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:linuxfoundation:open_network_operating_system:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "The Linux Foundation",
+        "product": "ONOS SDN Controller"
+      }
+    ]
+  },
+  "CVE-2019-1010246": {
+    "cve": "CVE-2019-1010246",
+    "description": "MailCleaner before c888fbb6aaa7c5f8400f637bcf1cbb844de46cd9 is affected by: Unauthenticated MySQL database password information disclosure. The impact is: MySQL database content disclosure (e.g. username, password). The component is: The API call in the function allowAction() in NewslettersController.php. The attack vector is: HTTP Get request. The fixed version is: c888fbb6aaa7c5f8400f637bcf1cbb844de46cd9.",
+    "published": "2019-07-18T19:15:11.257",
+    "last_modified": "2026-06-17T02:09:54.190",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mailcleaner:mailcleaner:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "MailCleaner",
+        "product": "MailCleaner"
+      }
+    ]
+  },
+  "CVE-2019-1010247": {
+    "cve": "CVE-2019-1010247",
+    "description": "ZmartZone IAM mod_auth_openidc 2.3.10.1 and earlier is affected by: Cross Site Scripting (XSS). The impact is: Redirecting the user to a phishing page or interacting with the application on behalf of the user. The component is: File: src/mod_auth_openidc.c, Line: 3109. The fixed version is: 2.3.10.2.",
+    "published": "2019-07-19T15:15:12.063",
+    "last_modified": "2026-06-17T02:09:54.300",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:openidc:mod_auth_openidc:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "ZmartZone IAM",
+        "product": "mod_auth_openidc"
+      }
+    ]
+  },
+  "CVE-2019-1010248": {
+    "cve": "CVE-2019-1010248",
+    "description": "Synetics GmbH I-doit 1.12 and earlier is affected by: SQL Injection. The impact is: Unauthenticated mysql database access. The component is: Web login form. The attack vector is: An attacker can exploit the vulnerability by sending a malicious HTTP POST request. The fixed version is: 1.12.1.",
+    "published": "2019-07-18T18:15:12.060",
+    "last_modified": "2026-06-17T02:09:54.437",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:i-doit:i-doit:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Synetics GmbH",
+        "product": "I-doit"
+      }
+    ]
+  },
+  "CVE-2019-1010249": {
+    "cve": "CVE-2019-1010249",
+    "description": "The Linux Foundation ONOS 2.0.0 and earlier is affected by: Integer Overflow. The impact is: A network administrator (or attacker) can install unintended flow rules in the switch by mistake. The component is: createFlow() and createFlows() functions in FlowWebResource.java (RESTful service). The attack vector is: network management and connectivity.",
+    "published": "2019-07-18T18:15:12.137",
+    "last_modified": "2026-06-17T02:09:54.547",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.9,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:linuxfoundation:open_network_operating_system:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "The Linux Foundation",
+        "product": "ONOS"
+      }
+    ]
+  },
+  "CVE-2019-1010250": {
+    "cve": "CVE-2019-1010250",
+    "description": "The Linux Foundation ONOS 2.0.0 and earlier is affected by: Poor Input-validation. The impact is: A network administrator (or attacker) can install unintended flow rules in the switch by mistake. The component is: createFlow() and createFlows() functions in FlowWebResource.java (RESTful service). The attack vector is: network management and connectivity.",
+    "published": "2019-07-18T18:15:12.217",
+    "last_modified": "2026-06-17T02:09:54.663",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.9,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:linuxfoundation:open_network_operating_system:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "The Linux Foundation",
+        "product": "ONOS"
+      }
+    ]
+  },
+  "CVE-2019-1010251": {
+    "cve": "CVE-2019-1010251",
+    "description": "Open Information Security Foundation Suricata prior to version 4.1.2 is affected by: Denial of Service - DNS detection bypass. The impact is: An attacker can evade a signature detection with a specialy formed network packet. The component is: app-layer-detect-proto.c, decode.c, decode-teredo.c and decode-ipv6.c (https://github.com/OISF/suricata/pull/3590/commits/11f3659f64a4e42e90cb3c09fcef66894205aefe, https://github.com/OISF/suricata/pull/3590/commits/8357ef3f8ffc7d99ef6571350724160de356158b). The attack vector is: An attacker can trigger the vulnerability by sending a specifically crafted network request. The fixed version is: 4.1.2.",
+    "published": "2019-07-18T18:15:12.293",
+    "last_modified": "2026-06-17T02:09:54.777",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 4,
+    "cpe_uris": [
+      "cpe:2.3:a:oisf:suricata:4.0.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:oisf:suricata:4.0.3:*:*:*:*:*:*:*",
+      "cpe:2.3:a:oisf:suricata:4.0.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:oisf:suricata:4.1.0:beta1:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Open Information Security Foundation",
+        "product": "Suricata"
+      }
+    ]
+  },
+  "CVE-2019-1010252": {
+    "cve": "CVE-2019-1010252",
+    "description": "The Linux Foundation ONOS 2.0.0 and earlier is affected by: Poor Input-validation. The impact is: A network administrator (or attacker) can install unintended flow rules in the switch by mistake. The component is: applyFlowRules() and apply() functions in FlowRuleManager.java. The attack vector is: network management and connectivity.",
+    "published": "2019-07-18T18:15:12.373",
+    "last_modified": "2026-06-17T02:09:54.903",
+    "vuln_status": "Modified",
+    "cvss_base_score": 4.9,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:linuxfoundation:open_network_operating_system:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "The Linux Foundation",
+        "product": "ONOS"
+      }
+    ]
+  },
+  "CVE-2019-1010257": {
+    "cve": "CVE-2019-1010257",
+    "description": "An Information Disclosure / Data Modification issue exists in article2pdf_getfile.php in the article2pdf Wordpress plugin 0.24, 0.25, 0.26, 0.27. A URL can be constructed which allows overriding the PDF file's path leading to any PDF whose path is known and which is readable to the web server can be downloaded. The file will be deleted after download if the web server has permission to do so. For PHP versions before 5.3, any file can be read by null terminating the string left of the file extension.",
+    "published": "2019-03-27T19:30:11.663",
+    "last_modified": "2026-06-17T02:09:55.020",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.1,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:article2pdf_project:article2pdf:*:*:*:*:*:wordpress:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "article2pdf",
+        "product": "article2pdf Wordpress plug-in"
+      }
+    ]
+  },
+  "CVE-2019-1010258": {
+    "cve": "CVE-2019-1010258",
+    "description": "nanosvg library nanosvg after commit c1f6e209c16b18b46aa9f45d7e619acf42c29726 is affected by: Buffer Overflow. The impact is: Memory corruption leading to at least DoS. More severe impact vectors need more investigation. The component is: it's part of a svg processing library. function nsvg__parseColorRGB in src/nanosvg.h / line 1227. The attack vector is: It depends library usage. If input is passed from the network, then network connectivity is enough. Most likely an attack will require opening a specially crafted .svg file.",
+    "published": "2019-05-15T18:29:00.263",
+    "last_modified": "2026-06-17T02:09:55.150",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:nanosvg_project:nanosvg:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "nanosvg library",
+        "product": "nanosvg"
+      }
+    ]
+  },
+  "CVE-2019-1010259": {
+    "cve": "CVE-2019-1010259",
+    "description": "SaltStack Salt 2018.3, 2019.2 is affected by: SQL Injection. The impact is: An attacker could escalate privileges on MySQL server deployed by cloud provider. It leads to RCE. The component is: The mysql.user_chpass function from the MySQL module for Salt. The attack vector is: specially crafted password string. The fixed version is: 2018.3.4.",
+    "published": "2019-07-18T17:15:11.567",
+    "last_modified": "2026-06-17T02:09:55.260",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:saltstack:salt_2018:3.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:saltstack:salt_2019:2.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "SaltStack",
+        "product": "Salt"
+      }
+    ]
+  },
+  "CVE-2019-1010260": {
+    "cve": "CVE-2019-1010260",
+    "description": "Using ktlint to download and execute custom rulesets can result in arbitrary code execution as the served jars can be compromised by a MITM. This attack is exploitable via Man in the Middle of the HTTP connection to the artifact servers. This vulnerability appears to have been fixed in 0.30.0 and later; after commit 5e547b287d6c260d328a2cb658dbe6b7a7ff2261.",
+    "published": "2019-04-02T15:29:00.480",
+    "last_modified": "2026-06-17T02:09:55.373",
+    "vuln_status": "Modified",
+    "cvss_base_score": 8.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:ktlint_project:ktlint:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "ktlint",
+        "product": "ktlint"
+      }
+    ]
+  },
+  "CVE-2019-1010261": {
+    "cve": "CVE-2019-1010261",
+    "description": "Gitea 1.7.0 and earlier is affected by: Cross Site Scripting (XSS). The impact is: Attacker is able to have victim execute arbitrary JS in browser. The component is: go-get URL generation - PR to fix: https://github.com/go-gitea/gitea/pull/5905. The attack vector is: victim must open a specifically crafted URL. The fixed version is: 1.7.1 and later.",
+    "published": "2019-07-18T17:15:11.647",
+    "last_modified": "2026-06-17T02:09:55.487",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:gitea:gitea:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Gitea",
+        "product": "Gitea"
+      }
+    ]
+  },
+  "CVE-2019-1010263": {
+    "cve": "CVE-2019-1010263",
+    "description": "Perl Crypt::JWT prior to 0.023 is affected by: Incorrect Access Control. The impact is: allow attackers to bypass authentication by providing a token by crafting with hmac(). The component is: JWT.pm, line 614. The attack vector is: network connectivity. The fixed version is: after commit b98a59b42ded9f9e51b2560410106207c2152d6c.",
+    "published": "2019-07-17T21:15:10.780",
+    "last_modified": "2026-06-17T02:09:55.617",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:perl_crypt\\:\\:jwt_project:perl_crypt\\:\\:jwt:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Perl Crypt::JWT",
+        "product": "Perl Crypt::JWT"
+      }
+    ]
+  },
+  "CVE-2019-1010266": {
+    "cve": "CVE-2019-1010266",
+    "description": "lodash prior to 4.17.11 is affected by: CWE-400: Uncontrolled Resource Consumption. The impact is: Denial of service. The component is: Date handler. The attack vector is: Attacker provides very long strings, which the library attempts to match using a regular expression. The fixed version is: 4.17.11.",
+    "published": "2019-07-17T21:15:10.873",
+    "last_modified": "2026-06-17T02:09:55.727",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:lodash:lodash:*:*:*:*:*:node.js:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "lodash",
+        "product": "lodash"
+      }
+    ]
+  },
+  "CVE-2019-1010268": {
+    "cve": "CVE-2019-1010268",
+    "description": "Ladon since 0.6.1 (since ebef0aae48af78c159b6fce81bc6f5e7e0ddb059) is affected by: XML External Entity (XXE). The impact is: Information Disclosure, reading files and reaching internal network endpoints. The component is: SOAP request handlers. For instance: https://bitbucket.org/jakobsg/ladon/src/42944fc012a3a48214791c120ee5619434505067/src/ladon/interfaces/soap.py#lines-688. The attack vector is: Send a specially crafted SOAP call.",
+    "published": "2019-07-18T17:15:11.803",
+    "last_modified": "2026-06-17T02:09:55.850",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:ladon_project:ladon:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Ladon",
+        "product": "Ladon"
+      }
+    ]
+  },
+  "CVE-2019-1010275": {
+    "cve": "CVE-2019-1010275",
+    "description": "helm Before 2.7.2 is affected by: CWE-295: Improper Certificate Validation. The impact is: Unauthorized clients could connect to the server because self-signed client certs were aloowed. The component is: helm (many files updated, see https://github.com/helm/helm/pull/3152/files/1096813bf9a425e2aa4ac755b6c991b626dfab50). The attack vector is: A malicious client could connect to the server over the network. The fixed version is: 2.7.2.",
+    "published": "2019-07-17T21:15:10.953",
+    "last_modified": "2026-06-17T02:09:55.960",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:helm:helm:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "helm",
+        "product": "helm"
+      }
+    ]
+  },
+  "CVE-2019-1010279": {
+    "cve": "CVE-2019-1010279",
+    "description": "Open Information Security Foundation Suricata prior to version 4.1.3 is affected by: Denial of Service - TCP/HTTP detection bypass. The impact is: An attacker can evade a signature detection with a specialy formed sequence of network packets. The component is: detect.c (https://github.com/OISF/suricata/pull/3625/commits/d8634daf74c882356659addb65fb142b738a186b). The attack vector is: An attacker can trigger the vulnerability by a specifically crafted network TCP session. The fixed version is: 4.1.3.",
+    "published": "2019-07-18T19:15:11.317",
+    "last_modified": "2026-06-17T02:09:56.073",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:oisf:suricata:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Open Information Security Foundation",
+        "product": "Suricata"
+      }
+    ]
+  },
+  "CVE-2019-1010283": {
+    "cve": "CVE-2019-1010283",
+    "description": "Univention Corporate Server univention-directory-notifier 12.0.1-3 and earlier is affected by: CWE-213: Intentional Information Exposure. The impact is: Loss of Confidentiality. The component is: function data_on_connection() in src/callback.c. The attack vector is: network connectivity. The fixed version is: 12.0.1-4 and later.",
+    "published": "2019-07-17T21:15:11.013",
+    "last_modified": "2026-06-17T02:09:56.190",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:univention:univention_corporate_server:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Univention Corporate Server",
+        "product": "univention-directory-notifier"
+      }
+    ]
+  },
+  "CVE-2019-1010287": {
+    "cve": "CVE-2019-1010287",
+    "description": "Timesheet Next Gen 1.5.3 and earlier is affected by: Cross Site Scripting (XSS). The impact is: Allows an attacker to execute arbitrary HTML and JavaScript code via a \"redirect\" parameter. The component is: Web login form: login.php, lines 40 and 54. The attack vector is: reflected XSS, victim may click the malicious url.",
+    "published": "2019-07-17T21:15:11.093",
+    "last_modified": "2026-06-17T02:09:56.310",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:timesheet_next_gen_project:timesheet_next_gen:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Timesheet Next Gen",
+        "product": "Timesheet Next Gen"
+      }
+    ]
+  },
+  "CVE-2019-1010290": {
+    "cve": "CVE-2019-1010290",
+    "description": "Babel: Multilingual site Babel All is affected by: Open Redirection. The impact is: Redirection to any URL, which is supplied to redirect.php in a \"newurl\" parameter. The component is: redirect.php. The attack vector is: The victim must open a link created by an attacker. Attacker may use any legitimate site using Babel to redirect user to a URL of his/her choosing.",
+    "published": "2019-07-16T14:15:11.903",
+    "last_modified": "2026-06-17T02:09:56.420",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:cmsmadesimple:bable\\:multilingual_site:*:*:*:*:*:cms_made_simple:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Babel: Multilingual site",
+        "product": "Babel"
+      }
+    ]
+  },
+  "CVE-2019-1010292": {
+    "cve": "CVE-2019-1010292",
+    "description": "Linaro/OP-TEE OP-TEE Prior to version v3.4.0 is affected by: Boundary checks. The impact is: This could lead to corruption of any memory which the TA can access. The component is: optee_os. The fixed version is: v3.4.0.",
+    "published": "2019-07-16T14:15:11.997",
+    "last_modified": "2026-06-17T02:09:56.530",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:trustedfirmware:op-tee:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Linaro/OP-TEE",
+        "product": "OP-TEE"
+      }
+    ]
+  },
+  "CVE-2019-1010293": {
+    "cve": "CVE-2019-1010293",
+    "description": "Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Boundary crossing. The impact is: Memory corruption of the TEE itself. The component is: optee_os. The fixed version is: 3.4.0 and later.",
+    "published": "2019-07-15T18:15:11.303",
+    "last_modified": "2026-06-17T02:09:56.640",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:trustedfirmware:op-tee:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Linaro/OP-TEE",
+        "product": "OP-TEE"
+      }
+    ]
+  },
+  "CVE-2019-1010294": {
+    "cve": "CVE-2019-1010294",
+    "description": "Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Rounding error. The impact is: Potentially leaking code and/or data from previous Trusted Application. The component is: optee_os. The fixed version is: 3.4.0 and later.",
+    "published": "2019-07-15T18:15:11.383",
+    "last_modified": "2026-06-17T02:09:56.753",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:trustedfirmware:op-tee:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Linaro/OP-TEE",
+        "product": "OP-TEE"
+      }
+    ]
+  },
+  "CVE-2019-1010295": {
+    "cve": "CVE-2019-1010295",
+    "description": "Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Buffer Overflow. The impact is: Memory corruption and disclosure of memory content. The component is: optee_os. The fixed version is: 3.4.0 and later.",
+    "published": "2019-07-15T18:15:11.443",
+    "last_modified": "2026-06-17T02:09:56.863",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:trustedfirmware:op-tee:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Linaro/OP-TEE",
+        "product": "OP-TEE"
+      }
+    ]
+  },
+  "CVE-2019-1010296": {
+    "cve": "CVE-2019-1010296",
+    "description": "Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Buffer Overflow. The impact is: Code execution in context of TEE core (kernel). The component is: optee_os. The fixed version is: 3.4.0 and later.",
+    "published": "2019-07-15T18:15:11.507",
+    "last_modified": "2026-06-17T02:09:56.980",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:trustedfirmware:op-tee:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Linaro/OP-TEE",
+        "product": "OP-TEE"
+      }
+    ]
+  },
+  "CVE-2019-1010297": {
+    "cve": "CVE-2019-1010297",
+    "description": "Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Buffer Overflow. The impact is: Execution of code in TEE core (kernel) context. The component is: optee_os. The fixed version is: 3.4.0 and later.",
+    "published": "2019-07-15T18:15:11.587",
+    "last_modified": "2026-06-17T02:09:57.090",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:trustedfirmware:op-tee:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Linaro/OP-TEE",
+        "product": "OP-TEE"
+      }
+    ]
+  },
+  "CVE-2019-1010298": {
+    "cve": "CVE-2019-1010298",
+    "description": "Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Buffer Overflow. The impact is: Code execution in the context of TEE core (kernel). The component is: optee_os. The fixed version is: 3.4.0 and later.",
+    "published": "2019-07-15T18:15:11.647",
+    "last_modified": "2026-06-17T02:09:57.207",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:o:trustedfirmware:op-tee:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Linaro/OP-TEE",
+        "product": "OP-TEE"
+      }
+    ]
+  },
+  "CVE-2019-1010299": {
+    "cve": "CVE-2019-1010299",
+    "description": "The Rust Programming Language Standard Library 1.18.0 and later is affected by: CWE-200: Information Exposure. The impact is: Contents of uninitialized memory could be printed to string or to log file. The component is: Debug trait implementation for std::collections::vec_deque::Iter. The attack vector is: The program needs to invoke debug printing for iterator over an empty VecDeque. The fixed version is: 1.30.0, nightly versions after commit b85e4cc8fadaabd41da5b9645c08c68b8f89908d.",
+    "published": "2019-07-15T18:15:11.727",
+    "last_modified": "2026-06-17T02:09:57.320",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:rust-lang:rust:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "The Rust Programming Language",
+        "product": "Standard Library"
+      }
+    ]
+  },
+  "CVE-2019-1010300": {
+    "cve": "CVE-2019-1010300",
+    "description": "mz-automation libiec61850 1.3.2 1.3.1 1.3.0 is affected by: Buffer Overflow. The impact is: Software crash. The component is: server_example_complex_array. The attack vector is: Send a specific MMS protocol packet.",
+    "published": "2019-07-15T18:15:11.803",
+    "last_modified": "2026-06-17T02:09:57.440",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 3,
+    "cpe_uris": [
+      "cpe:2.3:a:mz-automation:libiec61850:1.3.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mz-automation:libiec61850:1.3.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:mz-automation:libiec61850:1.3.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "mz-automation",
+        "product": "libiec61850"
+      }
+    ]
+  },
+  "CVE-2019-1010301": {
+    "cve": "CVE-2019-1010301",
+    "description": "jhead 3.03 is affected by: Buffer Overflow. The impact is: Denial of service. The component is: gpsinfo.c Line 151 ProcessGpsInfo(). The attack vector is: Open a specially crafted JPEG file.",
+    "published": "2019-07-15T18:15:11.883",
+    "last_modified": "2026-06-17T02:09:57.550",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 4,
+    "cpe_uris": [
+      "cpe:2.3:a:jhead_project:jhead:3.03:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "jhead",
+        "product": "jhead"
+      }
+    ]
+  },
+  "CVE-2019-1010302": {
+    "cve": "CVE-2019-1010302",
+    "description": "jhead 3.03 is affected by: Incorrect Access Control. The impact is: Denial of service. The component is: iptc.c Line 122 show_IPTC(). The attack vector is: the victim must open a specially crafted JPEG file.",
+    "published": "2019-07-15T18:15:11.943",
+    "last_modified": "2026-06-17T02:09:57.680",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 4,
+    "cpe_uris": [
+      "cpe:2.3:a:jhead_project:jhead:3.03:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "jhead",
+        "product": "jhead"
+      }
+    ]
+  },
+  "CVE-2019-1010304": {
+    "cve": "CVE-2019-1010304",
+    "description": "Saleor Issue was introduced by merge commit: e1b01bad0703afd08d297ed3f1f472248312cc9c. This commit was released as part of 2.0.0 release is affected by: Incorrect Access Control. The impact is: Important. The component is: ProductVariant type in GraphQL API. The attack vector is: Unauthenticated user can access the GraphQL API (which is by default publicly exposed under `/graphql/` URL) and fetch products data which may include admin-restricted shop's revenue data. The fixed version is: 2.3.1.",
+    "published": "2019-07-15T15:15:11.297",
+    "last_modified": "2026-06-17T02:09:57.810",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:mirumee:saleor:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Saleor",
+        "product": "Saleor"
+      }
+    ]
+  },
+  "CVE-2019-1010305": {
+    "cve": "CVE-2019-1010305",
+    "description": "libmspack 0.9.1alpha is affected by: Buffer Overflow. The impact is: Information Disclosure. The component is: function chmd_read_headers() in libmspack(file libmspack/mspack/chmd.c). The attack vector is: the victim must open a specially crafted chm file. The fixed version is: after commit 2f084136cfe0d05e5bf5703f3e83c6d955234b4d.",
+    "published": "2019-07-15T15:15:11.377",
+    "last_modified": "2026-06-17T02:09:57.920",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 9,
+    "cpe_uris": [
+      "cpe:2.3:a:kyzer:libmspack:0.9.1:alpha:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:esm:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:lts:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "libmspack",
+        "product": "libmspack"
+      }
+    ]
+  },
+  "CVE-2019-1010306": {
+    "cve": "CVE-2019-1010306",
+    "description": "Slanger 0.6.0 is affected by: Remote Code Execution (RCE). The impact is: A remote attacker can execute arbitrary commands by sending a crafted request to the server. The component is: Message handler & request validator. The attack vector is: Remote unauthenticated. The fixed version is: after commit 5267b455caeb2e055cccf0d2b6a22727c111f5c3.",
+    "published": "2019-07-15T15:15:11.470",
+    "last_modified": "2026-06-17T02:09:58.067",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:teller:slanger:0.6.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Slanger",
+        "product": "Slanger"
+      }
+    ]
+  },
+  "CVE-2019-1010307": {
+    "cve": "CVE-2019-1010307",
+    "description": "GLPI GLPI Product 9.3.1 is affected by: Cross Site Scripting (XSS). The impact is: All dropdown values are vulnerable to XSS leading to privilege escalation and executing js on admin. The component is: /glpi/ajax/getDropDownValue.php. The attack vector is: 1- User Create a ticket , 2- Admin opens another ticket and click on the \"Link Tickets\" feature, 3- a request to the endpoint fetches js and executes it.",
+    "published": "2019-07-15T18:15:12.007",
+    "last_modified": "2026-06-17T02:09:58.183",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:glpi-project:glpi:9.3.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "GLPI",
+        "product": "GLPI Product"
+      }
+    ]
+  },
+  "CVE-2019-1010308": {
+    "cve": "CVE-2019-1010308",
+    "description": "Aquaverde GmbH Aquarius CMS prior to version 4.1.1 is affected by: Incorrect Access Control. The impact is: The access to the log file is not restricted. It contains sensitive information like passwords etc. The component is: log file. The attack vector is: open the file.",
+    "published": "2019-07-15T18:15:12.070",
+    "last_modified": "2026-06-17T02:09:58.300",
+    "vuln_status": "Modified",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:aquaverde:aquarius_cms:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Aquaverde GmbH",
+        "product": "Aquarius CMS"
+      }
+    ]
+  },
+  "CVE-2019-1010310": {
+    "cve": "CVE-2019-1010310",
+    "description": "GLPI GLPI Product 9.3.1 is affected by: Frame and Form tags Injection allowing admins to phish users by putting code in reminder description. The impact is: Admins can phish any user or group of users for credentials / credit cards. The component is: Tools > Reminder > Description .. Set the description to any iframe/form tags and apply. The attack vector is: The attacker puts a login form, the user fills it and clicks on submit .. the request is sent to the attacker domain saving the data. The fixed version is: 9.4.1.",
+    "published": "2019-07-12T18:15:11.560",
+    "last_modified": "2026-06-17T02:09:58.430",
+    "vuln_status": "Modified",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:glpi-project:glpi:9.3.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "GLPI",
+        "product": "GLPI Product"
+      }
+    ]
+  },
+  "CVE-2019-1010314": {
+    "cve": "CVE-2019-1010314",
+    "description": "Gitea 1.7.2, 1.7.3 is affected by: Cross Site Scripting (XSS). The impact is: execute JavaScript in victim's browser, when the vulnerable repo page is loaded. The component is: repository's description. The attack vector is: victim must navigate to public and affected repo page.",
+    "published": "2019-07-11T20:15:12.037",
+    "last_modified": "2026-06-17T02:09:58.573",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:gitea:gitea:1.7.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:gitea:gitea:1.7.3:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Gitea",
+        "product": "Gitea"
+      }
+    ]
+  },
+  "CVE-2019-1010315": {
+    "cve": "CVE-2019-1010315",
+    "description": "WavPack 5.1 and earlier is affected by: CWE 369: Divide by Zero. The impact is: Divide by zero can lead to sudden crash of a software/service that tries to parse a .wav file. The component is: ParseDsdiffHeaderConfig (dsdiff.c:282). The attack vector is: Maliciously crafted .wav file. The fixed version is: After commit https://github.com/dbry/WavPack/commit/4c0faba32fddbd0745cbfaf1e1aeb3da5d35b9fc.",
+    "published": "2019-07-11T20:15:12.100",
+    "last_modified": "2026-06-17T02:09:58.683",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 6,
+    "cpe_uris": [
+      "cpe:2.3:a:wavpack:wavpack:*:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:31:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:19.04:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "WavPack",
+        "product": "WavPack"
+      }
+    ]
+  },
+  "CVE-2019-1010316": {
+    "cve": "CVE-2019-1010316",
+    "description": "pyxtrlock 0.3 and earlier is affected by: Incorrect Access Control. The impact is: False locking impression when run in a non-X11 session. The fixed version is: 0.4.",
+    "published": "2019-07-11T20:15:12.163",
+    "last_modified": "2026-06-17T02:09:58.817",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:pyxtrlock_project:pyxtrlock:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "pyxtrlock",
+        "product": "pyxtrlock"
+      }
+    ]
+  },
+  "CVE-2019-1010317": {
+    "cve": "CVE-2019-1010317",
+    "description": "WavPack 5.1.0 and earlier is affected by: CWE-457: Use of Uninitialized Variable. The impact is: Unexpected control flow, crashes, and segfaults. The component is: ParseCaffHeaderConfig (caff.c:486). The attack vector is: Maliciously crafted .wav file. The fixed version is: After commit https://github.com/dbry/WavPack/commit/f68a9555b548306c5b1ee45199ccdc4a16a6101b.",
+    "published": "2019-07-11T20:15:12.227",
+    "last_modified": "2026-06-17T02:09:58.930",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 7,
+    "cpe_uris": [
+      "cpe:2.3:a:wavpack:wavpack:*:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:31:*:*:*:*:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:19.04:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "WavPack",
+        "product": "WavPack"
+      }
+    ]
+  },
+  "CVE-2019-1010319": {
+    "cve": "CVE-2019-1010319",
+    "description": "WavPack 5.1.0 and earlier is affected by: CWE-457: Use of Uninitialized Variable. The impact is: Unexpected control flow, crashes, and segfaults. The component is: ParseWave64HeaderConfig (wave64.c:211). The attack vector is: Maliciously crafted .wav file. The fixed version is: After commit https://github.com/dbry/WavPack/commit/33a0025d1d63ccd05d9dbaa6923d52b1446a62fe.",
+    "published": "2019-07-11T20:15:12.367",
+    "last_modified": "2026-06-17T02:09:59.100",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 7,
+    "cpe_uris": [
+      "cpe:2.3:a:wavpack:wavpack:*:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:31:*:*:*:*:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:19.04:*:*:*:*:*:*:*",
+      "cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "WavPack",
+        "product": "WavPack"
+      }
+    ]
+  },
+  "CVE-2019-1020001": {
+    "cve": "CVE-2019-1020001",
+    "description": "yard before 0.9.20 allows path traversal.",
+    "published": "2019-07-29T13:15:11.623",
+    "last_modified": "2026-06-17T02:09:59.263",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:yardoc:yard:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "yard",
+        "product": "yard"
+      }
+    ]
+  },
+  "CVE-2019-1020002": {
+    "cve": "CVE-2019-1020002",
+    "description": "Pterodactyl before 0.7.14 with 2FA allows credential sniffing.",
+    "published": "2019-07-29T15:15:11.763",
+    "last_modified": "2026-06-17T02:09:59.380",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:pterodactyl:panel:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Pterodactyl",
+        "product": "Pterodactyl Panel"
+      }
+    ]
+  },
+  "CVE-2019-1020003": {
+    "cve": "CVE-2019-1020003",
+    "description": "invenio-records before 1.2.2 allows XSS.",
+    "published": "2019-07-29T15:15:11.843",
+    "last_modified": "2026-06-17T02:09:59.487",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 4,
+    "cpe_uris": [
+      "cpe:2.3:a:inveniosoftware:invenio-records:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-records:1.1.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-records:1.2.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-records:1.2.1:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Invenio",
+        "product": "invenio-records"
+      }
+    ]
+  },
+  "CVE-2019-1020004": {
+    "cve": "CVE-2019-1020004",
+    "description": "Tridactyl before 1.16.0 allows fake key events.",
+    "published": "2019-07-29T15:15:11.903",
+    "last_modified": "2026-06-17T02:09:59.597",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 2,
+    "cpe_uris": [
+      "cpe:2.3:a:tridactyl_project:tridactyl:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:tridactyl_project:tridactyl:1.15.0:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Tridactyl",
+        "product": "Tridactyl"
+      }
+    ]
+  },
+  "CVE-2019-1020005": {
+    "cve": "CVE-2019-1020005",
+    "description": "invenio-communities before 1.0.0a20 allows XSS.",
+    "published": "2019-07-29T15:15:11.967",
+    "last_modified": "2026-06-17T02:09:59.703",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 19,
+    "cpe_uris": [
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a1:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a10:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a11:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a12:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a13:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a14:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a15:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a16:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a17:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a18:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a19:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a2:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a3:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a4:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a5:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a6:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a7:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a8:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-communities:1.0.0:a9:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Invenio",
+        "product": "invenio-communities"
+      }
+    ]
+  },
+  "CVE-2019-1020006": {
+    "cve": "CVE-2019-1020006",
+    "description": "invenio-app before 1.1.1 allows host header injection.",
+    "published": "2019-07-29T15:15:12.047",
+    "last_modified": "2026-06-17T02:09:59.823",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:inveniosoftware:invenio-app:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Invenio",
+        "product": "invenio-app"
+      }
+    ]
+  },
+  "CVE-2019-1020007": {
+    "cve": "CVE-2019-1020007",
+    "description": "Dependency-Track before 3.5.1 allows XSS.",
+    "published": "2019-07-29T15:15:12.093",
+    "last_modified": "2026-06-17T02:09:59.933",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:owasp:dependency-track:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Dependency-Track",
+        "product": "Dependency-Track"
+      }
+    ]
+  },
+  "CVE-2019-1020008": {
+    "cve": "CVE-2019-1020008",
+    "description": "stacktable.js before 1.0.4 allows XSS.",
+    "published": "2019-07-29T15:15:12.170",
+    "last_modified": "2026-06-17T02:10:00.047",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:stacktable.js_project:stacktable.js:*:*:*:*:*:jquery:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "stacktable.js",
+        "product": "stacktable.js"
+      }
+    ]
+  },
+  "CVE-2019-1020009": {
+    "cve": "CVE-2019-1020009",
+    "description": "Fleet before 2.1.2 allows exposure of SMTP credentials.",
+    "published": "2019-07-29T15:15:12.233",
+    "last_modified": "2026-06-17T02:10:00.217",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:kolide:fleet:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Fleet",
+        "product": "Fleet"
+      }
+    ]
+  },
+  "CVE-2019-1020010": {
+    "cve": "CVE-2019-1020010",
+    "description": "Misskey before 10.102.4 allows hijacking a user's token.",
+    "published": "2019-07-29T13:15:11.683",
+    "last_modified": "2026-06-17T02:10:00.460",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 27,
+    "cpe_uris": [
+      "cpe:2.3:a:misskey:misskey:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:alpha1:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:alpha10:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:alpha2:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:alpha3:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:alpha4:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:alpha5:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:alpha6:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:alpha7:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:alpha8:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta1:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta10:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta11:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta12:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta13:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta14:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta15:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta16:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta2:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta3:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta4:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta5:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta6:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta7:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta8:*:*:*:*:*:*",
+      "cpe:2.3:a:misskey:misskey:11.0.0:beta9:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Misskey",
+        "product": "Misskey"
+      }
+    ]
+  },
+  "CVE-2019-1020011": {
+    "cve": "CVE-2019-1020011",
+    "description": "SmokeDetector intentionally does automatic deployments of updated copies of SmokeDetector without server operator authority.",
+    "published": "2019-07-29T13:15:11.763",
+    "last_modified": "2026-06-17T02:10:00.583",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:charcoal-se:smokedetector:-:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "SmokeDetector",
+        "product": "SmokeDetector"
+      }
+    ]
+  },
+  "CVE-2019-1020012": {
+    "cve": "CVE-2019-1020012",
+    "description": "parse-server before 3.4.1 allows DoS after any POST to a volatile class.",
+    "published": "2019-07-29T13:15:11.827",
+    "last_modified": "2026-06-17T02:10:00.700",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:parseplatform:parse-server:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Parse",
+        "product": "parse-server"
+      }
+    ]
+  },
+  "CVE-2019-1020013": {
+    "cve": "CVE-2019-1020013",
+    "description": "parse-server before 3.6.0 allows account enumeration.",
+    "published": "2019-07-29T13:15:11.903",
+    "last_modified": "2026-06-17T02:10:00.820",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 1,
+    "cpe_uris": [
+      "cpe:2.3:a:parseplatform:parse-server:*:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Parse",
+        "product": "parse-server"
+      }
+    ]
+  },
+  "CVE-2019-1020014": {
+    "cve": "CVE-2019-1020014",
+    "description": "docker-credential-helpers before 0.6.3 has a double free in the List functions.",
+    "published": "2019-07-29T13:15:11.997",
+    "last_modified": "2026-06-17T02:10:00.933",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 5,
+    "cpe_uris": [
+      "cpe:2.3:a:docker:credential_helpers:*:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fedoraproject:fedora:32:*:*:*:*:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:esm:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+      "cpe:2.3:o:canonical:ubuntu_linux:19.04:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Docker",
+        "product": "docker-credential-helpers"
+      }
+    ]
+  },
+  "CVE-2019-1020015": {
+    "cve": "CVE-2019-1020015",
+    "description": "graphql-engine (aka Hasura GraphQL Engine) before 1.0.0-beta.3 mishandles the audience check while verifying JWT.",
+    "published": "2019-07-29T13:15:12.090",
+    "last_modified": "2026-06-17T02:10:01.053",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 4,
+    "cpe_uris": [
+      "cpe:2.3:a:hasura:graphql_engine:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:hasura:graphql_engine:1.0.0:-:*:*:*:*:*:*",
+      "cpe:2.3:a:hasura:graphql_engine:1.0.0:beta.1:*:*:*:*:*:*",
+      "cpe:2.3:a:hasura:graphql_engine:1.0.0:beta.2:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "graphql-engine",
+        "product": "graphql-engine"
+      }
+    ]
+  },
+  "CVE-2019-1020016": {
+    "cve": "CVE-2019-1020016",
+    "description": "ASH-AIO before 2.0.0.3 allows an open redirect.",
+    "published": "2019-07-29T13:15:12.167",
+    "last_modified": "2026-06-17T02:10:01.167",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 3,
+    "cpe_uris": [
+      "cpe:2.3:a:ash-aio_project:ash-aio:2.0.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:ash-aio_project:ash-aio:2.0.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:ash-aio_project:ash-aio:2.0.0.2:*:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "ASH-AIO",
+        "product": "ASH-AIO"
+      }
+    ]
+  },
+  "CVE-2019-1020017": {
+    "cve": "CVE-2019-1020017",
+    "description": "Discourse before 2.3.0 and 2.4.x before 2.4.0.beta3 lacks a confirmation screen when logging in via a user-api OTP.",
+    "published": "2019-07-29T13:15:12.263",
+    "last_modified": "2026-06-17T02:10:01.290",
+    "vuln_status": "Modified",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 3,
+    "cpe_uris": [
+      "cpe:2.3:a:discourse:discourse:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:discourse:discourse:2.4.0:beta1:*:*:*:*:*:*",
+      "cpe:2.3:a:discourse:discourse:2.4.0:beta2:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Discourse"
+      }
+    ]
+  },
+  "CVE-2019-1020018": {
+    "cve": "CVE-2019-1020018",
+    "description": "Discourse before 2.3.0 and 2.4.x before 2.4.0.beta3 lacks a confirmation screen when logging in via an email link.",
+    "published": "2019-07-29T14:15:11.257",
+    "last_modified": "2026-06-17T02:10:01.417",
+    "vuln_status": "Modified",
+    "cvss_base_score": 7.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_version": "3.1",
+    "has_cpe": true,
+    "cpe_count": 3,
+    "cpe_uris": [
+      "cpe:2.3:a:discourse:discourse:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:discourse:discourse:2.4.0:beta1:*:*:*:*:*:*",
+      "cpe:2.3:a:discourse:discourse:2.4.0:beta2:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "n/a",
+        "product": "Discourse"
+      }
+    ]
+  },
+  "CVE-2019-1020019": {
+    "cve": "CVE-2019-1020019",
+    "description": "invenio-previewer before 1.0.0a12 allows XSS.",
+    "published": "2019-07-29T14:15:11.317",
+    "last_modified": "2026-06-17T02:10:01.533",
+    "vuln_status": "Modified",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_version": "3.0",
+    "has_cpe": true,
+    "cpe_count": 13,
+    "cpe_uris": [
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:0.1.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a1:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a10:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a11:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a12:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a2:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a3:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a4:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a5:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a6:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a7:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a8:*:*:*:*:*:*",
+      "cpe:2.3:a:inveniosoftware:invenio-previewer:1.0.0:a9:*:*:*:*:*:*"
+    ],
+    "vendor_products": [
+      {
+        "vendor": "Invenio",
+        "product": "invenio-previewer"
+      }
+    ]
+  }
+}
