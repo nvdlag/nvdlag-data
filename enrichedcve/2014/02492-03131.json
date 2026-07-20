@@ -18948,7 +18948,7 @@
     "cisa_required_action": null,
     "vulncheck_date_added": null,
     "vendor_project": null,
-    "product": null,
+    "product": "Vision Critical before 2014-05-30",
     "vulnerability_name": null,
     "cisa_short_description": null,
     "known_ransomware_use": null,

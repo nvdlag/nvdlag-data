@@ -9385,7 +9385,7 @@
     "cisa_required_action": null,
     "vulncheck_date_added": null,
     "vendor_project": null,
-    "product": null,
+    "product": "Mozilla Firefox",
     "vulnerability_name": null,
     "cisa_short_description": null,
     "known_ransomware_use": null,
