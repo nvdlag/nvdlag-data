@@ -1,11 +1,11 @@
 {
   "date": "2026-07-19",
-  "generated_at_utc": "2026-07-20T21:53:23.057572Z",
+  "generated_at_utc": "2026-07-20T22:07:49.613802Z",
   "generator": "nvdlag_app/scripts/generate_daily_snapshot.py",
-  "note": "Full active-KEV catalog snapshot (v0.1 pre-release backfill), not a day-by-day delta.",
+  "note": "Full active-KEV catalog snapshot (v0.1 pre-release backfill), not a day-by-day delta. cpe_uris omitted from the JSON (kept in the CSV) to keep the report list fetch small.",
   "cve_count": 5045,
   "enriched_json_file": "kev_enriched.json",
-  "enriched_json_sha256": "85b243fb821942c2eaa4d3d69b04e4c6bd5724688132f3e3ba16b5354afb799d",
+  "enriched_json_sha256": "4fb19cef16749e158bf5927d1f120b159d1613ccf3d4a046b173911468069f85",
   "enriched_csv_file": "kev_enriched.csv",
   "enriched_csv_sha256": "0b5ae418aca16c793745e15b4ec620c32535c0b4c16c54f0e9623e70738d339c"
 }
