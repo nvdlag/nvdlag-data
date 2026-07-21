@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-07-20T22:07:49.643776Z",
+  "generated_at_utc": "2026-07-21T03:52:38.529931Z",
   "dates": [
     {
       "date": "2026-07-19",
-      "new_kev_count": 5045,
-      "critical_count": 1119,
-      "anomaly_count": 2568
+      "new_kev_count": 5048,
+      "critical_count": 1120,
+      "anomaly_count": 2567
     }
   ]
 }
